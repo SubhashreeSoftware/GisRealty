@@ -1,0 +1,30 @@
+[
+  {
+    "id": "5",
+    "name": "Arpit Singh",
+    "type": "Manager",
+    "img": "1.jpg",
+    "description": "Thanks to GiS and Mr. Mohammed Hussain, we found our dream property hassle-free. Their combined expertise and personalized approach made the entire process smooth and enjoyable. We're thrilled with our new home and grateful for their guidance every step of the way."
+  },
+  {
+    "id": "2",
+    "name": "Hussain Ali",
+    "type": "Admin",
+    "img": "2.jpg",
+    "description": "Finding the right commercial space seemed daunting until I partnered with GiS. Their team understood my needs perfectly and found me the ideal location in no time. I'm grateful for their expertise and professionalism throughout the process."
+  },
+  {
+    "id": "3",
+    "name": "Neha Gowda",
+    "type": "Professor",
+    "img": "3.jpg",
+    "description": "GiS made selling my house a breeze. They took care of everything, from marketing to closing the deal, with such attention to detail. It was a pleasure working with them, and I couldn't be happier with the outcome."
+  },
+  {
+    "id": "4",
+    "name": "Puneeth Kumar",
+    "type": "Officer",
+    "img": "4.jpg",
+    "description": "I never thought buying a house could be so stress-free until I worked with GiS. They guided me through the process with such care and expertise. Now, I'm happily settled in my dream home, all thanks to GiS."
+  }
+]
