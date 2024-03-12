@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
+
 function AboutUsStyleOne({ sectionSpace }) {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -42,13 +43,13 @@ function AboutUsStyleOne({ sectionSpace }) {
                     About Us
                   </h6>
                   <h1 className="section-title">
-                    The Leading Real Estate Rental Marketplace<span>.</span>
+                    The Leading Real Estate Marketplace<span>.</span>
                   </h1>
                   <p>
                     In 2019, the seeds of GIS REALTY were sown with a vision to revolutionize the real estate industry in India. Officially launched in 2020, GIS REALTY embarked on a journey to bring order to the disorder prevalent in the sector, with a focus on delivering not just properties but holistic solutions to customers. GIS REALTY set out to make communication transparent and decision-making more informed across all stakeholders in the real estate ecosystem.
                   </p>
                 </div>
-                <ul className="ltn__list-item-half clearfix">
+                {/* <ul className="ltn__list-item-half clearfix">
                   <li>
                     <i className="flaticon-home-2"></i>
                     Smart Home Design
@@ -65,8 +66,8 @@ function AboutUsStyleOne({ sectionSpace }) {
                     <i className="flaticon-secure"></i>
                     Complete 24/7 Security
                   </li>
-                </ul>
-                <div className="btn-wrapper animated">
+                </ul> */}
+                <div className="btn-wrapper animated mb-5">
                   <Link
                     href="/service"
                     className="theme-btn-1 btn btn-effect-1"

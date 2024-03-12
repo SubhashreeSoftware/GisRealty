@@ -246,7 +246,7 @@ function HomePage(props) {
         {/* PRODUCT SLIDER AREA END */}
 
         <div className="ltn__apartments-plan-area pb-70">
-          <Container>
+          {/* <Container>
             <Row>
               <Col>
                 <TitleSection
@@ -509,7 +509,7 @@ function HomePage(props) {
                 </Tab.Container>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </div>
 
 
@@ -519,8 +519,8 @@ function HomePage(props) {
         </div>
         {/* <!-- VIDEO AREA END --> */}
         {/* <!-- CATEGORY AREA START -->  */}
-        <div className="ltn__category-area ltn__product-gutter pt-115 pb-90">
-          <Container>
+        <div className="ltn__category-area ltn__product-gutter pt-115 pb-10">
+          {/* <Container>
             <Row>
               <Col xs={12}>
                 <TitleSection
@@ -543,7 +543,7 @@ function HomePage(props) {
                 );
               })}
             </Row>
-          </Container>
+          </Container> */}
         </div>
         {/* <!-- CATEGORY AREA END --> */}
 
