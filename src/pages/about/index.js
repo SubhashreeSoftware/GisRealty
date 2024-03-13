@@ -104,7 +104,7 @@ function AboutUs() {
                   headingClasses="section-subtitle-2"
                   titleSectionData={{
                     subTitle: "Team",
-                    title: "Property Agents",
+                    title: "Our Team",
                   }}
                 />
               </Col>

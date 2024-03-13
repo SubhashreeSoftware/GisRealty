@@ -79,7 +79,7 @@ function AboutUsStyleOne({ sectionSpace }) {
             </Col>
           </Row>
           <Row>
-          <Col xs={12} lg={12} className="align-self-center">
+          <Col xs={12} lg={6} className="align-self-center">
           <h3 >
           Key Objectives<span>:</span>
           </h3>
@@ -90,7 +90,15 @@ function AboutUsStyleOne({ sectionSpace }) {
                   <li>To anticipate market trends and adapt to changing dynamics.</li>
                 </ul>
           </Col>
-          <Col xs={12} lg={12} className="align-self-center">
+          <Col xs={12} lg={6} className="align-self-center">
+
+          <img src="/img/others/7.png" alt="About Us Image" />
+</Col>
+<Col xs={12} lg={6} className="align-self-center" style={{marginTop: 50}}>
+
+<img src="/img/others/66.png" alt="About Us Image" />
+</Col>
+          <Col xs={12} lg={6} className="align-self-center" style={{marginTop: 50}}>
           <h3 >
           From its inception, GIS REALTY has witnessed remarkable growth and evolution<span>:</span>
           </h3>
@@ -101,7 +109,8 @@ function AboutUsStyleOne({ sectionSpace }) {
                   <li>Continuously scaled up operations and branched out into different value propositions within the real estate sector.</li>
                 </ul>
           </Col>
-          <Col xs={12} lg={12} className="align-self-center">
+          
+          <Col xs={12} lg={12} className="align-self-center" style={{marginTop: 70}}>
           <h3 >
           Today, GIS REALTY stands as a formidable force in the real estate sector, offering a comprehensive suite of solutions<span>:</span>
           </h3>

@@ -184,7 +184,7 @@ function HomePage(props) {
         />
         {/* PRODUCT SLIDER AREA START */}
         <div className="ltn__product-slider-area ltn__product-gutter pt-115 pb-90 plr--7">
-          <Container fluid>
+          {/* <Container fluid>
             <Row>
               <Col lg={12}>
                 <TitleSection
@@ -241,7 +241,7 @@ function HomePage(props) {
                 ) : null}
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </div>
         {/* PRODUCT SLIDER AREA END */}
 

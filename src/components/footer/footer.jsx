@@ -21,7 +21,7 @@ const Footer = function () {
         <div className="footer-top-area  section-bg-2 plr--5">
           <Container fluid>
             <Row>
-              <Col xs={12} sm={6} xl={3}>
+              <Col xs={12} sm={6} xl={5}>
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
@@ -39,7 +39,11 @@ const Footer = function () {
                           <FaMapMarkerAlt />
                         </div>
                         <div className="footer-address-info">
-                          <p>Downtown Hotel, Ground Floor, Road No 12, Banjara Hills, Hyderabad 500034</p>
+                          <p>202, M Square Building
+Patrika Nagar, Street No 1
+Madhapur, Hyderabad
+Telengana , 500081, India
+</p>
                         </div>
                       </li>
                       <li>
@@ -48,7 +52,7 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="tel:+919059489323">+91 90594 89323</Link>
+                            <Link href="tel:+917075499323">+91 707 549 9323</Link>
                           </p>
                         </div>
                       </li>
@@ -58,8 +62,8 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="mailto:mail@gisripl.com">
-                            mail@gisripl.com
+                            <Link href="mailto:sales@gisripl.com">
+                            sales@gisripl.com
                             </Link>
                           </p>
                         </div>
@@ -173,7 +177,7 @@ const Footer = function () {
                   </div>
                 </div>
               </Col> */}
-              <Col xs={12} sm={6} xl={3}>
+              <Col xs={12} sm={6} xl={5}>
                 <div className="footer-widget footer-newsletter-widget">
                   <h4 className="footer-title">Newsletter</h4>
                   <p>

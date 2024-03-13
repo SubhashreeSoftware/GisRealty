@@ -3,21 +3,21 @@
     "id": "5",
     "name": "Arpit Singh",
     "type": "Manager",
-    "img": "1.jpg",
+    "img": "Arpit.jpg",
     "description": "Thanks to GiS and Mr. Mohammed Hussain, we found our dream property hassle-free. We're thrilled with our new home and grateful for their guidance every step of the way. I recommended about GiS to all my friends and family."
   },
   {
     "id": "2",
     "name": "Hussain Ali",
     "type": "Admin",
-    "img": "2.jpg",
+    "img": "HussainAli.jpg",
     "description": "Finding the right commercial space seemed daunting until I met GiS. Their team understood my needs perfectly and found me the ideal location in no time. I'm grateful for their expertise throughout the process."
   },
   {
     "id": "3",
     "name": "Neha Gowda",
     "type": "Professor",
-    "img": "3.jpg",
+    "img": "Neha.jpg",
     "description": "GiS made selling my house a breeze. They took care of everything, from marketing to closing the deal, with such attention to detail. It was a pleasure working with them, and I couldn't be happier with the outcome."
   },
   {

@@ -32,7 +32,7 @@ function AboutUsStyleTwo({ sectionSpace }) {
 
   return (
     <>
-      <Lightbox
+      {/* <Lightbox
         index={index}
         open={index >= 0}
         close={() => setIndex(-1)}
@@ -107,7 +107,7 @@ function AboutUsStyleTwo({ sectionSpace }) {
             </Col>
           </Row>
         </Container>
-      </div>
+      </div> */}
     </>
   );
 }

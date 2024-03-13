@@ -1,10 +1,10 @@
 [
   {
     "id": "1",
-    "image": "4.jpg",
-    "name": "Mr. Mohammed Hussain",
-    "designation": "CEO",
-    "category": ["buying", "women"],
+    "image": "HussainAli.jpg",
+    "name": "Mr. Hussain Ali",
+    "designation": "CMD",
+    "category": ["buying", "male"],
     "featured": true,
     "shortDescription": "GiS's expertise in real estate management is unmatched. They've helped me optimize the value of my properties and navigate through any challenges that arise. Working with them has been a game-changer for my investment portfolio.",
     "information": {
@@ -44,8 +44,8 @@
   },
   {
     "id": "2",
-    "image": "2.jpg",
-    "name": "Jaffer Sharif",
+    "image": "Neha.jpg",
+    "name": "Neha",
     "designation": "Designation Branding Manager",
     "category": ["buying", "women"],
     "featured": true,
@@ -84,10 +84,10 @@
   },
   {
     "id": "3",
-    "image": "3.jpg",
-    "name": "Murali Krishna",
+    "image": "Arpit.jpg",
+    "name": "Arpit",
     "designation": "Land and Asset Manager",
-    "category": ["buying", "women"],
+    "category": ["buying", "male"],
     "featured": true,
     "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "information": {

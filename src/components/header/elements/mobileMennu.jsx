@@ -63,7 +63,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-                <img src="/img/logo.png" alt="Logo" />
+                <img src="/gisfavicon.jpeg" alt="Logo" style={{height: 50, width: 50}} />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">
@@ -81,8 +81,8 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu">
             <ul>
               <li>
-                <Link href="#">Home</Link>
-                <span
+                <Link href="/">Home</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
@@ -121,11 +121,11 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/home/page-eleven">Home Style 11</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">About</Link>
-                <span
+                <Link href="/about">About</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
@@ -155,9 +155,9 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/locations">Google Map Locations</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
-              <li>
+              {/* <li>
                 <Link href="#">Property</Link>
                 <span
                   className="menu-expand"
@@ -205,7 +205,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                     <Link href="/register">Register</Link>
                   </li>
                 </ul>
-              </li>
+              </li> 
               <li>
                 <Link href="#">News</Link>
                 <span
@@ -227,10 +227,10 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                     <Link href="/blog/right-sidebar">News Right sidebar</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
-                <Link href="#">Pages</Link>
-                <span
+                <Link href="/service">Services</Link>
+                {/* <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
@@ -275,7 +275,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/coming-soon">Coming Soon</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link href="/contact">Contact</Link>
@@ -322,7 +322,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           </div>
           <div className="ltn__social-media-2">
             <ul>
-              <li>
+              {/* <li>
                 <Link href="#">
                   <FaFacebookF />
                 </Link>
@@ -331,7 +331,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 <Link href="#">
                   <FaTwitter />
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#">
                   <FaLinkedin />

@@ -9,13 +9,16 @@ const HeaderTopInfo = function () {
           <li>
             <Link href="mailto:mail@gisripl.com">
               <FaEnvelope />
-              <i></i> mail@gisripl.com
+              <i></i> sales@gisripl.com
             </Link>
           </li>
           <li>
             <Link href="/locations">
               <FaMapMarkerAlt />
-              Downtown Hotel, Ground Floor, Road No 12, Banjara Hills Hyderabad 500034
+              #202, M Square Building
+Patrika Nagar, Street No 1
+Madhapur, Hyderabad
+Telengana , 500081, India
             </Link>
           </li>
         </ul>

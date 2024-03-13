@@ -18,11 +18,11 @@ const MenuList = ({ addListing }) => {
           Services 
         </Link>
       </li>
-      <li className="menu-icon">
+      {/* <li className="menu-icon">
         <Link href="/shop/grid">
           Properties
         </Link>
-        {/* <ul>
+        <ul>
           <li>
             <Link href="/shop">Property</Link>
           </li>
@@ -70,8 +70,8 @@ const MenuList = ({ addListing }) => {
               </li>
             </ul>
           </li>
-        </ul> */}
-      </li>
+        </ul>
+      </li> */}
       {/* <li className="menu-icon">
         <Link href="#">
           News <FaPlus />
