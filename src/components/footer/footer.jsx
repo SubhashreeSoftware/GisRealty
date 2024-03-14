@@ -108,7 +108,7 @@ Telengana , 500081, India
                         <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <Link href="/shop">All Products</Link>
+                        <Link href="/service">Services</Link>
                       </li>
                       {/* <li>
                         <Link href="/locations">Locations Map</Link>

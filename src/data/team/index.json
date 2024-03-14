@@ -1,9 +1,10 @@
 [
   {
     "id": "1",
-    "image": "HussainAli.jpg",
-    "name": "Mr. Hussain Ali",
+    "image": "4.jpg",
+    "name": "Mr. Mohammed Hussain",
     "designation": "CMD",
+    "linkedin": "https://www.linkedin.com/in/mohammed-wajahat-hussain-559ab1b/",
     "category": ["buying", "male"],
     "featured": true,
     "shortDescription": "GiS's expertise in real estate management is unmatched. They've helped me optimize the value of my properties and navigate through any challenges that arise. Working with them has been a game-changer for my investment portfolio.",
@@ -44,9 +45,9 @@
   },
   {
     "id": "2",
-    "image": "Neha.jpg",
-    "name": "Neha",
-    "designation": "Designation Branding Manager",
+    "image": "3.jpg",
+    "name": "Mr Bheeshma Raju",
+    "designation": "Director Sales",
     "category": ["buying", "women"],
     "featured": true,
     "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -84,9 +85,9 @@
   },
   {
     "id": "3",
-    "image": "Arpit.jpg",
-    "name": "Arpit",
-    "designation": "Land and Asset Manager",
+    "image": "2.jpg",
+    "name": "Mr Rakesh Reddy",
+    "designation": "Director Sales",
     "category": ["buying", "male"],
     "featured": true,
     "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",

@@ -14,7 +14,7 @@ function AboutUsStyleOne({ sectionSpace }) {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="X7R-q9rsrtU"
+        videoId="r7VRi7m3JlE"
         onClose={() => setOpen(false)}
       />
       <div className={`ltn__about-us-area ${sectionSpace}`}>
@@ -92,13 +92,13 @@ function AboutUsStyleOne({ sectionSpace }) {
           </Col>
           <Col xs={12} lg={6} className="align-self-center">
 
-          <img src="/img/others/7.png" alt="About Us Image" />
+          <img src="/img/others/88.png" alt="About Us Image" />
 </Col>
-<Col xs={12} lg={6} className="align-self-center" style={{marginTop: 50}}>
+<Col xs={12} lg={4} className="align-self-center" >
 
 <img src="/img/others/66.png" alt="About Us Image" />
 </Col>
-          <Col xs={12} lg={6} className="align-self-center" style={{marginTop: 50}}>
+          <Col xs={12} lg={8} className="align-self-center" >
           <h3 >
           From its inception, GIS REALTY has witnessed remarkable growth and evolution<span>:</span>
           </h3>

@@ -13,53 +13,40 @@ const MenuList = ({ addListing }) => {
           About
         </Link>
       </li>
-      <li className="menu-icon">
+      {/* <li className="menu-icon">
         <Link href="/service">
           Services 
         </Link>
-      </li>
-      {/* <li className="menu-icon">
-        <Link href="/shop/grid">
-          Properties
+      </li> */}
+      <li className="menu-icon">
+        <Link href="/service">
+        Services
         </Link>
         <ul>
           <li>
-            <Link href="/shop">Property</Link>
+            <Link href="/shop">Properties Page</Link>
           </li>
-          <li>
-            <Link href="/shop/grid">Property Grid</Link>
-          </li>
-          <li>
-            <Link href="/shop/list">Property List</Link>
-          </li>
-          <li>
-            <Link href="/shop/left-sidebar">Property Left sidebar</Link>
-          </li>
-          <li>
-            <Link href="/shop/right-sidebar">Property right sidebar</Link>
-          </li>
-
           <li>
             <Link href="#">
-              Other Pages
+            Residential
               <span className="float-end">
                 <FaAngleDoubleRight />
               </span>
             </Link>
             <ul>
               <li>
-                <Link href="/cart">Cart</Link>
+                <Link href="/cart">Sales and Marketing</Link>
               </li>
               <li>
-                <Link href="/wishlist">Wishlist</Link>
+                <Link href="/wishlist">Second Homes</Link>
               </li>
               <li>
-                <Link href="/checkout">Checkout</Link>
+                <Link href="/checkout">Luxury Homes</Link>
               </li>
               <li>
-                <Link href="/order-tracking">Order Tracking</Link>
+                <Link href="/order-tracking"> Home Solutions</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/my-account">My Account</Link>
               </li>
               <li>
@@ -67,11 +54,61 @@ const MenuList = ({ addListing }) => {
               </li>
               <li>
                 <Link href="/register">Register</Link>
+              </li> */}
+            </ul>
+          </li>
+          <li>
+            <Link href="/shop/grid">Commercial</Link>
+          </li>
+          <li>
+            <Link href="/shop/list">Land Services</Link>
+          </li>
+          <li>
+            <Link href="#">
+            Value Added Services
+              <span className="float-end">
+                <FaAngleDoubleRight />
+              </span>
+            </Link>
+            <ul>
+              <li>
+                <Link href="/cart">Digital Agency</Link>
+              </li>
+              <li>
+                <Link href="/wishlist">Creative Agency</Link>
+              </li>
+              <li>
+                <Link href="/wishlist">Post Sales</Link>
               </li>
             </ul>
           </li>
+          <li>
+            <Link href="/shop/left-sidebar">Investment Banking</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Retail</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Hospitality</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Industrial and Logistics</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Strategic Advisory and Valuations</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Investment Management</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Flexible Workspaces</Link>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Apartment and society Management</Link>
+          </li>
+        
         </ul>
-      </li> */}
+      </li>
       {/* <li className="menu-icon">
         <Link href="#">
           News <FaPlus />

@@ -29,7 +29,7 @@ const Contact = () => {
                 </div>
                 <h3>Email Address</h3>
                 <p>
-                mail@gisripl.com
+                sales@gisripl.com
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ const Contact = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p>
-                +91 90594 89323 <br /> +91 90597 19323
+                +91 707 549 9323 <br /> +91 707 549 9323
                 </p>
               </div>
             </div>
@@ -51,7 +51,11 @@ const Contact = () => {
                 </div>
                 <h3>Office Address</h3>
                 <p>
-                Downtown Hotel, Ground Floor, Road No 12, Banjara Hills Hyderabad 500034 <br />
+                202, M Square Building
+Patrika Nagar, Street No 1
+Madhapur, Hyderabad
+Telengana , 500081, India
+ <br />
                 </p>
               </div>
             </div>
@@ -93,7 +97,7 @@ const Contact = () => {
                         </span>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6">
                       <div className="input-item input-item input-item-email ltn__custom-icon">
                         <Form.Select className="nice-select">
                           <option>Select Service Type</option>
@@ -108,7 +112,7 @@ const Contact = () => {
                           <FaArrowDown />
                         </span>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="col-md-6">
                       <div className="input-item input-item-phone ltn__custom-icon">
                         <input

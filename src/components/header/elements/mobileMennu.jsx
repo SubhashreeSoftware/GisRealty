@@ -333,12 +333,18 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 </Link>
               </li> */}
               <li>
-                <Link href="#">
+                <Link href="https://m.facebook.com/gisrealty/">
+                  <FaFacebookF />
+                </Link>
+              </li>
+              <li>
+                <Link href="https://www.linkedin.com/company/gisripl/
+">
                   <FaLinkedin />
                 </Link>
               </li>
               <li>
-                <Link href="#">
+                <Link href="https://www.instagram.com/gisrealty?igsh=MWdjNml5dGgxOTZ4cA==">
                   <FaInstagram />
                 </Link>
               </li>
