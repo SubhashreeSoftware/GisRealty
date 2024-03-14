@@ -50,10 +50,6 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                                 <option value="3">Los Angeles</option>
                                 <option value="4">New York</option>
                                 <option value="5">New Jersey</option> */}
-                                <option value="1">Mumbai</option>
-                                <option value="2">Bangalore</option>
-                                <option value="3">Delhi</option>
-                                <option value="4">Chennai</option>
                                 <option value="5">Hyderbad</option>
                               </Form.Select>
                             </Col>
@@ -65,9 +61,8 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <Form.Select className="nice-select">
                                 <option>Property Status</option>
-                                <option value="1">Open house</option>
-                                <option value="3">Sale</option>
-                                <option value="4">Sold</option>
+                                <option value="1">Residential</option>
+                                <option value="3">Commercial</option>
                               </Form.Select>
                             </Col>
                             <Col
@@ -79,9 +74,8 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                               <Form.Select className="nice-select">
                                 <option>Property Type</option>
                                 <option value="1">Apartment</option>
-                                <option value="2">Co-op</option>
-                                <option value="3">Condo</option>
-                                <option value="4">Single Family Home</option>
+                                <option value="2">Villa</option>
+                                <option value="3">Ploto</option>
                               </Form.Select>
                             </Col>
                             <Col
@@ -118,10 +112,6 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <Form.Select className="nice-select">
                                 <option>Choose Area</option>
-                                <option value="1">Mumbai</option>
-                                <option value="2">Bangalore</option>
-                                <option value="3">Delhi</option>
-                                <option value="4">Chennai</option>
                                 <option value="5">Hyderbad</option>
                               </Form.Select>
                             </div>
@@ -133,9 +123,8 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <Form.Select className="nice-select">
                                 <option>Property Status</option>
-                                <option value="1">Open house</option>
-                                <option value="3">Sale</option>
-                                <option value="4">Sold</option>
+                                <option value="1">Residential</option>
+                                <option value="3">Commercial</option>
                               </Form.Select>
                             </div>
                             <div
@@ -147,9 +136,8 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                               <Form.Select className="nice-select">
                                 <option>Property Type</option>
                                 <option value="1">Apartment</option>
-                                <option value="2">Co-op</option>
-                                <option value="3">Condo</option>
-                                <option value="4">Single Family Home</option>
+                                <option value="2">Villa</option>
+                                <option value="3">Ploto</option>
                               </Form.Select>
                             </div>
                             <div
