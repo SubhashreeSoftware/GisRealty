@@ -25,6 +25,7 @@ import blogData from "@/data/blog";
 import featuresData from "@/data/service";
 
 function HomePage(props) {
+  
   const { products } = useSelector((state) => state.product);
   const featuredProducts = getProducts(products, "buying", "featured", 5);
   const featureData = getProducts(featuresData, "buying", "featured", 3);
@@ -162,6 +163,7 @@ function HomePage(props) {
         {/* <!-- ABOUT US AREA END -->
 
       <!-- COUNTER UP AREA START --> */}
+      
         <CounterUp />
         {/* <!-- COUNTER UP AREA END -->
 
@@ -558,7 +560,7 @@ function HomePage(props) {
                   headingClasses="section-subtitle-2"
                   titleSectionData={{
                     subTitle: "News & Blogs",
-                    title: "Leatest News Feeds",
+                    title: "Latest News Feeds",
                   }}
                 />
               </Col>
@@ -636,3 +638,4 @@ export async function getStaticProps() {
 }
 
 export default HomePage;
+

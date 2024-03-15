@@ -23,9 +23,7 @@ const MenuList = ({ addListing }) => {
         Services
         </Link>
         <ul>
-          <li>
-            <Link href="/shop">Properties Page</Link>
-          </li>
+         
           <li>
             <Link href="#">
             Residential
@@ -35,16 +33,13 @@ const MenuList = ({ addListing }) => {
             </Link>
             <ul>
               <li>
-                <Link href="/cart">Sales and Marketing</Link>
+                <Link href="/shop/list">Apartments</Link>
               </li>
               <li>
-                <Link href="/wishlist">Second Homes</Link>
+                <Link href="/shop/grid">Villas</Link>
               </li>
               <li>
-                <Link href="/checkout">Luxury Homes</Link>
-              </li>
-              <li>
-                <Link href="/order-tracking"> Home Solutions</Link>
+                <Link href="/shop/grid">Plots</Link>
               </li>
               {/* <li>
                 <Link href="/my-account">My Account</Link>
@@ -58,10 +53,7 @@ const MenuList = ({ addListing }) => {
             </ul>
           </li>
           <li>
-            <Link href="/shop/grid">Commercial</Link>
-          </li>
-          <li>
-            <Link href="/shop/list">Land Services</Link>
+            <Link href="/shop">Commercial</Link>
           </li>
           <li>
             <Link href="#">
@@ -82,6 +74,13 @@ const MenuList = ({ addListing }) => {
               </li>
             </ul>
           </li>
+          <li>
+            <Link href="/shop/list">Land Services</Link>
+          </li>
+          <li>
+            <Link href="/shop">Properties Page</Link>
+          </li>
+        
           <li>
             <Link href="/shop/left-sidebar">Investment Banking</Link>
           </li>

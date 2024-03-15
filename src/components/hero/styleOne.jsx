@@ -88,11 +88,11 @@ function HeroSectionStyleOne({ data }) {
                               {item.Title}
                             </h1>
                             <div className="slide-brief animated">
-                              <p>{item.Desc}</p>
+                              <p style={{ textAlign: 'justify' }}>{item.Desc}</p>
                             </div>
                             <div className="btn-wrapper animated">
                               <Link
-                                href="/about"
+                                href="/contact"
                                 className="theme-btn-1 btn btn-effect-1"
                               >
                                 {item.buttonText}
@@ -108,7 +108,7 @@ function HeroSectionStyleOne({ data }) {
                                 </button>
                               ) : (
                                 <Link
-                                href="/about"
+                                href="/service"
                                   className="btn btn-transparent btn-effect-3"
                                 >
                                   {item.learnMoreButtonText}

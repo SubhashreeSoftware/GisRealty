@@ -28,7 +28,7 @@ const Contact = () => {
                   <img src="/img/icons/10.png" alt="Icon Image" />
                 </div>
                 <h3>Email Address</h3>
-                <p>
+                <p style={{minHeight: 100}}>
                 sales@gisripl.com
                 </p>
               </div>
@@ -39,18 +39,18 @@ const Contact = () => {
                   <img src="/img/icons/11.png" alt="Icon Image" />
                 </div>
                 <h3>Phone Number</h3>
-                <p>
+                <p style={{minHeight: 100}}>
                 +91 707 549 9323 <br /> +91 707 549 9323
                 </p>
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
+              <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow" >
                 <div className="ltn__contact-address-icon">
                   <img src="/img/icons/12.png" alt="Icon Image" />
                 </div>
                 <h3>Office Address</h3>
-                <p>
+                <p style={{minHeight: 100}}>
                 202, M Square Building
 Patrika Nagar, Street No 1
 Madhapur, Hyderabad
@@ -70,7 +70,7 @@ Telengana , 500081, India
           <div className="row">
             <div className="col-lg-12">
               <div className="ltn__form-box contact-form-box box-shadow white-bg">
-                <h4 className="title-2">Get A Quote</h4>
+                <h4 className="title-2">Contact Us</h4>
                 <form id="contact-form" action="#" method="post">
                   <div className="row">
                     <div className="col-md-6">

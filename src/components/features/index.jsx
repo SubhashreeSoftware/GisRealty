@@ -30,6 +30,7 @@ function Feature({
               const slug = productSlug(item.title);
               return (
                 <Col key={key} xs={12} sm={6} lg={4}>
+                  
                   <div
                     className={`ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 ${
                       item.active ? "active" : ""
@@ -49,7 +50,12 @@ function Feature({
                     </div>
                     <div className="ltn__feature-info">
                       <h3>
-                        <Link href={`/service/${slug}`}>{item.title}</Link>
+                      {slug === "commercial" ? (
+        <Link href={`/shop/grid`}>Commercial</Link>
+      ) : (
+        <Link href={`/service/${slug}`}>{item.title}</Link>
+      )}
+                        {/* <Link href={`/service/${slug}`}>{item.title}</Link> */}
                       </h3>
                       <p>{item.shortDescription}</p>
 

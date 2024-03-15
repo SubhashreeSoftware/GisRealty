@@ -6,9 +6,9 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
   return (
     <>
       <div
-        className={`ltn__car-dealer-form-area mt--65 mt-120 ${customClasses}`}
+        className={`ltn__car-dealer-form-area mt--65 ${customClasses}`}
       >
-        <Container>
+        {/* <Container>
           <Row>
             <Col xs={12}>
               <div className="ltn__car-dealer-form-tab">
@@ -45,11 +45,11 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
                             >
                               <Form.Select className="nice-select">
                                 <option>Choose Area</option>
-                                {/* <option value="1">Chicago</option>
+                                <option value="1">Chicago</option>
                                 <option value="2">London</option>
                                 <option value="3">Los Angeles</option>
                                 <option value="4">New York</option>
-                                <option value="5">New Jersey</option> */}
+                                <option value="5">New Jersey</option>
                                 <option value="1">Mumbai</option>
                                 <option value="2">Bangalore</option>
                                 <option value="3">Delhi</option>
@@ -176,7 +176,7 @@ function CarDealerSearchForm({ navMenuClass, customClasses }) {
               </div>
             </Col>
           </Row>
-        </Container>
+        </Container> */}
       </div>
     </>
   );

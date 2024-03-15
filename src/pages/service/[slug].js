@@ -11,6 +11,106 @@ function ServiceDetails({ service }) {
   const firstLetter = service.shortDescription.slice(0, 1);
   const firstToEnd = service.shortDescription.slice(1);
 
+  const renderServiceList = () => {
+    if (service.title === 'Value Added Services') {
+      return (
+        <ul>
+          <h1>Value Added Services</h1>
+          <li>
+            <Link href={`/service/digital-agency`}>
+              Digital Agency
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+          <li className="active">
+            <Link href="/service/creative-agency">
+            Creative Agency
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/service/post-sales">
+              Post Sales
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+        </ul>
+      );
+    } else if (service.title === 'Residential Sales and Marketing') {
+      return (
+        <ul>
+          <h1>Residentials</h1>
+          <li>
+            <Link href="/shop/grid">
+              Apartments
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+          <li className="active">
+            <Link href="/shop/grid">
+              Villas
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/shop/grid">
+              Plots
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
+          </li>
+        </ul>
+      );
+    } else {
+      // Default case or additional conditions can be added here
+      return (
+        <div></div>
+        // <ul>
+        //   <h1>Residentials</h1>
+        //   {/* Default list items */}
+        //   <li>
+        //     <Link href="/shop/grid">
+        //       Default
+        //       <span>
+        //         <FaArrowRight />
+        //       </span>
+        //     </Link>
+        //   </li>
+        //   <li className="active">
+        //     <Link href="/shop/grid">
+        //       Default
+        //       <span>
+        //         <FaArrowRight />
+        //       </span>
+        //     </Link>
+        //   </li>
+        //   <li>
+        //     <Link href="/shop/grid">
+        //       Default
+        //       <span>
+        //         <FaArrowRight />
+        //       </span>
+        //     </Link>
+        //   </li>
+        // </ul>
+      );
+    }
+  };
+
+
+
+
   return (
     <>
       <LayoutOne topbar={true}>
@@ -19,7 +119,7 @@ function ServiceDetails({ service }) {
         <ShopBreadCrumb
           title="Service Details"
           sectionPace=""
-          currentSlug="Property Management"
+          currentSlug={service.title}
         />
 
         {/* <!-- BREADCRUMB AREA END --> */}
@@ -62,61 +162,10 @@ function ServiceDetails({ service }) {
               </Col>
               <Col xs={12} lg={4}>
                 <aside className="sidebar-area ltn__right-sidebar">
-                  {/* <!-- Menu Widget --> */}
                   <div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
-                    <ul>
-                      <li>
-                        <Link href="#">
-                          Property Management
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                      <li className="active">
-                        <Link href="#">
-                          Mortgage Service
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          Consulting Service
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          Home Buying
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          Home selling
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="#">
-                          Escrow Services
-                          <span>
-                            <FaArrowRight />
-                          </span>
-                        </Link>
-                      </li>
-                    </ul>
+                  {renderServiceList()}
                   </div>
-                  {/* <!-- Newsletter Widget --> */}
-                  <div className="widget ltn__search-widget ltn__newsletter-widget">
+                  {/* <div className="widget ltn__search-widget ltn__newsletter-widget">
                     <h6 className="ltn__widget-sub-title">{`// subscribe`}</h6>
                     <h4 className="ltn__widget-title">Get Newsletter</h4>
                     <form action="#">
@@ -128,10 +177,9 @@ function ServiceDetails({ service }) {
                     <div className="ltn__newsletter-bg-icon">
                       <FaRegEnvelopeOpen />
                     </div>
-                  </div>
-                  {/* <!-- Banner Widget --> */}
+                  </div> */}
                   <div className="widget ltn__banner-widget">
-                    <Link href="/shop">
+                    <Link href="/shop/grid">
                       <img src="/img/banner/banner-1.jpg" alt="Banner Image" />
                     </Link>
                   </div>
