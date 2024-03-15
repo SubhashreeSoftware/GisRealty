@@ -22,12 +22,11 @@ const HeaderTopBarOne = function () {
                       {/* <!-- ltn__social-media --> */}
                       <HeaderSocialLinks/>
                     </li>
-                    <li>
-                      {/* <!-- header-top-btn --> */}
+                    {/* <li>
                       <div className="header-top-btn">
                         <Link href="/add-listing">Add Listing</Link>
                       </div>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

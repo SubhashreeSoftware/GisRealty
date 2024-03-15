@@ -92,9 +92,6 @@ function AboutUs() {
           }}
         />
 
-
-
-
         <div className="ltn__team-area pt-115 pb-90">
           <Container>
             <Row>
@@ -138,7 +135,7 @@ function AboutUs() {
                   headingClasses="section-subtitle-2"
                   titleSectionData={{
                     subTitle: "News & Blogs",
-                    title: "Leatest News Feeds",
+                    title: "Latest News Feeds",
                   }}
                 />
               </Col>

@@ -70,14 +70,14 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
               ×
             </button>
           </div>
-          <div className="ltn__utilize-menu-search-form">
+          {/* <div className="ltn__utilize-menu-search-form">
             <form action="#">
               <input type="text" placeholder="Search..." />
               <button>
                 <FaSearch />
               </button>
             </form>
-          </div>
+          </div> */}
           <div className="ltn__utilize-menu">
             <ul>
               <li>

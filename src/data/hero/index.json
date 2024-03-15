@@ -1,6 +1,6 @@
 [
   {
-    "subtitle": "Real Estate Agency",
+    "subtitle": "Real Estate",
     "Title": "Find Your Dream Property With Us",
     "Desc": "We are a leading real estate services company in India offering various services like residential sales and marketing, hospitality, investment management, land and asset management, commercial, and retail. Our team comprises expert real estate professionals, strategy experts and marketing specialists who always work with a result-driven approach.",
     "icon": "FaHome",
@@ -8,19 +8,19 @@
     "id": "01",
     "buttonText": "Make An Enquiry",
     "videoButton": false,
-    "learnMoreButtonText": "LEARN MORE",
+    "learnMoreButtonText": "Learn More",
     "variationLeft": false
   },
   {
-    "subtitle": "Real Estate Agency",
+    "subtitle": "Real Estate",
     "Title": "The Right Place of House Finding",
     "Desc": "We are a leading real estate services company in India offering various services like residential sales and marketing, hospitality, investment management, land and asset management, commercial, and retail. Our team comprises expert real estate professionals, strategy experts and marketing specialists who always work with a result-driven approach.",
     "icon": "FaHome",
-    "heroimage": "62.jpg",
+    "heroimage": "img/slider/24.png",
     "id": "02",
     "buttonText": "Make An Enquiry",
     "videoButton": false,
-    "learnMoreButtonText": "LEARN MORE",
+    "learnMoreButtonText": "Learn More",
     "variationLeft": true
   }
 ]

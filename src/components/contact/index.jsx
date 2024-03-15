@@ -22,13 +22,13 @@ const Contact = () => {
       <div className="ltn__contact-address-area mb-90">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
+            <div className="col-lg-4" >
+              <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow" >
                 <div className="ltn__contact-address-icon">
                   <img src="/img/icons/10.png" alt="Icon Image" />
                 </div>
-                <h3>Email Address</h3>
-                <p style={{minHeight: 100}}>
+                <h3 style={{}}>Email Address</h3>
+                <p style={{minHeight: 100, }}>
                 sales@gisripl.com
                 </p>
               </div>

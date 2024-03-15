@@ -172,7 +172,8 @@ function HomePage(props) {
         {/* <!-- ABOUT US AREA END -->
 
       <!-- FEATURE AREA START ( Feature - 6) --> */}
-        <Feature
+      <div style={{marginTop: 120}}>
+      <Feature
           classes="section-bg-1"
           servicebtn={true}
           iconTag={false}
@@ -184,6 +185,8 @@ function HomePage(props) {
             title: "Our Main Focus",
           }}
         />
+      </div>
+        
         {/* PRODUCT SLIDER AREA START */}
         <div className="ltn__product-slider-area ltn__product-gutter pt-115 pb-90 plr--7">
           {/* <Container fluid>

@@ -195,8 +195,8 @@ Telengana , 500081, India
                       </div>
                     </form>
                   </div>
-                  <h5 className="mt-30">We Accept</h5>
-                  <img src="/img/icons/payment-4.png" alt="Payment Image" />
+                  {/* <h5 className="mt-30">We Accept</h5> */}
+                  {/* <img src="/img/icons/payment-4.png" alt="Payment Image" /> */}
                 </div>
               </Col>
             </Row>
@@ -205,7 +205,7 @@ Telengana , 500081, India
         <div className="ltn__copyright-area ltn__copyright-2 section-bg-7  plr--5">
           <div className="container-fluid ltn__border-top-2">
             <Row>
-              <Col xs={12} md={6}>
+              <Col xs={12} md={4}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
                     All Rights Reserved @ GIS Realty & Infra Pvt Ltd.{" "}
@@ -213,7 +213,15 @@ Telengana , 500081, India
                   </p>
                 </div>
               </Col>
-              <Col xs={12} md={6} className="align-self-center">
+              <Col xs={12} md={4}>
+                <div className="ltn__copyright-design clearfix">
+                  <p>
+                  Powered by CreatoryMedia.
+                    <span className="current-year"></span>
+                  </p>
+                </div>
+              </Col>
+              <Col xs={12} md={4} className="align-self-center">
                 <div className="ltn__copyright-menu text-end">
                   <ul>
                     <li>

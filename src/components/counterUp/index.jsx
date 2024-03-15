@@ -41,7 +41,7 @@ function CounterUp() {
                     />
                   </VisibilityObserver>
                 </h1>
-                <h6>Total Area Sq</h6>
+                <h6>Total Apartments</h6>
               </div>
             </Col>
             <Col xs={12} sm={6} md={3} className="align-self-center">
@@ -63,7 +63,7 @@ function CounterUp() {
                     />
                   </VisibilityObserver>
                 </h1>
-                <h6>Apartments Sold</h6>
+                <h6>Total Properties</h6>
               </div>
             </Col>
             <Col xs={12} sm={6} md={3} className="align-self-center">
@@ -85,7 +85,7 @@ function CounterUp() {
                     />
                   </VisibilityObserver>
                 </h1>
-                <h6>Total Constructions</h6>
+                <h6>Total Villas Sold</h6>
               </div>
             </Col>
             <Col xs={12} sm={6} md={3} className="align-self-center">
@@ -107,7 +107,7 @@ function CounterUp() {
                     />
                   </VisibilityObserver>
                 </h1>
-                <h6>Apartio Rooms</h6>
+                <h6>Total Buildings</h6>
               </div>
             </Col>
           </Row>

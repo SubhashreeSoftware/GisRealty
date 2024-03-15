@@ -36,7 +36,7 @@ function Feature({
                       item.active ? "active" : ""
                     }`}
                   >
-                    <div className="ltn__feature-icon">
+                    <div className="ltn__feature-icon" >
                       {iconTag ? (
                         <span>
                           <i className={`${item.icon}`}></i>
@@ -48,8 +48,8 @@ function Feature({
                         />
                       )}
                     </div>
-                    <div className="ltn__feature-info">
-                      <h3>
+                    <div className="ltn__feature-info" >
+                      <h3 style={{minHeight: 100, textAlign: "center"}}>
                       {slug === "commercial" ? (
         <Link href={`/shop/grid`}>Commercial</Link>
       ) : (
@@ -57,7 +57,7 @@ function Feature({
       )}
                         {/* <Link href={`/service/${slug}`}>{item.title}</Link> */}
                       </h3>
-                      <p>{item.shortDescription}</p>
+                      <p style={{ maxHeight: '7em', overflow: 'hidden', textOverflow: 'ellipsis', lineHeight: '1.8em' }}>{item.shortDescription}</p>
 
                       {servicebtn ? (
                         <Link

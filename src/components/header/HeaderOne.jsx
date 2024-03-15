@@ -102,7 +102,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/gisfavicon.jpeg" alt="Logo"  width="20%" />
+                      <img src="/gisfavicon.jpeg" alt="Logo"  width="25%" />
                     </Link>
                   </div>
                 </div>
@@ -118,13 +118,12 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
               </Col>
               <Col className="ltn__header-options ltn__header-options-2 mb-sm-20">
                 {/* <!-- header-search-1 --> */}
-                <div className="header-search-wrap">
+                {/* <div className="header-search-wrap">
                   <div
                     className={`header-search-1 ${
                       searchFormOpener ? "search-open" : ""
                     }`}
                   >
-                    {/* search-open */}
                     <div className="search-icon">
                       <span onClick={searchForm}>
                         <FaSearch className="icon-search for-search-show" />
@@ -170,7 +169,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                       )}
                     </ul>
                   </div>
-                </div>
+                </div> */}
                 {/* <!-- user-menu --> */}
                 {/* <div className="ltn__drop-menu user-menu">
                   <ul>

@@ -79,7 +79,7 @@ function AboutUsStyleOne({ sectionSpace }) {
             </Col>
           </Row>
           <Row>
-          <Col xs={12} lg={6} className="align-self-center animated">
+          <Col xs={12} lg={8} className="align-self-center animated">
           <h3 className="slide-title animated">
           Key Objectives<span>:</span>
           </h3>
@@ -90,7 +90,7 @@ function AboutUsStyleOne({ sectionSpace }) {
                   <li>To anticipate market trends and adapt to changing dynamics.</li>
                 </ul>
           </Col>
-          <Col xs={12} lg={6} className="align-self-center">
+          <Col xs={12} lg={4} className="align-self-center">
 
           <img src="/img/others/88.png" alt="About Us Image" />
 </Col>
