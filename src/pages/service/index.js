@@ -15,31 +15,31 @@ import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 function Service() {
   const services = getProducts(featureData, "buying", "featured", 6);
-  const [showPdfDownload, setShowPdfDownload] = useState(null);
+  // const [showPdfDownload, setShowPdfDownload] = useState(null);
 
-  const handleDownloadClick = (pdfName) => {
-    setShowPdfDownload(pdfName);
-  };
+  // const handleDownloadClick = (pdfName) => {
+  //   setShowPdfDownload(pdfName);
+  // };
 
-  const [showModal, setShowModal] = useState(false);
+  // const [showModal, setShowModal] = useState(false);
 
-  const openModal = () => {
-    setShowModal(true);
-  };
+  // const openModal = () => {
+  //   setShowModal(true);
+  // };
 
-  const closeModal = () => {
-    setShowModal(false);
-  };
+  // const closeModal = () => {
+  //   setShowModal(false);
+  // };
 
-  const [showModal1, setShowModal1] = useState(false);
+  // const [showModal1, setShowModal1] = useState(false);
 
-  const openModal1 = () => {
-    setShowModal1(true);
-  };
+  // const openModal1 = () => {
+  //   setShowModal1(true);
+  // };
 
-  const closeModal1 = () => {
-    setShowModal1(false);
-  };
+  // const closeModal1 = () => {
+  //   setShowModal1(false);
+  // };
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
       {...props}
@@ -88,11 +88,12 @@ function Service() {
         />
 
         <AboutUsStyletwo sectionSpace="pb-90" />
+        {/* <div>
         <Modal show={showModal} onHide={closeModal}>
         <Modal.Header closeButton style={{padding: 10}}>
-        {/* <button variant="secondary" onClick={closeModal}>
+        <button variant="secondary" onClick={closeModal}>
             Close
-          </button> */}
+          </button>
         </Modal.Header>
         <Modal.Body>
         <div className="ltn__login-area mb-120">
@@ -140,9 +141,9 @@ function Service() {
       </Modal>
       <Modal show={showModal1} onHide={closeModal1}>
         <Modal.Header closeButton style={{padding: 10}}>
-        {/* <button variant="secondary" onClick={closeModal}>
+        <button variant="secondary" onClick={closeModal1}>
             Close
-          </button> */}
+          </button>
         </Modal.Header>
         <Modal.Body>
         <div className="ltn__login-area mb-120">
@@ -188,7 +189,6 @@ function Service() {
         </Modal.Body>
      
       </Modal>
- {/* PDF Download Area */}
  {showPdfDownload && (
         <a
           href={`/${showPdfDownload}.pdf`}
@@ -199,7 +199,6 @@ function Service() {
           Download
         </a>
       )}
-        {/* <!-- LOGIN AREA END --> */}
         <div className="ltn__login-area mb-120">
           <Container>
             <Row>
@@ -233,6 +232,8 @@ function Service() {
           </Container>
         </div>
   
+        </div> */}
+       
         <Feature
           classes="section-bg-1"
           servicebtn={false}
