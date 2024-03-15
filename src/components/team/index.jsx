@@ -68,7 +68,9 @@ const TeamItem = ({ data, baseUrl, slug, additionalClassname, additionalInfo }) 
   };
   return (
     <>
-     
+ 
+
+
       <div className={`ltn__team-item ${additionalClassname}`}>
         <div className="team-img">
           <img src={`/img/team/${data.image}`} alt="Image" />
