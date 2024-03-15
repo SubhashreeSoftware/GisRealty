@@ -88,7 +88,7 @@ function HeroSectionStyleOne({ data }) {
                               {item.Title}
                             </h1>
                             <div className="slide-brief animated">
-                              <p style={{ textAlign: 'justify' }}>{item.Desc}</p>
+                              <p style={{ textAlign: 'justify', fontSize: 18, fontWeight: "bold" }}>{item.Desc}</p>
                             </div>
                             <div className="btn-wrapper animated">
                               <Link
