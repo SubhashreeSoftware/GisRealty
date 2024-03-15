@@ -45,7 +45,8 @@ function AboutUsStyleOne({ sectionSpace }) {
                   <h1 className="section-title">
                     The Leading Real Estate Marketplace<span>.</span>
                   </h1>
-                  <p style={{ textAlign: 'justify' }}>
+                  <p style={{ textAlign: 'justify',fontSize: 16,
+        fontWeight: "bold" }}>
                     In 2019, the seeds of GIS REALTY were sown with a vision to revolutionize the real estate industry in India. Officially launched in 2020, GIS REALTY embarked on a journey to bring order to the disorder prevalent in the sector, with a focus on delivering not just properties but holistic solutions to customers. GIS REALTY set out to make communication transparent and decision-making more informed across all stakeholders in the real estate ecosystem.
                   </p>
                 </div>
@@ -84,10 +85,14 @@ function AboutUsStyleOne({ sectionSpace }) {
           Key Objectives<span>:</span>
           </h3>
           <ul className="ltn__list-item-1 ltn__list-item-1-before clearfix animated">
-                  <li>To bring order and transparency to the real estate sector.</li>
-                  <li>To provide comprehensive solutions to customers, beyond just properties.</li>
-                  <li>To leverage cutting-edge technology for efficiency and effectiveness.</li>
-                  <li>To anticipate market trends and adapt to changing dynamics.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>To bring order and transparency to the real estate sector.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>To provide comprehensive solutions to customers, beyond just properties.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>To leverage cutting-edge technology for efficiency and effectiveness.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>To anticipate market trends and adapt to changing dynamics.</li>
                 </ul>
           </Col>
           <Col xs={12} lg={4} className="align-self-center">
@@ -103,10 +108,14 @@ function AboutUsStyleOne({ sectionSpace }) {
           From its inception, GIS REALTY has witnessed remarkable growth and evolution<span>:</span>
           </h3>
           <ul className="ltn__list-item-1 ltn__list-item-1-before clearfix">
-                  <li>Started as a residential-focused company, GIS REALTY quickly expanded into multiple business verticals, covering the entire real estate value chain.</li>
-                  <li>Capitalized on the Residential Housing Boom in India.</li>
-                  <li>Deployed cutting-edge technological interventions and bespoke tools across its business lines.</li>
-                  <li>Continuously scaled up operations and branched out into different value propositions within the real estate sector.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>Started as a residential-focused company, GIS REALTY quickly expanded into multiple business verticals, covering the entire real estate value chain.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>Capitalized on the Residential Housing Boom in India.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>Deployed cutting-edge technological interventions and bespoke tools across its business lines.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}>Continuously scaled up operations and branched out into different value propositions within the real estate sector.</li>
                 </ul>
           </Col>
           
@@ -115,12 +124,18 @@ function AboutUsStyleOne({ sectionSpace }) {
           Today, GIS REALTY stands as a formidable force in the real estate sector, offering a comprehensive suite of solutions<span>:</span>
           </h3>
           <ul className="ltn__list-item-1 ltn__list-item-1-before clearfix">
-                  <li><b>Residential and Commercial Property Sales:</b> Offering a diverse range of residential and commercial properties.</li>
-                  <li><b>Property Management:</b> Providing end-to-end property management services to property owners.</li>
-                  <li><b>Real Estate Consulting:</b> Offering expert advice and insights to clients for informed decision-making.</li>
-                  <li><b>Project Development:</b> Undertaking and executing real estate development projects from concept to completion.</li>
-                  <li><b>Investment Advisory:</b> Assisting clients in making strategic real estate investments for optimal returns.</li>
-                  <li><b>Legal and Financial Services:</b> Providing legal and financial support throughout the real estate transaction process.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Residential and Commercial Property Sales:</b> Offering a diverse range of residential and commercial properties.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Property Management:</b> Providing end-to-end property management services to property owners.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Real Estate Consulting:</b> Offering expert advice and insights to clients for informed decision-making.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Project Development:</b> Undertaking and executing real estate development projects from concept to completion.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Investment Advisory:</b> Assisting clients in making strategic real estate investments for optimal returns.</li>
+                  <li style={{fontSize: 16,
+        fontWeight: "bold"}}><b>Legal and Financial Services:</b> Providing legal and financial support throughout the real estate transaction process.</li>
                 </ul>
                 <p style={{ textAlign: 'justify' }}>GIS REALTY's journey from a visionary idea to a leading force in the real estate industry exemplifies its commitment to innovation, transparency, and customer-centricity. With a relentless focus on delivering value-added solutions and leveraging technology to drive efficiency, GIS REALTY continues to redefine the standards of excellence in the real estate sector.</p>
           </Col>

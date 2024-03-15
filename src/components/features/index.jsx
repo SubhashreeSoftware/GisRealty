@@ -57,7 +57,8 @@ function Feature({
       )}
                         {/* <Link href={`/service/${slug}`}>{item.title}</Link> */}
                       </h3>
-                      <p style={{ maxHeight: '7em', overflow: 'hidden', textOverflow: 'ellipsis', lineHeight: '1.8em' }}>{item.shortDescription}</p>
+                      <p style={{ maxHeight: '7em', overflow: 'hidden', textOverflow: 'ellipsis', lineHeight: '1.8em', fontSize: 16,
+        fontWeight: "bold" }}>{item.shortDescription}</p>
 
                       {servicebtn ? (
                         <Link

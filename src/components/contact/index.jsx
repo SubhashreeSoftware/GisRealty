@@ -41,7 +41,7 @@ const Contact = () => {
                 </div>
                 <h3>Phone Number</h3>
                 <p style={{minHeight: 100,fontSize: 16,
-        fontWeight: "bold"}}>
+                fontWeight: "bold"}}>
                 +91 707 549 9323 
                 </p>
               </div>
