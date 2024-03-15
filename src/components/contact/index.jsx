@@ -28,7 +28,8 @@ const Contact = () => {
                   <img src="/img/icons/10.png" alt="Icon Image" />
                 </div>
                 <h3 style={{}}>Email Address</h3>
-                <p style={{minHeight: 100, }}>
+                <p style={{minHeight: 100,fontSize: 16,
+        fontWeight: "bold" }}>
                 sales@gisripl.com
                 </p>
               </div>
@@ -39,8 +40,9 @@ const Contact = () => {
                   <img src="/img/icons/11.png" alt="Icon Image" />
                 </div>
                 <h3>Phone Number</h3>
-                <p style={{minHeight: 100}}>
-                +91 707 549 9323 <br /> +91 707 549 9323
+                <p style={{minHeight: 100,fontSize: 16,
+        fontWeight: "bold"}}>
+                +91 707 549 9323 
                 </p>
               </div>
             </div>
@@ -50,7 +52,8 @@ const Contact = () => {
                   <img src="/img/icons/12.png" alt="Icon Image" />
                 </div>
                 <h3>Office Address</h3>
-                <p style={{minHeight: 100}}>
+                <p style={{minHeight: 100,fontSize: 16,
+        fontWeight: "bold"}}>
                 202, M Square Building
 Patrika Nagar, Street No 1
 Madhapur, Hyderabad
@@ -147,7 +150,7 @@ Telengana , 500081, India
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
                       type="submit"
                     >
-                      get a free service
+                      Submit
                     </button>
                   </div>
                   <p className="form-messege mb-0 mt-20"></p>
