@@ -219,8 +219,6 @@ function AboutUs() {
                 );
               })}
             </Row>
-
-
           </Container>
         </div>
 

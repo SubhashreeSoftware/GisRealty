@@ -11,7 +11,7 @@
       "captionShortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     "thumbImage": "21.jpg",
-    "img": "23.png",
+    "img": "sales.jpg",
     "id": "01",
     "buttonText": "View More",
     "active": false,
@@ -32,7 +32,7 @@
       "captionShortDescription": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
     },
     "thumbImage": "21.jpg",
-    "img": "21.png",
+    "img": "commercial.jpg",
     "id": "02",
     "buttonText": "View More",
     "active": false,
@@ -55,7 +55,7 @@
     },
     "img3": "/shop/grid",
     "thumbImage": "21.jpg",
-    "img": "22.png",
+    "img": "value.jpg",
     "id": "03",
     "buttonText": "View More",
     "active": true,
@@ -76,7 +76,7 @@
       "captionShortDescription": "Land Use Consulting: Maximize the value of your land assets with our strategic land use consulting services. We provide expert advice on land utilization, development strategies, and market trends, helping you optimize returns and achieve your investment objectives.      "
     },
     "thumbImage": "21.jpg",
-    "img": "23.png",
+    "img": "land.jpg",
     "id": "04",
     "buttonText": "View More",
     "active": false,
@@ -84,235 +84,6 @@
     "category": ["buying", "women"],
     "featured": true,
     "coreFeature": false
-  },
-  {
-    "title": "Digital Agency",
-    "shortDescription": "In the digital age, your online presence is your biggest asset. At GIS, we specialize in crafting innovative digital solutions tailored to help your business thrive in the digital landscape. ",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Elevate Your Digital Presence with Expert Digital Agency Services.",
-      "captionFullDescription": "Web Design and Development: From sleek, user-friendly websites to complex web applications, our team of designers and developers creates custom digital experiences that captivate audiences and drive results. Digital Marketing: Reach and engage your target audience with precision-targeted digital marketing strategies. Our comprehensive digital marketing services encompass SEO, PPC advertising, social media marketing, content marketing, and more, to amplify your brand's visibility and drive traffic and conversions.",
-      "captionShortDescription": "E-commerce Solutions: Launch and optimize your online store with our e-commerce solutions. We leverage cutting-edge technology and best practices to create seamless, secure e-commerce experiences that drive sales and foster customer loyalty.Brand Identity and Creative Services: Stand out from the competition with a compelling brand identity and creative assets. From logo design and brand guidelines to multimedia content creation and branding collateral, we help you tell your brand story in a way that resonates with your audience."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "05",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-deal-1",
-    "category": ["buying", "women"],
-    "featured": true,
-    "coreFeature": false
-  },
-  {
-    "title": "Creative Agency",
-    "shortDescription": "In a world where creativity drives business growth, partnering with the right creative agency can make all the difference. At GIS, we specialize in transforming ideas into captivating experiences that resonate with your audience and drive tangible results.    ",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Unleash Creativity, Ignite Success: Your Creative Agency Partner      ",
-      "captionFullDescription": "Brand Strategy and Identity: Define your brand's essence and position in the market with our comprehensive brand strategy services. From brand workshops to logo design and brand guidelines, we help you establish a strong and memorable brand identity. Creative Campaigns: Stand out from the crowd with our innovative creative campaigns. Our team of designers, copywriters, and strategists collaborate to create impactful campaigns across various channels, from print and digital to social media and experiential marketing.",
-      "captionShortDescription": "Digital Design and Development: From stunning websites and mobile apps to interactive digital experiences, our digital design and development services combine aesthetics with functionality to create seamless user experiences that drive engagement and conversions. Content Creation: Fuel your brand's storytelling with compelling content that captivates and inspires. Our content creation services encompass copywriting, photography, videography, and graphic design, tailored to your brand's voice and objectives."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "06",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-deal-1",
-    "category": ["buying", "women"],
-    "featured": true,
-    "coreFeature": false
-  },
-
-  {
-    "title": "Post Sales",
-    "shortDescription": "over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.",
-    "fullDescription": "In today's competitive landscape, exceptional post-sales support is essential for fostering customer loyalty and driving long-term success. At GIS, we understand the importance of delivering outstanding post-sales experiences that exceed customer expectations and maximize satisfaction.",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Elevate Customer Experience with Post-Sales Support Solutions",
-      "captionFullDescription": "Customer Service Excellence: Our dedicated customer service team is committed to providing prompt and effective assistance to address customer inquiries, resolve issues, and ensure a positive experience throughout the post-sales journey. Technical Support: From troubleshooting technical issues to providing product demonstrations and training, our technical support specialists are equipped with the knowledge and expertise to assist customers with any technical challenges they may encounter.",
-      "captionShortDescription": "Order Fulfillment and Logistics: Streamline order processing, shipping, and delivery with our efficient order fulfillment and logistics solutions. We ensure timely and accurate delivery of products, minimizing delays and maximizing customer satisfaction. Product Training and Education: Empower customers to make the most of their purchases with comprehensive product training and education programs. From online tutorials to in-person workshops, we provide valuable resources to help customers unlock the full potential of their products."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "07",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-deal-1",
-    "category": ["buying", "women"],
-    "featured": true,
-    "coreFeature": false
-  },
-  {
-    "title": "Investment Banking",
-    "shortDescription": "In the fast-paced world of finance, navigating complex transactions requires expertise and precision. At GIS, we offer comprehensive investment banking services tailored to meet the diverse needs of our clients.    ",
-    "fullDescription": "Mergers and Acquisitions (M&A): Our seasoned team of advisors provides strategic guidance and execution support throughout the M&A process. From target identification to due diligence and negotiation, we help clients achieve their growth and consolidation objectives.    ",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Propel Your Financial Goals with Expert Investment Banking Services.",
-      "captionFullDescription": "Capital Raising: Access capital efficiently and strategically with our capital raising solutions. Whether you're seeking debt or equity financing, our network of investors and lenders enables us to structure and execute transactions that align with your financial goals. Financial Advisory: Benefit from our financial advisory services, which encompass valuation analysis, financial modeling, and strategic planning. Our insights and expertise empower clients to make informed decisions and optimize shareholder value.",
-      "captionShortDescription": "Restructuring and Recapitalization: Navigate challenging financial situations with confidence with our restructuring and recapitalization expertise. We assist clients in evaluating options, negotiating with stakeholders, and implementing solutions to enhance financial stability and resilience.      "
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "08",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-apartment",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-  },
-  {
-    "title": "Retail",
-    "shortDescription": "In the competitive world of retail, standing out is essential. At GIS, we specialize in providing tailored solutions designed to help retailers thrive in today's dynamic market.    ",
-    "fullDescription": "Point of Sale (POS) Systems: Our POS systems are designed to streamline transactions, manage inventory, and provide valuable insights into customer behavior, enabling you to deliver exceptional shopping experiences. E-commerce Solutions: Expand your reach and grow your online presence with our e-commerce solutions. From custom website development to seamless integration with your brick-and-mortar operations, we help you capitalize on the digital marketplace.",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Drive Retail Success with Tailored Solutions.",
-      "captionFullDescription": "Inventory Management: Take control of your inventory with our advanced inventory management solutions. Real-time tracking, automated reordering, and demand forecasting capabilities ensure optimal stock levels and minimize out-of-stocks.",
-      "captionShortDescription": "Customer Relationship Management (CRM): Build lasting relationships with your customers through personalized communication and targeted marketing campaigns. Our CRM solutions help you understand your customers' preferences and behaviors, allowing you to deliver relevant and engaging experiences."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "09",
-    "buttonText": "View More",
-    "active": true,
-    "icon": "flaticon-park",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-  },
-  {
-    "title": "Hospitality",
-    "shortDescription": "In the dynamic world of hospitality, creating memorable guest experiences is paramount. At GIS, we specialize in providing innovative hospitality solutions designed to delight guests, streamline operations, and drive revenue growth.",
-    "fullDescription": "Property Management Systems (PMS): Our advanced PMS solutions empower hoteliers to efficiently manage reservations, streamline check-in/out processes, and optimize room inventory, ensuring a seamless guest experience from booking to departure.",
-    "captions": {
-      "image1": "31.jpg",
-      "image2": "32.jpg",
-      "caption": "Elevate Guest Experiences with Exceptional Hospitality Solutions      .",
-      "captionFullDescription": "Guest Engagement Platforms: Enhance guest satisfaction and loyalty with our guest engagement platforms. From personalized communication to targeted promotions, we help you create meaningful connections with your guests throughout their stay. Revenue Management: Maximize revenue and profitability with our revenue management solutions. Leveraging data analytics and pricing optimization algorithms, we help you set the right room rates, manage inventory, and capitalize on demand fluctuations.",
-      "captionShortDescription": "Integrated Booking Engines: Drive direct bookings and increase online visibility with our integrated booking engines. Our user-friendly interfaces and seamless integration with your website ensure a frictionless booking process for guests."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "10",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-maps-and-location",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-  },
-  {
-    "title": "Industrial and Logistics",
-    "shortDescription": "Streamline your operations and optimize logistics with our industry-leading solutions tailored for efficiency and reliability. Trust us to enhance productivity and maximize profitability in your industrial and logistics sectors.",
-    "fullDescription": "In today's fast-paced business environment, efficiency and reliability are paramount in industrial and logistics operations. At GIS, we offer cutting-edge solutions designed to streamline processes, enhance productivity, and maximize profitability in the industrial and logistics sectors. Our comprehensive suite of services includes Warehouse Management Systems (WMS), supply chain optimization, transportation management, and asset tracking and management solutions. Partner with us to optimize your operations and stay ahead of the competition.",
-    "captions": {
-        "image1": "31.jpg",
-        "image2": "32.jpg",
-        "caption": "Efficiency and reliability are essential in industrial and logistics operations.",
-        "captionFullDescription": "Our advanced WMS solutions leverage automation and real-time data analytics to optimize inventory management, minimize stockouts, and improve order fulfillment accuracy. Partner with us to optimize your supply chain from end to end. We offer route optimization, load planning, carrier selection, and shipment tracking capabilities to streamline logistics operations and ensure on-time deliveries. Enhance visibility and control over your assets with our asset tracking and management solutions. Utilizing RFID, GPS, and IoT technologies, we provide real-time insights into asset location, status, and condition, enabling better decision-making and asset utilization.",
-        "captionShortDescription": "Efficiency and reliability are paramount in industrial and logistics operations. At GIS, we offer cutting-edge solutions designed to streamline processes, enhance productivity, and maximize profitability in the industrial and logistics sectors."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "11",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-excavator",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-},
-{
-    "title": "Strategic Advisory and Valuations",
-    "shortDescription": "Unlock the full potential of your business with our strategic advisory and valuations services. Trust us to provide actionable insights and expert guidance to help you make informed decisions and maximize value.",
-    "fullDescription": "At GIS, we specialize in providing actionable insights and expert guidance to help you make informed decisions and maximize value. Partner with us to develop and execute comprehensive strategic plans that drive growth, enhance competitiveness, and create long-term value. Our valuation experts deliver accurate and reliable assessments to help you assess the value of your business, evaluate potential investments, or navigate complex transactions. Leverage our advanced financial modeling capabilities to forecast future performance, analyze investment opportunities, and optimize capital allocation strategies. Rely on our transaction support services to streamline due diligence, negotiate favorable terms, and navigate regulatory requirements, ensuring smooth and successful transactions.",
-    "captions": {
-        "image1": "31.jpg",
-        "image2": "32.jpg",
-        "caption": "Unlock the full potential of your business with strategic advisory and valuations expertise.",
-        "captionFullDescription": "Partner with us to develop and execute comprehensive strategic plans that drive growth, enhance competitiveness, and create long-term value. Our valuation experts deliver accurate and reliable assessments to help you assess the value of your business, evaluate potential investments, or navigate complex transactions. Leverage our advanced financial modeling capabilities to forecast future performance, analyze investment opportunities, and optimize capital allocation strategies. Rely on our transaction support services to streamline due diligence, negotiate favorable terms, and navigate regulatory requirements, ensuring smooth and successful transactions.",
-        "captionShortDescription": "At GIS, we specialize in providing actionable insights and expert guidance to help you make informed decisions and maximize value."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "12",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-excavator",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-},
-{
-    "title": "Investment Management",
-    "shortDescription": "Secure your financial future with our comprehensive investment management services tailored to your specific goals and risk tolerance.",
-    "fullDescription": "Secure your financial future with our comprehensive investment management services. At GIS, we understand that every investor's journey is unique, which is why we offer personalized solutions tailored to your specific goals and risk tolerance. Work closely with our team to design a customized investment portfolio aligned with your financial objectives, time horizon, and risk tolerance. Our team actively monitors market conditions and your portfolio's performance, making timely adjustments to ensure it remains aligned with your goals. Mitigate risk and maximize returns through strategic diversification across asset classes, sectors, and geographic regions. Stay informed with regular, transparent reporting on your portfolio's performance, asset allocation, and investment strategy.",
-    "captions": {
-        "image1": "31.jpg",
-        "image2": "32.jpg",
-        "caption": "Secure your financial future with expert investment management.",
-        "captionFullDescription": "Work closely with our team to design a customized investment portfolio aligned with your financial objectives, time horizon, and risk tolerance. Our team actively monitors market conditions and your portfolio's performance, making timely adjustments to ensure it remains aligned with your goals. Mitigate risk and maximize returns through strategic diversification across asset classes, sectors, and geographic regions. Stay informed with regular, transparent reporting on your portfolio's performance, asset allocation, and investment strategy.",
-        "captionShortDescription": "Secure your financial future with our comprehensive investment management services tailored to your specific goals and risk tolerance."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "13",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-excavator",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-},
-{
-    "title": "Flexible Workspaces",
-    "shortDescription": "Embrace flexibility with our dynamic workspaces designed for today's ever-evolving work landscape. Whether you're a freelancer, startup, or established enterprise, our spaces cater to your diverse needs.",
-    "fullDescription": "In today's ever-evolving work landscape, flexibility is key. Our flexible workspaces offer the perfect solution for businesses seeking agility and adaptability. Whether you're a freelancer, startup, or established enterprise, our spaces cater to your diverse needs. With flexible lease terms and a range of amenities, you can customize your workspace to suit your unique requirements. Choose from hot desks, dedicated desks, or private offices, and access them whenever you need, without the constraints of long-term leases. Network and collaborate with like-minded individuals in our vibrant community spaces, fostering creativity and innovation. Enjoy high-speed internet, modern furnishings, meeting rooms, and other amenities designed to enhance productivity and comfort. Scale your workspace as your business grows, with the flexibility to add or reduce space based on your evolving needs.",
-    "captions": {
-        "image1": "31.jpg",
-        "image2": "32.jpg",
-        "caption": "Embrace flexibility with our dynamic workspaces.",
-        "captionFullDescription": "Choose from hot desks, dedicated desks, or private offices, and access them whenever you need, without the constraints of long-term leases. Network and collaborate with like-minded individuals in our vibrant community spaces, fostering creativity and innovation. Enjoy high-speed internet, modern furnishings, meeting rooms, and other amenities designed to enhance productivity and comfort. Scale your workspace as your business grows, with the flexibility to add or reduce space based on your evolving needs.",
-        "captionShortDescription": "Embrace flexibility with our dynamic workspaces designed for today's ever-evolving work landscape."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "14",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-excavator",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-},
-{
-    "title": "Apartment & Society Management",
-    "shortDescription": "Elevate your apartment and society management effortlessly with our intuitive software solutions. Simplify operations and cultivate a cohesive community environment.",
-    "fullDescription": "Discover streamlined apartment and society management with our intuitive software solutions. Designed for property managers and residents alike, our platform simplifies operations and cultivates a cohesive community environment. Automate maintenance requests and track progress seamlessly, ensuring prompt resolution of issues. Simplify rent collection and fee payments through our secure online gateway, enabling hassle-free transactions. Foster community engagement with personalized notifications, event updates, and important announcements. Manage visitor entries efficiently and ensure a safe environment with our visitor management module. Access important documents anytime, anywhere, facilitating easy retrieval and organization.",
-    "captions": {
-        "image1": "31.jpg",
-        "image2": "32.jpg",
-        "caption": "Elevate your apartment and society management effortlessly.",
-        "captionFullDescription": "Automate maintenance requests and track progress seamlessly, ensuring prompt resolution of issues. Simplify rent collection and fee payments through our secure online gateway, enabling hassle-free transactions. Foster community engagement with personalized notifications, event updates, and important announcements. Manage visitor entries efficiently and ensure a safe environment with our visitor management module. Access important documents anytime, anywhere, facilitating easy retrieval and organization.",
-        "captionShortDescription": "Elevate your apartment and society management effortlessly with our intuitive software solutions."
-    },
-    "thumbImage": "21.jpg",
-    "img": "23.png",
-    "id": "15",
-    "buttonText": "View More",
-    "active": false,
-    "icon": "flaticon-excavator",
-    "category": ["buying", "women"],
-    "featured": false,
-    "coreFeature": true
-}
+  }
+ 
 ]

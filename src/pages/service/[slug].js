@@ -2,14 +2,17 @@ import Link from "next/link";
 import { FaArrowRight, FaSearch, FaRegEnvelopeOpen } from "react-icons/fa";
 import serviceData from "@/data/service";
 import { LayoutOne } from "@/layouts";
-import { productSlug } from "@/lib/product";
+import { productSlug,getProducts } from "@/lib/product";
 import { Container, Row, Col } from "react-bootstrap";
 import ShopBreadCrumb from "@/components/breadCrumbs/shop";
 import CallToAction from "@/components/callToAction";
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
+import Residential from "@/components/Residential";
+import featureData from "@/data/residential"
 
 function ServiceDetails({ service }) {
+  const services = getProducts(featureData, "buying", "featured", 6);
   const firstLetter = service.shortDescription.slice(0, 1);
   const firstToEnd = service.shortDescription.slice(1);
 
@@ -72,7 +75,19 @@ function ServiceDetails({ service }) {
       };
       return (
         <>
-          <ul>
+         <Residential
+          classes="section-bg-1"
+          servicebtn={false}
+          iconTag={true}
+          headingClasses="section-subtitle-2"
+          data={services}
+          titleSectionData={{
+            sectionClasses: "text-center",
+            subTitle: "Residentials",
+            title: "Our Core Works",
+          }}
+        />
+          {/* <ul>
           <h1>Residentials</h1>
           <li>
             <Link href="/shop/grid">
@@ -98,7 +113,7 @@ function ServiceDetails({ service }) {
               </span>
             </Link>
           </li>
-        </ul>
+        </ul> */}
         <div style={{marginTop: 20, width: "100%"}}>
         
         <Modal show={showModal} onHide={closeModal}>
@@ -253,7 +268,58 @@ function ServiceDetails({ service }) {
     } else {
       // Default case or additional conditions can be added here
       return (
-        <div></div>
+        <div>
+           <Row>
+              <Col xs={12} >
+                <div className="ltn__page-details-inner ltn__service-details-inner">
+                <Col xs={12} >
+                <Row>
+                <Col xs={12} lg={6} >
+                  <div className="ltn__blog-img">
+                    <img
+                      src={`/img/service/${service.thumbImage}`}
+                      alt="Image"
+                    />
+                  </div>
+                  </Col>
+                  <Col xs={12} lg={6} >
+                  <div className="ltn__blog-img">
+                    <img
+                      src={`/img/service/${service.thumbImage}`}
+                      alt="Image"
+                    />
+                  </div>
+                  </Col>
+                  </Row>
+                  </Col>
+                  
+                  <p className="overflow-hidden">
+                    <span className="ltn__first-letter">{firstLetter}</span>
+                    {firstToEnd}
+                  </p>
+                  <p>{service.fullDescription}</p>
+                  {/* <Row>
+                    <Col xs={12} lg={6}>
+                      <img
+                        src={`/img/service/${service.captions.image1}`}
+                        alt="image"
+                      />
+                      <label>{service.captions.caption}</label>
+                    </Col>
+                    <Col xs={12} lg={6}>
+                      <img
+                        src={`/img/service/${service.captions.image2}`}
+                        alt="image"
+                      />
+                    </Col>
+                  </Row>
+                  <p>{service.captions.captionFullDescription}</p>
+                  <p>{service.captions.captionShortDescription}</p> */}
+                </div>
+              </Col>
+           
+            </Row>
+        </div>
         // <ul>
         //   <h1>Residentials</h1>
         //   {/* Default list items */}
@@ -305,40 +371,7 @@ function ServiceDetails({ service }) {
         {/* <!-- PAGE DETAILS AREA START (service-details) --> */}
         <div className="ltn__page-details-area ltn__service-details-area mb-105">
           <Container>
-            <Row>
-              <Col xs={12} lg={8}>
-                <div className="ltn__page-details-inner ltn__service-details-inner">
-                  <div className="ltn__blog-img">
-                    <img
-                      src={`/img/service/${service.thumbImage}`}
-                      alt="Image"
-                    />
-                  </div>
-                  <p className="overflow-hidden">
-                    <span className="ltn__first-letter">{firstLetter}</span>
-                    {firstToEnd}
-                  </p>
-                  <p>{service.fullDescription}</p>
-                  <Row>
-                    <Col xs={12} lg={6}>
-                      <img
-                        src={`/img/service/${service.captions.image1}`}
-                        alt="image"
-                      />
-                      <label>{service.captions.caption}</label>
-                    </Col>
-                    <Col xs={12} lg={6}>
-                      <img
-                        src={`/img/service/${service.captions.image2}`}
-                        alt="image"
-                      />
-                    </Col>
-                  </Row>
-                  <p>{service.captions.captionFullDescription}</p>
-                  <p>{service.captions.captionShortDescription}</p>
-                </div>
-              </Col>
-              <Col xs={12} lg={4}>
+          <Col xs={12}>
                 <aside className="sidebar-area ltn__right-sidebar">
                   <div className="widget-2 ltn__menu-widget ltn__menu-widget-2 text-uppercase">
                   {renderServiceList()}
@@ -355,15 +388,15 @@ function ServiceDetails({ service }) {
                     <div className="ltn__newsletter-bg-icon">
                       <FaRegEnvelopeOpen />
                     </div>
-                  </div> */}
+                  </div> 
                   <div className="widget ltn__banner-widget">
                     <Link href="/shop/grid">
                       <img src="/img/banner/banner-1.jpg" alt="Banner Image" />
                     </Link>
-                  </div>
+                  </div> */}
                 </aside>
-              </Col>
-            </Row>
+          </Col>
+           
           </Container>
         </div>
         {/* <!-- PAGE DETAILS AREA END --> */}
