@@ -11,13 +11,13 @@ import {
 } from "react-icons/fa";
 import { Container, Row, Col, Nav, Tab, Form } from "react-bootstrap";
 import RelatedProduct from "@/components/product/related-product";
-import ApartmentProduct from "@/components/product/apartment-product";
+import VillaProduct from "@/components/product/villa-product";
 import ProductList from "@/components/product/list";
 import Search from "@/components/search";
 import ReactPaginate from "react-paginate";
 import CallToAction from "@/components/callToAction";
 
-function ShopGrid() {
+function Villagrid() {
   const { products } = useSelector((state) => state.product);
   const { apartments } = useSelector((state) => state.product);
   const [sortType, setSortType] = useState("");
@@ -107,6 +107,10 @@ function ShopGrid() {
       <div className="ltn__product-area ltn__product-gutter mb-120">
         <Container>
           <Row>
+
+
+
+
             <Col xs={12}>
               <Tab.Container defaultActiveKey="first">
                 <Tab.Content>
@@ -145,7 +149,7 @@ function ShopGrid() {
                                 wishlistItem={wishlistItem}
                                 compareItem={compareItem}
                               /> */}
-                              <ApartmentProduct
+                              <VillaProduct
                                 // slug={slug}
                                 // baseUrl="shop/grid"
                                 // productData={product}
@@ -245,4 +249,4 @@ function ShopGrid() {
   );
 }
 
-export default ShopGrid;
+export default Villagrid;

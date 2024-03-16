@@ -54,7 +54,7 @@ const RelatedProduct = ({
               alt={`${productData.title}`}
             />
           </Link>
-          <div className="real-estate-agent">
+          {/* <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${baseUrl}/${slug}`}>
                 <img
@@ -63,10 +63,10 @@ const RelatedProduct = ({
                 />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="product-info">
-          <div className="product-badge">
+          {/* <div className="product-badge">
             <ul>
               <li
                 className={`sale-badge ${productData.rent ? "bg-green" : ""}`}
@@ -74,7 +74,7 @@ const RelatedProduct = ({
                 {badgeText}
               </li>
             </ul>
-          </div>
+          </div> */}
           <h2 className="product-title">
             <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
           </h2>
@@ -83,7 +83,7 @@ const RelatedProduct = ({
               <li>
                 <Link href={`/${baseUrl}/${slug}`}>
                   <i className="flaticon-pin"></i>
-                  {productData.locantion}
+                  Hyderbad
                 </Link>
               </li>
             </ul>
@@ -102,7 +102,7 @@ const RelatedProduct = ({
               <span className="ms-1">square Ft</span>
             </li>
           </ul>
-          <div className="product-hover-action">
+          {/* <div className="product-hover-action">
             <ul>
               <li>
                 <OverlayTrigger
@@ -144,13 +144,13 @@ const RelatedProduct = ({
                 </OverlayTrigger>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="product-info-bottom">
           <div className="product-price">
             <span>
-              {`$ ${productData.price}`}
-              <label>/Month</label>
+              <label>Price Starts From </label>
+              {` Rs. ${productData.price}`}
             </span>
           </div>
         </div>

@@ -17,7 +17,7 @@ import Search from "@/components/search";
 import ReactPaginate from "react-paginate";
 import CallToAction from "@/components/callToAction";
 
-function ShopGrid() {
+function apartmentgrid() {
   const { products } = useSelector((state) => state.product);
   const { apartments } = useSelector((state) => state.product);
   const [sortType, setSortType] = useState("");
@@ -135,16 +135,6 @@ function ShopGrid() {
                             <Col 
                             // key={key} 
                             xs={12} sm={6} lg={4}>
-                              {/* <RelatedProduct
-                                slug={slug}
-                                baseUrl="shop/grid"
-                                productData={product}
-                                discountedPrice={discountedPrice}
-                                productPrice={productPrice}
-                                cartItem={cartItem}
-                                wishlistItem={wishlistItem}
-                                compareItem={compareItem}
-                              /> */}
                               <ApartmentProduct
                                 // slug={slug}
                                 // baseUrl="shop/grid"
@@ -245,4 +235,4 @@ function ShopGrid() {
   );
 }
 
-export default ShopGrid;
+export default apartmentgrid;

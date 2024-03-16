@@ -51,13 +51,47 @@ function Residential({
         <h3 style={{ color: '#fff', textAlign: 'center' }}>
             {item.title}
         </h3>
-        <Link href={`/shop/grid`}><p style={{ color: '#fff',fontWeight: "normal", textTransform: 'capitalize', paddingBottom: 20, fontSize: '15px', alignItems: "center" }}>Explore 
+        {item.title === "Apartments" ? (
+        <Link href={`/shop/apartmentgrid`}><p style={{ color: '#fff',fontWeight: "normal", 
+        textTransform: 'capitalize', paddingBottom: 20, 
+        fontSize: '15px', alignItems: "center" }}>Explore 
+            <img
+                      src={`/img/icons/icon-img/right-arrow.png`}
+                      alt={`${item.title}`}
+                      style={{height: '5%', width: '6%'}}
+                    />
+    </p></Link>
+      ) : item.title === "Villas" ? (
+        <Link href={`/shop/villagrid`}><p style={{ color: '#fff',fontWeight: "normal", 
+        textTransform: 'capitalize', paddingBottom: 20, 
+        fontSize: '15px', alignItems: "center" }}>Explore 
+    <img
+                      src={`/img/icons/icon-img/right-arrow.png`}
+                      alt={`${item.title}`}
+                      style={{height: '5%', width: '6%'}}
+                    />
+    </p></Link>
+     ) : (
+        <Link href={`/service/${slug}`}><p style={{ color: '#fff',fontWeight: "normal", 
+        textTransform: 'capitalize', paddingBottom: 20, 
+        fontSize: '15px', alignItems: "center" }}>Explore 
+    <img
+                      src={`/img/icons/icon-img/right-arrow.png`}
+                      alt={`${item.title}`}
+                      style={{height: '5%', width: '6%'}}
+                    />
+    </p></Link>
+      )}
+        {/* <Link href={`/shop/grid`}>
+            <p style={{ color: '#fff',fontWeight: "normal", 
+            textTransform: 'capitalize', paddingBottom: 20, 
+            fontSize: '15px', alignItems: "center" }}>Explore 
         <img
                           src={`/img/icons/icon-img/right-arrow.png`}
                           alt={`${item.title}`}
                           style={{height: '5%', width: '6%'}}
                         />
-        </p></Link>
+        </p></Link> */}
     </div>
                     </div>
                     <div className="ltn__feature-info" >
