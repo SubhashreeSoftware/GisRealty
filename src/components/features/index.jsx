@@ -47,7 +47,7 @@ function Feature({
                           alt={`${item.title}`}
                         />
                       )} */}
-                        <div style={{ position: 'absolute', top: '95%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                        <div style={{ position: 'absolute', top: '90%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
         <h3 style={{ color: '#fff', textAlign: 'center' }}>
             {item.title}
         </h3>
