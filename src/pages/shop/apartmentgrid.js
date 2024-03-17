@@ -17,7 +17,7 @@ import Search from "@/components/search";
 import ReactPaginate from "react-paginate";
 import CallToAction from "@/components/callToAction";
 
-function apartmentgrid() {
+function ApartmentGrid() {
   const { products } = useSelector((state) => state.product);
   const { apartments } = useSelector((state) => state.product);
   const [sortType, setSortType] = useState("");
@@ -113,7 +113,7 @@ function apartmentgrid() {
                   <Tab.Pane eventKey="first">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <Row>
-                        {/* {currentItems.map((product, key) => { 
+                        {currentItems.slice(0, 5).map((product, key) => { 
                           const slug = productSlug(product.title);
 
                           const discountedPrice = getDiscountPrice(
@@ -130,12 +130,21 @@ function apartmentgrid() {
                           const compareItem = compareItems.find(
                             (compareItem) => compareItem.id === product.id
                           );
-
-                          return ( */}
+                          return (
                             <Col 
-                            // key={key} 
+                            key={key} 
                             xs={12} sm={6} lg={4}>
-                              <ApartmentProduct
+                              <RelatedProduct
+                                slug={slug}
+                                baseUrl="shop/grid"
+                                productData={product}
+                                discountedPrice={discountedPrice}
+                                productPrice={productPrice}
+                                cartItem={cartItem}
+                                wishlistItem={wishlistItem}
+                                compareItem={compareItem}
+                              />
+                              {/* <ApartmentProduct
                                 // slug={slug}
                                 // baseUrl="shop/grid"
                                 // productData={product}
@@ -144,10 +153,10 @@ function apartmentgrid() {
                                 // cartItem={cartItem}
                                 // wishlistItem={wishlistItem}
                                 // compareItem={compareItem}
-                              />
+                              /> */}
                             </Col>
-                        {/*    );
-                       })} */}
+                      );
+                       })} 
                       </Row>
                     </div>
                   </Tab.Pane>
@@ -192,7 +201,7 @@ function apartmentgrid() {
                 </Tab.Content>
               </Tab.Container>
 
-              <div className="ltn__pagination-area text-center">
+              {/* <div className="ltn__pagination-area text-center">
                 <ReactPaginate
                   onPageChange={handlePageClick}
                   pageRangeDisplayed={3}
@@ -213,7 +222,7 @@ function apartmentgrid() {
                   activeClassName="active"
                   renderOnZeroPageCount={null}
                 />
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>
@@ -235,4 +244,4 @@ function apartmentgrid() {
   );
 }
 
-export default apartmentgrid;
+export default ApartmentGrid;

@@ -11,13 +11,14 @@ import {
 } from "react-icons/fa";
 import { Container, Row, Col, Nav, Tab, Form } from "react-bootstrap";
 import RelatedProduct from "@/components/product/related-product";
-import VillaProduct from "@/components/product/villa-product";
+import ApartmentProduct from "@/components/product/apartment-product";
 import ProductList from "@/components/product/list";
 import Search from "@/components/search";
 import ReactPaginate from "react-paginate";
 import CallToAction from "@/components/callToAction";
+import React from 'react';
 
-function Villagrid() {
+function VillaGrid() {
   const { products } = useSelector((state) => state.product);
   const { apartments } = useSelector((state) => state.product);
   const [sortType, setSortType] = useState("");
@@ -107,18 +108,15 @@ function Villagrid() {
       <div className="ltn__product-area ltn__product-gutter mb-120">
         <Container>
           <Row>
-
-
-
-
             <Col xs={12}>
               <Tab.Container defaultActiveKey="first">
                 <Tab.Content>
                   <Tab.Pane eventKey="first">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <Row>
-                        {/* {currentItems.map((product, key) => { 
+                        {currentItems.slice(5, 8).map((product, key) => { 
                           const slug = productSlug(product.title);
+                          console.log(currentItems);
 
                           const discountedPrice = getDiscountPrice(
                             product.price,
@@ -134,12 +132,11 @@ function Villagrid() {
                           const compareItem = compareItems.find(
                             (compareItem) => compareItem.id === product.id
                           );
-
-                          return ( */}
+                          return (
                             <Col 
-                            // key={key} 
+                            key={key} 
                             xs={12} sm={6} lg={4}>
-                              {/* <RelatedProduct
+                              <RelatedProduct
                                 slug={slug}
                                 baseUrl="shop/grid"
                                 productData={product}
@@ -148,8 +145,8 @@ function Villagrid() {
                                 cartItem={cartItem}
                                 wishlistItem={wishlistItem}
                                 compareItem={compareItem}
-                              /> */}
-                              <VillaProduct
+                              />
+                              {/* <ApartmentProduct
                                 // slug={slug}
                                 // baseUrl="shop/grid"
                                 // productData={product}
@@ -158,10 +155,10 @@ function Villagrid() {
                                 // cartItem={cartItem}
                                 // wishlistItem={wishlistItem}
                                 // compareItem={compareItem}
-                              />
+                              /> */}
                             </Col>
-                        {/*    );
-                       })} */}
+                      );
+                       })} 
                       </Row>
                     </div>
                   </Tab.Pane>
@@ -206,7 +203,7 @@ function Villagrid() {
                 </Tab.Content>
               </Tab.Container>
 
-              <div className="ltn__pagination-area text-center">
+              {/* <div className="ltn__pagination-area text-center">
                 <ReactPaginate
                   onPageChange={handlePageClick}
                   pageRangeDisplayed={3}
@@ -227,7 +224,7 @@ function Villagrid() {
                   activeClassName="active"
                   renderOnZeroPageCount={null}
                 />
-              </div>
+              </div> */}
             </Col>
           </Row>
         </Container>
@@ -249,4 +246,4 @@ function Villagrid() {
   );
 }
 
-export default Villagrid;
+export default VillaGrid;

@@ -113,7 +113,7 @@ function ShopGrid() {
                   <Tab.Pane eventKey="first">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <Row>
-                        {/* {currentItems.map((product, key) => { 
+                        {currentItems.slice(0, 2).map((product, key) => { 
                           const slug = productSlug(product.title);
 
                           const discountedPrice = getDiscountPrice(
@@ -130,12 +130,11 @@ function ShopGrid() {
                           const compareItem = compareItems.find(
                             (compareItem) => compareItem.id === product.id
                           );
-
-                          return ( */}
+                          return (
                             <Col 
-                            // key={key} 
+                            key={key} 
                             xs={12} sm={6} lg={4}>
-                              {/* <RelatedProduct
+                              <RelatedProduct
                                 slug={slug}
                                 baseUrl="shop/grid"
                                 productData={product}
@@ -144,8 +143,8 @@ function ShopGrid() {
                                 cartItem={cartItem}
                                 wishlistItem={wishlistItem}
                                 compareItem={compareItem}
-                              /> */}
-                              <ApartmentProduct
+                              />
+                              {/* <ApartmentProduct
                                 // slug={slug}
                                 // baseUrl="shop/grid"
                                 // productData={product}
@@ -154,10 +153,10 @@ function ShopGrid() {
                                 // cartItem={cartItem}
                                 // wishlistItem={wishlistItem}
                                 // compareItem={compareItem}
-                              />
+                              /> */}
                             </Col>
-                        {/*    );
-                       })} */}
+                      );
+                       })} 
                       </Row>
                     </div>
                   </Tab.Pane>

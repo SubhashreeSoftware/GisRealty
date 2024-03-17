@@ -72,10 +72,10 @@ function Residential({
                     />
     </p></Link>
      ) : (
-        <Link href={`/service/${slug}`}><p style={{ color: '#fff',fontWeight: "normal", 
+        <Link href={`/shop/plot`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
         fontSize: '15px', alignItems: "center" }}>Explore 
-    <img
+                    <img
                       src={`/img/icons/icon-img/right-arrow.png`}
                       alt={`${item.title}`}
                       style={{height: '5%', width: '6%'}}

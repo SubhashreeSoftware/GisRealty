@@ -30,6 +30,7 @@ import RelatedProduct from "@/components/product/related-product";
 import FollowUs from "@/components/followUs";
 import Tags from "@/components/tags";
 import blogData from "@/data/blog";
+import Modal from 'react-bootstrap/Modal';
 
 function ProductDetails({ product }) {
   const { products } = useSelector((state) => state.product);
@@ -37,7 +38,32 @@ function ProductDetails({ product }) {
   const { wishlistItems } = useSelector((state) => state.wishlist);
   const { compareItems } = useSelector((state) => state.compare);
   const latestdBlogs = getProducts(blogData, "buying", "featured", 4);
+const [showPdfDownload, setShowPdfDownload] = useState(null);
 
+  const handleDownloadClick = (pdfName) => {
+    setShowPdfDownload(pdfName);
+  };
+
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+  };
+
+  const [showModal1, setShowModal1] = useState(false);
+
+  const openModal1 = () => {
+    setShowModal1(true);
+  };
+
+  const closeModal1 = () => {
+    setShowModal1(false);
+  };
+  
   const relatedProducts = getProducts(
     products,
     product.category[0],
@@ -172,13 +198,13 @@ function ProductDetails({ product }) {
   return (
     <>
       <LayoutOne topbar={true}>
-        <ModalVideo
+        {/* <ModalVideo
           channel="youtube"
           autoplay
           isOpen={isOpen}
           videoId="X7R-q9rsrtU"
           onClose={() => setOpen(false)}
-        />
+        /> */}
         {/* <!-- BREADCRUMB AREA START --> */}
 
         <BreadCrumb
@@ -188,10 +214,13 @@ function ProductDetails({ product }) {
         />
 
         {/* <!-- BREADCRUMB AREA END --> */}
-
-        {/* <!-- IMAGE SLIDER AREA START (img-slider-3) --> */}
-        <div className="ltn__img-slider-area mb-90">
-          <Container fluid>
+        
+        {/* <!-- IMAGE SLIDER AREA START (img-slider-3) -->
+        <div className="col-lg-12">
+        <Container fluid style={{alignSelf: "center"}}>
+       
+                          </Container>
+         <Container fluid>
             <Slider
               {...productDetailsCarouselSettings}
               className="row ltn__image-slider-5-active slick-arrow-1 slick-arrow-1-inner ltn__no-gutter-all g-0"
@@ -211,17 +240,18 @@ function ProductDetails({ product }) {
                 );
               })}
             </Slider>
-          </Container>
-        </div>
+          </Container> 
+        </div> */}
+        
         {/* <!-- IMAGE SLIDER AREA END -->
 
     <!-- SHOP DETAILS AREA START --> */}
         <div className="ltn__shop-details-area pb-10">
           <div className="container">
             <div className="row">
-              <div className="col-lg-8 col-md-12">
+              <div className="col-lg-12 col-md-12">
                 <div className="ltn__shop-details-inner ltn__page-details-inner mb-60">
-                  <div className="ltn__blog-meta">
+                  {/* <div className="ltn__blog-meta">
                     <ul>
                       {
                         (product.featured ? (
@@ -254,66 +284,240 @@ function ProductDetails({ product }) {
                         </a>
                       </li>
                     </ul>
+                  </div> */}
+                  <div className="ltn__property-details-gallery mb-30">
+                    <div className="row">
+                      <div className="col-md-6">
+                        <Link
+                          href={`/img/others/${product.gallery.img1}`}
+                          data-rel="lightcase:myCollection"
+                        >
+                           <img
+                            className="mb-30"
+                            src={`/img/others/${product.gallery.img2}`}
+                            alt={`${product.title}`}
+                          />
+                        </Link>
+                        
+                      </div>
+                      <div className="col-md-6">
+                      <Link
+                          href={`/img/others/${product.gallery.img2}`}
+                          data-rel="lightcase:myCollection"
+                        >
+                          <img
+                            className="mb-30"
+                            src={`/img/others/${product.gallery.img2}`}
+                            alt={`${product.title}`}
+                          />
+                        </Link>
+                      </div>
+                    </div>
                   </div>
                   <h1> {product.title}</h1>
                   <label>
                     <span className="ltn__secondary-color">
                       <i className="flaticon-pin"></i>
                     </span>{" "}
-                    {product.locantion}
+                    Hyderbad
                   </label>
                   <h4 className="title-2"> {product.description.title}</h4>
                   <p>{product.description.fullDescription}</p>
                   <p>{product.description.shortDescription}</p>
-
+  <div>
+        <Modal show={showModal} onHide={closeModal}>
+        <Modal.Header closeButton style={{padding: 10}}>
+        {/* <button variant="secondary" onClick={closeModal}>
+            Close
+          </button> */}
+        </Modal.Header>
+        <Modal.Body>
+        <div className="ltn__login-area mb-10">
+            <Row>
+              <Col xs={12} lg={{ span: 12 }}>
+                <div className="account-login-inner section-bg-1">
+                  <form action="#" className="ltn__form-box contact-form-box">
+                    <p className="text-center">{`Contact Us For A Service. `}</p>
+                    <label>Name</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Enter your name."
+                    />
+                    <label>Email</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email you want to get notified."
+                    />
+                    <label>Contact Number</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Contact Number."
+                    />
+                    <div className="btn-wrapper mt-0 text-center">
+                      <button
+                        className="btn theme-btn-1 btn-effect-1 text-uppercase"
+                        type="submit"
+                        onClick={() => handleDownloadClick("aura_brochure_Final")}
+                      >
+                        Download Aura Brochure
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </Col>
+            </Row>
+        </div>
+        </Modal.Body>
+     
+      </Modal>
+      <Modal show={showModal1} onHide={closeModal1}>
+        <Modal.Header closeButton style={{padding: 10}}>
+        {/* <button variant="secondary" onClick={closeModal1}>
+            Close
+          </button> */}
+        </Modal.Header>
+        <Modal.Body>
+        <div className="ltn__login-area mb-10">
+            <Row>
+              <Col xs={12} lg={{ span: 12 }}>
+                <div className="account-login-inner section-bg-1">
+                  <form action="#" className="ltn__form-box contact-form-box">
+                    <p className="text-center">{`Contact Us For A Service. `}</p>
+                    <label>Name</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Enter your name."
+                    />
+                    <label>Email</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email you want to get notified."
+                    />
+                    <label>Contact Number</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Contact Number."
+                    />
+                    <div className="btn-wrapper mt-0 text-center">
+                      <button
+                        className="btn theme-btn-1 btn-effect-1 text-uppercase"
+                        type="submit"
+                        onClick={() => handleDownloadClick("MPR_Urban_Phase_2_brochure")}
+                      >
+                        Download MPR Urban Phase 2 Brochure
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </Col>
+            </Row>
+        </div>
+        </Modal.Body>
+     
+      </Modal>
+ {showPdfDownload && (
+        <a
+          href={`/${showPdfDownload}.pdf`}
+          download={`${showPdfDownload}.pdf`}
+          style={{ display: 'none' }}
+          ref={(ref) => ref && ref.click()}
+        >
+          Download
+        </a>
+      )}
+        <div className="ltn__login-area mb-120">
+          <Container>
+            <Row>
+              <Col xs={12} lg={{ span: 8, offset: 2 }}>
+                <div className="account-login-inner section-bg-1">
+                  <form action="#" className="ltn__form-box contact-form-box" onSubmit={(e) => e.preventDefault()}>
+                    <p className="text-center">{`To delve deeper into the details of these projects, download our comprehensive brochure. Gain insights into our vision, mission, and the remarkable features of each project. Explore the essence of our commitment to excellence and innovation.`}</p>
+                  
+                    <div className="btn-wrapper mt-0 text-center">
+                    
+                      <button
+          className="btn theme-btn-1 btn-effect-1 text-uppercase mt-1"
+          type="button"
+          onClick={openModal}
+        >
+          Aura Brochure
+        </button>
+                      <button
+                        className="btn theme-btn-1 btn-effect-1 text-uppercase mt-1"
+                        type="submit"
+                        onClick={openModal1}
+                      >
+                        MPR Urban Phase 2 Brochure
+                      </button>
+                    </div>
+                    
+                  </form>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+  
+        </div>
+       
                   <h4 className="title-2">Property Detail</h4>
                   <div className="property-detail-info-list section-bg-1 clearfix mb-60">
                     <ul>
                       <li>
-                        <label>Property ID:</label>{" "}
-                        <span>{product.propertyDetails.propertyId}</span>
+                        <label>Total Area:</label>{" "}
+                        <span>{product.propertyDetails.area}</span>
                       </li>
                       <li>
-                        <label>Home Area: </label>{" "}
-                        <span>{product.propertyDetails.area} sqft</span>
+                        <label>Towers: </label>{" "}
+                        <span>{product.propertyDetails.tower} </span>
                       </li>
                       <li>
-                        <label>Rooms:</label>{" "}
-                        <span>{product.propertyDetails.rooms}</span>
+                        <label>Total Floors:</label>{" "}
+                        <span>{product.propertyDetails.floor}</span>
                       </li>
                       <li>
-                        <label>Baths:</label>{" "}
-                        <span>{product.propertyDetails.baths}</span>
+                        <label>Total Units:</label>{" "}
+                        <span>{product.propertyDetails.unit}</span>
                       </li>
                       <li>
-                        <label>Year built:</label>{" "}
-                        <span>{product.propertyDetails.createdYear}</span>
+                        <label>Facing:</label>{" "}
+                        <span>{product.propertyDetails.face}</span>
                       </li>
                     </ul>
                     <ul>
                       <li>
-                        <label>Lot Area:</label>{" "}
-                        <span>{product.propertyDetails.propertyId}</span>
+                        <label>Sizes & Area:</label>{" "}
+                        <span >{product.propertyDetails.size}</span>
                       </li>
                       <li>
-                        <label>Lot dimensions:</label>{" "}
-                        <span>{product.propertyDetails.area} sqft</span>
+                        <label>Club House:</label>{" "}
+                        <span>{product.propertyDetails.club} </span>
                       </li>
                       <li>
-                        <label>Beds:</label>{" "}
-                        <span>{product.propertyDetails.bedrooms}</span>
+                        <label>Amenities:</label>{" "}
+                        <span>{product.propertyDetails.amenities}</span>
                       </li>
                       <li>
-                        <label>Price:</label> <span>{product.price}</span>
+                        <label>Position:</label> <span>{product.propertyDetails.position}</span>
                       </li>
                       <li>
-                        <label>Property Status:</label>{" "}
-                        <span>{product.propertyDetails.propertyStatus}</span>
+                        <label>Possession:</label>{" "}
+                        <span>{product.propertyDetails.possession}</span>
+                      </li>
+                      <li>
+                        <label>Price starts from:</label>{" "}
+                        <span>{product.value}</span>
                       </li>
                     </ul>
                   </div>
 
-                  <h4 className="title-2">Facts and Features</h4>
+                  {/* <h4 className="title-2">Facts and Features</h4>
                   <div className="property-detail-feature-list clearfix mb-45">
                     <ul>
                       <li>
@@ -389,7 +593,7 @@ function ProductDetails({ product }) {
                         </div>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
 
                   <h4 className="title-2">From Our Gallery</h4>
                   <div className="ltn__property-details-gallery mb-30">
@@ -498,7 +702,7 @@ function ProductDetails({ product }) {
                     </div>
                   </div>
 
-                  <h4 className="title-2">Location</h4>
+                  {/* <h4 className="title-2">Location</h4>
                   <div className="property-details-google-map mb-60">
                     <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sBrooklyn%20Botanic%20Garden%20Shop!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
@@ -507,10 +711,9 @@ function ProductDetails({ product }) {
                       frameBorder="0"
                       allowFullScreen=""
                     ></iframe>
-                  </div>
-
+                  </div> */}
+{/* 
                   <h4 className="title-2">Floor Plans</h4>
-                  {/* <!-- APARTMENTS PLAN AREA START --> */}
 
                   <div className="ltn__apartments-plan-area product-details-apartments-plan mb-60">
                     <Tab.Container defaultActiveKey="first">
@@ -753,11 +956,11 @@ function ProductDetails({ product }) {
                         </Tab.Pane>
                       </Tab.Content>
                     </Tab.Container>
-                  </div>
+                  </div> */}
 
                   {/* <!-- APARTMENTS PLAN AREA END --> */}
 
-                  <h4 className="title-2">Property Video</h4>
+                  {/* <h4 className="title-2">Property Video</h4>
                   <div
                     className="ltn__video-bg-img ltn__video-popup-height-500 bg-overlay-black-50 bg-image mb-60"
                     style={{ backgroundImage: `url("../../img/others/5.jpg")` }}
@@ -805,7 +1008,6 @@ function ProductDetails({ product }) {
                       </ul>
                     </div>
                     <hr />
-                    {/* <!-- comment-area --> */}
                     <div className="ltn__comment-area mb-30">
                       <div className="ltn__comment-inner">
                         <ul>
@@ -959,7 +1161,6 @@ function ProductDetails({ product }) {
                         </ul>
                       </div>
                     </div>
-                    {/* <!-- comment-reply --> */}
                     <div className="ltn__comment-reply-area ltn__form-box mb-30">
                       <form action="#">
                         <h4>Add a Review</h4>
@@ -1043,9 +1244,9 @@ function ProductDetails({ product }) {
                         </div>
                       </form>
                     </div>
-                  </div>
+                  </div>  */}
 
-                  <h4 className="title-2">Related Properties</h4>
+                  {/* <h4 className="title-2">Related Properties</h4>
                   <Row>
                     {relatedProducts.map((data, key) => {
                       const slug = productSlug(data.title);
@@ -1078,14 +1279,13 @@ function ProductDetails({ product }) {
                         </Col>
                       );
                     })}
-                  </Row>
+                  </Row> */}
                 </div>
               </div>
 
-              <div className="col-lg-4">
+              {/* <div className="col-lg-4">
                 <aside className="sidebar ltn__shop-sidebar ltn__right-sidebar---">
-                  {/* <!-- Author Widget --> */}
-                  <div className="widget ltn__author-widget">
+                   <div className="widget ltn__author-widget">
                     <div className="ltn__author-widget-inner text-center">
                       <img
                         src={`/img/team/${product.agent.img}`}
@@ -1157,9 +1357,7 @@ function ProductDetails({ product }) {
                         </ul>
                       </div>
                     </div>
-                  </div>
-                  {/* <!-- Search Widget --> */}
-                  <div className="widget ltn__search-widget">
+                  </div>  <div className="widget ltn__search-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Search Objects
                     </h4>
@@ -1173,9 +1371,7 @@ function ProductDetails({ product }) {
                         <FaSearch />
                       </button>
                     </form>
-                  </div>
-                  {/* <!-- Form Widget --> */}
-                  <div className="widget ltn__form-widget">
+                  </div>  <div className="widget ltn__form-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Drop Messege For Book
                     </h4>
@@ -1198,9 +1394,7 @@ function ProductDetails({ product }) {
                         Send Messege
                       </button>
                     </form>
-                  </div>
-                  {/* <!-- Top Rated Product Widget --> */}
-                  <div className="widget ltn__top-rated-product-widget">
+                  </div>  <div className="widget ltn__top-rated-product-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Top Rated Product
                     </h4>
@@ -1262,9 +1456,7 @@ function ProductDetails({ product }) {
                         );
                       })}
                     </ul>
-                  </div>
-                  {/* <!-- Menu Widget (Category) --> */}
-                  <div className="widget ltn__menu-widget ltn__menu-widget-2--- ltn__menu-widget-2-color-2---">
+                  </div> <div className="widget ltn__menu-widget ltn__menu-widget-2--- ltn__menu-widget-2-color-2---">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Top Categories
                     </h4>
@@ -1295,9 +1487,7 @@ function ProductDetails({ product }) {
                         </Link>
                       </li>
                     </ul>
-                  </div>
-                  {/* <!-- Popular Product Widget --> */}
-                  <div className="widget ltn__popular-product-widget">
+                  </div> <div className="widget ltn__popular-product-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Popular Properties
                     </h4>
@@ -1306,7 +1496,6 @@ function ProductDetails({ product }) {
                       {...popular_product}
                       className="row ltn__popular-product-widget-active slick-arrow-1"
                     >
-                      {/* <!-- ltn__product-item --> */}
 
                       {popularProducts.map((product, key) => {
                         const slug = productSlug(product.title);
@@ -1345,7 +1534,7 @@ function ProductDetails({ product }) {
                                   <li>
                                     <Link href="product-details">
                                       <i className="flaticon-pin"></i>
-                                      {product.locantion}
+                                      Hyderbad
                                     </Link>
                                   </li>
                                 </ul>
@@ -1371,9 +1560,7 @@ function ProductDetails({ product }) {
                         );
                       })}
                     </Slider>
-                  </div>
-                  {/* <!-- Popular Post Widget --> */}
-                  <div className="widget ltn__popular-post-widget">
+                  </div> <div className="widget ltn__popular-post-widget">
                     <h4 className="ltn__widget-title ltn__widget-title-border-2">
                       Leatest Blogs
                     </h4>
@@ -1417,21 +1604,52 @@ function ProductDetails({ product }) {
                         );
                       })}
                     </ul>
-                  </div>
-
-                  <FollowUs title="Follow Us" />
-
-                  {/* <!-- Tagcloud Widget --> */}
-
-                  <Tags title="Popular Tags" />
+                  </div>  <FollowUs title="Follow Us" />  <Tags title="Popular Tags" /> 
                 </aside>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
-        {/* <!-- SHOP DETAILS AREA END -->
-
-    <!-- CALL TO ACTION START (call-to-action-6) --> */}
+ {/* <!-- LOGIN AREA START --> */}
+ <div className="ltn__login-area mb-120">
+          <Container>
+            <Row>
+              <Col xs={12} lg={{ span: 8, offset: 2 }}>
+                <div className="account-login-inner section-bg-1">
+                  <form action="#" className="ltn__form-box contact-form-box">
+                    <p className="text-center">{`Contact Us For A Service. `}</p>
+                    <label>Name</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Enter your name."
+                    />
+                    <label>Email</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Email you want to get notified."
+                    />
+                    <label>Contact Number</label>
+                    <input
+                      type="text"
+                      name="email"
+                      placeholder="Contact Number."
+                    />
+                    <div className="btn-wrapper mt-0 text-center">
+                      <button
+                        className="btn theme-btn-1 btn-effect-1 text-uppercase"
+                        type="submit"
+                      >
+                        Ask For A Service
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
         <div
           className="ltn__call-to-action-area call-to-action-6 before-bg-bottom"
           data-bs-bg="img/1.jpg--"
@@ -1447,7 +1665,7 @@ function ProductDetails({ product }) {
                   <div className="btn-wrapper">
                     <Link
                       className="btn btn-effect-3 btn-white"
-                      href="/contact"
+                      href="/services"
                     >
                       Explore Properties <i className="icon-next"></i>
                     </Link>

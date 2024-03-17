@@ -90,16 +90,16 @@ const RelatedProduct = ({
           </div>
           <ul className="ltn__plot-brief">
             <li>
-              <span>{productData.propertyDetails.bedrooms}</span>
-              <span className="ms-1">Bedrooms</span>
-            </li>
-            <li>
-              <span>{productData.propertyDetails.baths}</span>
-              <span className="ms-1">Bathrooms</span>
-            </li>
-            <li>
+            <span className="ms-1">Total Area  {productData.area}</span>
               <span>{productData.propertyDetails.area}</span>
-              <span className="ms-1">square Ft</span>
+            </li>
+            <li>
+            <span className="ms-1">Position </span>
+              <span>{productData.propertyDetails.position}</span>
+            </li>
+            <li>
+            <span className="ms-1">Size  </span>
+              <span>{productData.propertyDetails.size}</span>
             </li>
           </ul>
           {/* <div className="product-hover-action">
@@ -148,11 +148,12 @@ const RelatedProduct = ({
         </div>
         <div className="product-info-bottom">
           <div className="product-price">
-            <span>
+            
               <label>Price Starts From </label>
-              {` Rs. ${productData.price}`}
-            </span>
-          </div>
+              {/* <span>    Rs. {productData.price}
+            </span> */}
+ <span>    Rs. {productData.value}
+            </span>          </div>
         </div>
       </div>
 

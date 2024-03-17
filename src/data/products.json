@@ -7,9 +7,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Luxury villa in Hyderbad",
+    "title": "GR MAYOORA (KOMPALLY)",
     "productImg": "1.jpg",
     "price": 69,
+    "value": "64Lakhs",
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
@@ -51,12 +52,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "1.3Acres",
+      "position": "Ready to move in",
+      "size": "2BHK (1100sft & 1200sft), 3BHK (1435sft & 1565sft)",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": 2,
+      "floor": "G+5",
+      "unit": 100,
+      "face": "East & West",
+      "amenities": 12,
+      "club": "4000sft",
+      "possession": "Ready to move in      "
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -118,9 +128,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment in Bangalore",
+    "title": "LUMBINI ELYSEE (FINANCIAL DISTRICT)",
     "productImg": "2.jpg",
     "price": 159,
+    "value": "2.01Cr",
     "priceRange": ["Medium"],
     "discount": 5,
     "country": true,
@@ -229,12 +240,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "2.3Acres",
+      "position": "Under Construction",
+      "size": "3BHK (2101sft-2551sft), 4BHK (4143sft-4214sft)",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": 10,
+      "floor": "G+15       ",
+      "unit": 156,
+      "face": "East & West",
+      "amenities": 30,
+      "club": 2,
+      "possession": "December 2025"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -296,9 +316,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri in Mumbai",
+    "title": "SMR VINAY ICONIA (KONDAPUR)",
     "productImg": "3.jpg",
     "price": 49,
+    "value": "1.25Cr",
     "priceRange": ["High Budget"],
     "discount": 15,
     "country": false,
@@ -340,12 +361,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "22Acres",
+      "position": "Ready to move in",
+      "size": "2BHK (1360sft & 1435sft), 3BHK (2125sft & 2435sft)",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": 11,
+      "floor": "26-30",
+      "unit": 2550,
+      "face": "East & West",
+      "amenities": "30+",
+      "club": "1Lakh Sft      ",
+      "possession": ""
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -407,9 +437,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Get Best Property On Our",
+    "title": "CANDEUR LAKESCAPE (KONDAPUR)",
     "productImg": "4.jpg",
     "price": 19,
+    "value": "97Lakhs",
     "priceRange": ["Medium"],
     "discount": 10,
     "country": false,
@@ -451,12 +482,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "9Acres",
+      "position": "Under Construction",
+      "size": "2BHK (1296sft-1321sft), 3BHK (1700sft-2390sft)",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": 7,
+      "floor": "G+47",
+      "unit": 1800,
+      "face": "East,West & North      ",
+      "amenities": 50,
+      "club": "1Lakh Sft",
+      "possession": "Sept 2027"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -524,9 +564,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
+    "title": "CELESTIAL GREEN SPACE (KOKAPET)",
     "productImg": "5.jpg",
     "price": 149,
+    "value": "82Lakhs",
     "priceRange": ["Low Budget"],
     "discount": 5,
     "country": true,
@@ -568,12 +609,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "8.5Acres",
+      "position": "Under Construction",
+      "size": "2BHK (1085sft,1310sft & 1345sft), 3BHK (1645sft,1880sft,2020sft,2070sft,2145sft,2485sft & 2295sft),3.5BHK (2400sft & 2615sft)      ",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": "9 (Premium towers-2)",
+      "floor": "G+9",
+      "unit": "750",
+      "face": "East,West & North",
+      "amenities": 25,
+      "club": "34000 sft",
+      "possession": "Phase-1 : July 2024, Phase-2 : July 2025"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -635,9 +685,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri Los Angles Living",
+    "title": "RIVERSCAPE (BANDLAGUDA)",
     "productImg": "6.jpg",
     "price": 215,
+    "value": "4Cr",
     "priceRange": ["Low"],
     "discount": 5,
     "country": true,
@@ -679,12 +730,21 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
+      "area": "22Acres",
+      "position": "Under Construction",
+      "size": "200sqyds,230sqyds,300sqyds & 400sqyds      ",
       "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": "",
+      "floor": "",
+      "unit": 226,
+      "face": "East & West",
+      "amenities": "30+",
+      "club": "47000 sft (G+4)",
+      "possession": "Phase-1 : June 2025, Phase-2 : Awaiting for RERA"
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -746,9 +806,10 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "Citra Puri in Hyderbad Living",
+    "title": "SURABHI SIGNATURE VILLAS (TELLAPUR)",
     "productImg": "1.jpg",
     "price": 225,
+    "value": "2.7Cr",
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
     "country": false,
@@ -790,12 +851,22 @@
     },
     "propertyDetails": {
       "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
+      "area": "2.3Acres",
+      "position": "Under Construction",
+      "size": "160sqyds,170sqyds,180sqyds & 200sqyds",
+     "propertyStatus": "For Sale",
       "rooms": 7,
       "bedrooms": 3,
       "baths": 2,
-      "createdYear": 1992
+      "createdYear": 1992,
+      "tower": "",
+      "floor": "",
+      "unit": 67,
+      "face": "East,West & North      ",
+      "amenities": "30+",
+      "club": "18000 sft (G+3)",
+      "possession": "Phase-1 : March 2024, Phase-2 : Dec 2025"
+
     },
     "factsAndFeatures": {
       "livingRoom": "20 x 16 sq feet",
@@ -848,227 +919,6 @@
       "img3": "16.jpg"
     },
     "propertyTypes": ["Office Villa"]
-  },
-  {
-    "id": "8",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "New Apartment Nice View",
-    "productImg": "2.jpg",
-    "price": 500,
-    "priceRange": ["Low Budget", "Medium"],
-    "discount": 5,
-    "country": false,
-    "district": "Mission District Area",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": true,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 35,
-    "category": ["buying", "renting", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Hyderbad",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["Single Family"]
-  },
-  {
-    "id": "9",
-    "carousel": [
-      { "img": "35.jpg" },
-      { "img": "31.jpg" },
-      { "img": "32.jpg" },
-      { "img": "33.jpg" }
-    ],
-    "title": "Citra Puri Los Angles Living",
-    "productImg": "4.jpg",
-    "price": 270,
-    "priceRange": ["Low Budget"],
-    "discount": 5,
-    "country": true,
-    "district": "Mission District Area",
-    "properties": 2,
-    "featured": false,
-    "new": true,
-    "rent": false,
-    "photo": ["buying", "women", "women"],
-    "video": ["buying", "women"],
-    "bedBath": ["Single", "renting", "selling"],
-    "ratingCount": 5,
-    "rating": 5,
-    "saleCount": 90,
-    "category": ["buying", "selling"],
-    "tag": [
-      "Popular",
-      "desgin",
-      "ux",
-      "usability",
-      "develop",
-      "icon",
-      "Car",
-      "Service",
-      "Repairs",
-      "Auto Parts",
-      "Oil",
-      "Dealer",
-      "Oil Change",
-      "Body Color"
-    ],
-    "date": "May 19, 2021",
-    "comments": 35,
-    "locantion": "Hyderbad",
-    "description": {
-      "title": "Description",
-      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
-      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
-    },
-    "propertyDetails": {
-      "propertyId": "HZ29",
-      "area": 3450,
-      "propertyStatus": "For Sale",
-      "rooms": 7,
-      "bedrooms": 3,
-      "baths": 2,
-      "createdYear": 1992
-    },
-    "factsAndFeatures": {
-      "livingRoom": "20 x 16 sq feet",
-      "garage": "20 x 16 sq feet",
-      "diningArea": "20 x 16 sq feet",
-      "bedroom": "20 x 16 sq feet",
-      "bathroom": "20 x 16 sq feet",
-      "gymArea": "20 x 16 sq feet",
-      "garden": "20 x 16 sq feet",
-      "parking": "20 x 16 sq feet"
-    },
-
-    "amenities1": [
-      "Air Conditioning",
-      "Gym",
-      "Microwave",
-      "Swimming Pool",
-      "WiFi"
-    ],
-    "amenities2": [
-      "Barbeque",
-      "Recreation",
-      "Microwave",
-      "Basketball Cout",
-      "Fireplace"
-    ],
-    "amenities3": [
-      "Refrigerator",
-      "Window Coverings",
-      "Washer",
-      "24x7 Security",
-      "Indoor Game"
-    ],
-    "AmenitiesList": ["Supermarket"],
-    "agent": {
-      "firstName": "Rosalina D.",
-      "lastName": "Willaimson",
-      "fullName": "Rosalina D. Willaimson",
-      "type": "Property Seller",
-      "img": "author.jpg",
-      "designation": "Traveller/Photographer",
-      "raiting": 3,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
-      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
-    },
-
-    "gallery": {
-      "img1": "14.jpg",
-      "img2": "15.jpg",
-      "img3": "16.jpg"
-    },
-    "propertyTypes": ["House", "Single Family"]
   }
+
 ]

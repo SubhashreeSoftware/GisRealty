@@ -30,11 +30,10 @@ function Feature({
               const slug = productSlug(item.title);
               return (
                 <Col key={key} xs={12} sm={6} lg={6}>
-                  
+
                   <div
-                    className={`ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 ${
-                      item.active ? "active" : ""
-                    }`} style={{ backgroundImage: `url(/img/icons/icon-img/${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '300px', position: 'relative', }}
+                    className={`ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 ${item.active ? "active" : ""
+                      }`} style={{ backgroundImage: `url(/img/icons/icon-img/${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '300px', position: 'relative', }}
                   >
                     <div className="ltn__feature-icon" >
                       {/* {iconTag ? (
@@ -47,18 +46,22 @@ function Feature({
                           alt={`${item.title}`}
                         />
                       )} */}
-                        <div style={{ position: 'absolute', top: '90%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
-        <h3 style={{ color: '#fff', textAlign: 'center' }}>
-            {item.title}
-        </h3>
-        <Link href={`/service/${slug}`}><p style={{ color: '#fff',fontWeight: "normal", textTransform: 'capitalize', paddingBottom: 20, fontSize: '15px', alignItems: "center" }}>Explore 
-        <img
-                          src={`/img/icons/icon-img/right-arrow.png`}
-                          alt={`${item.title}`}
-                          style={{height: '5%', width: '6%'}}
-                        />
-        </p></Link>
-    </div>
+                      <div style={{ position: 'absolute', top: '90%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
+                        <h3 style={{ color: '#fff', textAlign: 'center' }}>
+                          {item.title}
+                        </h3>
+                        <Link href={`/service/${slug}`}>
+                          <p style={{ color: '#fff', fontWeight: "normal", 
+                        textTransform: 'capitalize', paddingBottom: 20, 
+                        fontSize: '15px', alignItems: "center" }}>Explore
+                          <img
+                            src={`/img/icons/icon-img/right-arrow.png`}
+                            alt={`${item.title}`}
+                            style={{ height: '5%', width: '6%' }}
+                          />
+                        </p>
+                        </Link>
+                      </div>
                     </div>
                     <div className="ltn__feature-info" >
                       {/*  <h3 style={{minHeight: 100, textAlign: "center"}}>
