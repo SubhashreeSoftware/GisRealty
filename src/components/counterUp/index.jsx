@@ -25,7 +25,10 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                  <i className="flaticon-select"></i>
+                <img
+                style={{ height:"50%", width: "50%" }}
+                          src={`/img/icons/icon-img/ap.png`}
+                        />
                 </div>
                 <h1>
                   <VisibilityObserver
@@ -47,8 +50,10 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                  <i className="flaticon-office"></i>
-                </div>
+                <img
+                style={{ height:"30%", width: "30%" }}
+                          src={`/img/icons/icon-img/pp.png`}
+                        /></div>
                 <h1>
                   <VisibilityObserver
                     onChangeVisibility={onVisibilityChange}
@@ -69,8 +74,10 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                  <i className="flaticon-excavator"></i>
-                </div>
+                <img
+                style={{ height:"50%", width: "50%" }}
+                          src={`/img/icons/icon-img/villa2.png`}
+                        /></div>
                 <h1>
                   <VisibilityObserver
                     onChangeVisibility={onVisibilityChange}
@@ -91,8 +98,10 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                  <i className="flaticon-armchair"></i>
-                </div>
+                <img
+                style={{ height:"30%", width: "30%" }}
+                          src={`/img/icons/icon-img/bb.png`}
+                        /></div>
                 <h1>
                   <VisibilityObserver
                     onChangeVisibility={onVisibilityChange}

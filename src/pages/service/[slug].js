@@ -9,10 +9,13 @@ import CallToAction from "@/components/callToAction";
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Residential from "@/components/Residential";
+import Value from "@/components/Value";
 import featureData from "@/data/residential"
+import value from "@/data/value"
 
 function ServiceDetails({ service }) {
   const services = getProducts(featureData, "buying", "featured", 6);
+  const values = getProducts(value, "buying",  6);
   const firstLetter = service.shortDescription.slice(0, 1);
   const firstToEnd = service.shortDescription.slice(1);
 
@@ -21,33 +24,22 @@ function ServiceDetails({ service }) {
       return (
         <ul>
           <h1>Value Added Services</h1>
-          <li>
-            <Link href={`/service/digital-agency`}>
-              Digital Agency
-              <span>
-                <FaArrowRight />
-              </span>
-            </Link>
-          </li>
-          <li className="active">
-            <Link href="/service/creative-agency">
-            Creative Agency
-              <span>
-                <FaArrowRight />
-              </span>
-            </Link>
-          </li>
-          <li>
-            <Link href="/service/post-sales">
-              Post Sales
-              <span>
-                <FaArrowRight />
-              </span>
-            </Link>
-          </li>
+          <Value
+          classes="section-bg-1"
+          servicebtn={false}
+          iconTag={true}
+          headingClasses="section-subtitle-2"
+          data={values}
+          titleSectionData={{
+            sectionClasses: "text-center",
+            subTitle: "Value Added Services",
+            title: "Our Core Works",
+          }}
+        />
+        
         </ul>
       );
-    } else if (service.title === 'Residential Sales and Marketing') {
+    } else if (service.title === 'Residential Properties') {
       const [showPdfDownload, setShowPdfDownload] = useState(null);
 
       const handleDownloadClick = (pdfName) => {

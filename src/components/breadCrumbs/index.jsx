@@ -7,13 +7,13 @@ const BreadCrumb = ({ title, currentSlug, sectionPace }) => {
     <>
       <div
         className={`ltn__breadcrumb-area text-left bg-overlay-white-30 bg-image ${sectionPace}`}
-        style={{ backgroundImage: `url("../img/bg/14.jpg")` }}
+        style={{ backgroundImage: `url("../img/bg/142.png")` }}
       >
         <Container>
           <Row>
             <Col xs={12}>
               <div className="ltn__breadcrumb-inner">
-                <h1 className="page-title">{title}</h1>
+                <h1 className="page-title" >{title}</h1>
                 <div className="ltn__breadcrumb-list">
                   <ul>
                     <li>

@@ -46,23 +46,31 @@ function Feature({
                           alt={`${item.title}`}
                         />
                       )} */}
-                      <div style={{ position: 'absolute', top: '90%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
-                        <h3 style={{ color: '#fff', textAlign: 'center' }}>
+                      <div style={{ position: 'absolute', top: '80%', flexDirection: "row", width: "100%" }}>
+                      <Row>
+                      <Col xs={6} >
+                          <h3 style={{ color: '#fff', textAlign: 'left' }}>
                           {item.title}
                         </h3>
-                        <Link href={`/service/${slug}`}>
+                        </Col>
+                      
+                        <Col xs={6}>
+                      <Link href={`/service/${slug}`}>
                           <p style={{ color: '#fff', fontWeight: "normal", 
-                        textTransform: 'capitalize', paddingBottom: 20, 
-                        fontSize: '15px', alignItems: "center" }}>Explore
-                          <img
+                        textTransform: 'capitalize', 
+                        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore
+                          {/* <img
                             src={`/img/icons/icon-img/right-arrow.png`}
                             alt={`${item.title}`}
-                            style={{ height: '5%', width: '6%' }}
-                          />
+                            style={{ height: '1%', width: '1%' }}
+                          /> */}
                         </p>
                         </Link>
-                      </div>
+                        </Col>
+                        </Row>
+                        </div>
                     </div>
+                    
                     <div className="ltn__feature-info" >
                       {/*  <h3 style={{minHeight: 100, textAlign: "center"}}>
                       {slug === "commercial" ? (

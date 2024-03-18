@@ -47,14 +47,18 @@ function Residential({
                           alt={`${item.title}`}
                         />
                        )} */}
-                       <div style={{ position: 'absolute', top: '95%', left: '50%', transform: 'translate(-50%, -50%)', textAlign: 'center' }}>
-        <h3 style={{ color: '#fff', textAlign: 'center' }}>
+                       <div style={{ position: 'absolute', top: '85%', flexDirection: "row", width: "100%" }}>
+                      <Row>
+                      <Col xs={6} >
+        <h3 style={{ color: '#fff', textAlign: 'left' }}>
             {item.title}
         </h3>
+        </Col>
+        <Col xs={6} >
         {item.title === "Apartments" ? (
         <Link href={`/shop/apartmentgrid`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
-        fontSize: '15px', alignItems: "center" }}>Explore 
+        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
             <img
                       src={`/img/icons/icon-img/right-arrow.png`}
                       alt={`${item.title}`}
@@ -64,7 +68,7 @@ function Residential({
       ) : item.title === "Villas" ? (
         <Link href={`/shop/villagrid`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
-        fontSize: '15px', alignItems: "center" }}>Explore 
+        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
     <img
                       src={`/img/icons/icon-img/right-arrow.png`}
                       alt={`${item.title}`}
@@ -74,7 +78,7 @@ function Residential({
      ) : (
         <Link href={`/shop/plot`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
-        fontSize: '15px', alignItems: "center" }}>Explore 
+        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
                     <img
                       src={`/img/icons/icon-img/right-arrow.png`}
                       alt={`${item.title}`}
@@ -82,6 +86,8 @@ function Residential({
                     />
     </p></Link>
       )}
+      </Col>
+      </Row>
         {/* <Link href={`/shop/grid`}>
             <p style={{ color: '#fff',fontWeight: "normal", 
             textTransform: 'capitalize', paddingBottom: 20, 

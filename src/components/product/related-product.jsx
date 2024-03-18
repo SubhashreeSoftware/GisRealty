@@ -75,7 +75,7 @@ const RelatedProduct = ({
               </li>
             </ul>
           </div> */}
-          <h2 className="product-title">
+          <h2 className="product-title" style={{minHeight: 60}}>
             <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
           </h2>
           <div className="product-img-location">
@@ -88,17 +88,17 @@ const RelatedProduct = ({
               </li>
             </ul>
           </div>
-          <ul className="ltn__plot-brief">
+          <ul className="ltn__plot-brief" style={{minHeight: 200}}>
             <li>
-            <span className="ms-1">Total Area  {productData.area}</span>
+            <span className="ms-1">Total Area -  {productData.area}</span>
               <span>{productData.propertyDetails.area}</span>
             </li>
             <li>
-            <span className="ms-1">Position </span>
+            <span className="ms-1">Position - </span>
               <span>{productData.propertyDetails.position}</span>
             </li>
             <li>
-            <span className="ms-1">Size  </span>
+            <span className="ms-1">Size - </span>
               <span>{productData.propertyDetails.size}</span>
             </li>
           </ul>
