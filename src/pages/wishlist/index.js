@@ -8,7 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { productSlug, getDiscountPrice } from "@/lib/product";
 import { addToCart, } from "@/store/slices/cart-slice";
 import { deleteFromWishlist } from "@/store/slices/wishlist-slice"
-
+import Image from "next/image";
 const Wishlist = () => {
 
     const dispatch = useDispatch();
@@ -56,7 +56,7 @@ const Wishlist = () => {
                                                                 </span>
                                                             </td>
                                                             <td class="cart-product-image">
-                                                                <Link href={`/shop/${slug}`}><img src={`/img/product/${imageCount}.png`} alt="#" /></Link>
+                                                                <Link href={`/shop/${slug}`}><Image alt="" src={`/img/product/${imageCount}.png`}  /></Link>
                                                             </td>
                                                             <td class="cart-product-info">
                                                                 <h4><Link href={`/shop/${slug}`}>{product.title}</Link></h4>

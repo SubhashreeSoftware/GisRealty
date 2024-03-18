@@ -24,7 +24,7 @@ import blogData from "@/data/blog";
 import BlogItem from "@/components/blog";
 import CallToAction from "@/components/callToAction";
 import heroData from '@/data/hero/index-two.json';
-
+import Image from "next/image";
 
 function HomeVersionTwo(props) {
   const [isOpen, setOpen] = useState(false);
@@ -324,7 +324,7 @@ function HomeVersionTwo(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="/img/others/10.png" alt="#" />
+                            <Image alt="" src="/img/others/10.png"  />
                           </div>
                         </Col>
                       </Row>
@@ -371,7 +371,7 @@ function HomeVersionTwo(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="/img/others/10.png" alt="#" />
+                            <Image alt="" src="/img/others/10.png"  />
                           </div>
                         </Col>
                       </Row>
@@ -418,7 +418,7 @@ function HomeVersionTwo(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="/img/others/10.png" alt="#" />
+                            <Image alt="" src="/img/others/10.png"  />
                           </div>
                         </Col>
                       </Row>
@@ -465,7 +465,7 @@ function HomeVersionTwo(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="/img/others/10.png" alt="#" />
+                            <Image alt="" src="/img/others/10.png"  />
                           </div>
                         </Col>
                       </Row>
@@ -512,7 +512,7 @@ function HomeVersionTwo(props) {
                         </Col>
                         <Col xs={12} lg={6}>
                           <div className="apartments-plan-img">
-                            <img src="/img/others/10.png" alt="#" />
+                            <Image alt="" src="/img/others/10.png"  />
                           </div>
                         </Col>
                       </Row>
@@ -784,9 +784,9 @@ function HomeVersionTwo(props) {
                 <Tab.Container defaultActiveKey="first">
                   <div className="ltn__tab-menu ltn__tab-menu-4 text-center">
                     <Nav>
-                      <Nav.Link eventKey="first"> <img src="/img/neighbour/1.jpg" alt="#" /></Nav.Link>
-                      <Nav.Link eventKey="second"> <img src="/img/neighbour/2.jpg" alt="#" /></Nav.Link>
-                      <Nav.Link eventKey="third"><img src="/img/neighbour/3.jpg" alt="#" /></Nav.Link>
+                      <Nav.Link eventKey="first"> <Image alt="" src="/img/neighbour/1.jpg"  /></Nav.Link>
+                      <Nav.Link eventKey="second"> <Image alt="" src="/img/neighbour/2.jpg"  /></Nav.Link>
+                      <Nav.Link eventKey="third"><Image alt="" src="/img/neighbour/3.jpg"  /></Nav.Link>
                     </Nav>
 
                   </div>
@@ -796,14 +796,14 @@ function HomeVersionTwo(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/1.jpg" alt="#" />
+                              <Image alt="" src="/img/neighbour/1.jpg"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/product-3/3.jpg" alt="#" />
+                                  <Image alt="" src="/img/product-3/3.jpg"  />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -845,14 +845,14 @@ function HomeVersionTwo(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/2.jpg" alt="#" />
+                              <Image alt="" src="/img/neighbour/2.jpg"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/product-3/2.jpg" alt="#" />
+                                  <Image alt="" src="/img/product-3/2.jpg"  />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -894,14 +894,14 @@ function HomeVersionTwo(props) {
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/3.jpg" alt="#" />
+                              <Image alt="" src="/img/neighbour/3.jpg"  />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/product-3/4.jpg" alt="#" />
+                                  <Image alt="" src="/img/product-3/4.jpg"  />
                                 </Link>
                                 <div className="search-by-place-badge">
                                   <ul>
@@ -965,9 +965,9 @@ function HomeVersionTwo(props) {
                         <Accordion.Header className="ltn__card-title"><i className="flaticon-hospital"></i> Medical Hospital</Accordion.Header>
                         <Accordion.Body>
                           <div className="ltn__video-img alignleft">
-                            <img
+                            <Image alt=""
                               src="/img/bg/17.jpg"
-                              alt="video popup bg image"
+                              
                             />
                             <button
                               className="ltn__video-icon-2 ltn__video-icon-2-small"

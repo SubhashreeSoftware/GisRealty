@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";import Link from "next/link";
 import {
   FaArrowRight,
   FaSearch,
@@ -36,9 +36,9 @@ function portfolioDetails({ portfolio }) {
               <Col xs={12} lg={8}>
                 <div className="ltn__page-details-inner ltn__portfolio-details-inner">
                   <div className="ltn__blog-img">
-                    <img
+                    <Image alt=""
                       src={`/img/service/${portfolio.thumbImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   <p className="overflow-hidden">
@@ -55,18 +55,18 @@ function portfolioDetails({ portfolio }) {
                         <Col key={key} xs={12} lg={6}>
                           <div className="ltn__testimonial-item ltn__testimonial-item-3">
                             <div className="ltn__testimonial-img">
-                              <img
+                              <Image alt=""
                                 src={`/img/blog/${review.author.productImage}`}
-                                alt="Image"
+                                
                               />
                             </div>
                             <div className="ltn__testimoni-info">
                               <p>{review.author.description}</p>
                               <div className="ltn__testimoni-info-inner">
                                 <div className="ltn__testimoni-img">
-                                  <img
+                                  <Image alt=""
                                     src={`/img/testimonial/${review.author.img}`}
-                                    alt="Image"
+                                    
                                   />
                                 </div>
                                 <div className="ltn__testimoni-name-designation">
@@ -89,16 +89,16 @@ function portfolioDetails({ portfolio }) {
                   <p>{portfolio.fullDescription}</p>
                   <Row>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${portfolio.captions.image1}`}
-                        alt="image"
+                        
                       />
                       <label>{portfolio.captions.caption}</label>
                     </Col>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${portfolio.captions.image2}`}
-                        alt="image"
+                        
                       />
                     </Col>
                   </Row>
@@ -178,7 +178,7 @@ function portfolioDetails({ portfolio }) {
                   {/* <!-- Banner Widget --> */}
                   <div className="widget ltn__banner-widget">
                     <Link href="/shop">
-                      <img src="/img/banner/banner-1.jpg" alt="Banner Image" />
+                      <Image alt="" src="/img/banner/banner-1.jpg"  />
                     </Link>
                   </div>
                 </aside>

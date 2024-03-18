@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 import { useState } from "react";
-
+import Image from "next/image";
 function AboutUsStyleOne({ sectionSpace }) {
   const [isOpen, setOpen] = useState(false);
   return (
@@ -22,10 +22,10 @@ function AboutUsStyleOne({ sectionSpace }) {
           <Row>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-img-wrap about-img-left">
-                <img src="/img/others/7.png" alt="About Us Image" />
+                <Image alt="" src="/img/others/7.png"  />
                 <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                   <div className="ltn__video-img ltn__animation-pulse1">
-                    <img src="/img/others/8.png" alt="video popup bg image" />
+                    <Image alt="" src="/img/others/8.png"  />
                     <button
                       onClick={() => setOpen(true)}
                       className="ltn__video-icon-2"
@@ -97,11 +97,11 @@ function AboutUsStyleOne({ sectionSpace }) {
           </Col>
           <Col xs={12} lg={4} className="align-self-center">
 
-          <img src="/img/others/88.png" alt="About Us Image" />
+          <Image alt="" src="/img/others/88.png"  />
 </Col>
 <Col xs={12} lg={4} className="align-self-center" >
 
-<img src="/img/others/66.png" alt="About Us Image" />
+<Image alt="" src="/img/others/66.png"  />
 </Col>
           <Col xs={12} lg={8} className="align-self-center" >
           <h3 >

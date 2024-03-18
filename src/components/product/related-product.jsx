@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/slices/cart-slice";
 import { useState } from "react";
@@ -49,15 +50,14 @@ const RelatedProduct = ({
       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
         <div className="product-img">
           <Link href={`/${baseUrl}/${slug}`}>
-            <img
+            <Image alt=""
               src={`/img/product-3/${productData.productImg}`}
-              alt={`${productData.title}`}
             />
           </Link>
           {/* <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${baseUrl}/${slug}`}>
-                <img
+                <Image alt=""
                   src={`/img/blog/author.jpg`}
                   alt={`${productData.title}`}
                 />

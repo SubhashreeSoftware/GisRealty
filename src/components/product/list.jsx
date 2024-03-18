@@ -6,6 +6,7 @@ import {
   addToWishlist,
   deleteFromWishlist,
 } from "@/store/slices/wishlist-slice";
+import Image from "next/image";
 import QuickViewtModal from "@/components/modals/quickViewModal";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
@@ -49,9 +50,8 @@ const ProductList = ({
       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
         <div className="product-img">
           <Link href={`/${baseUrl}/${slug}`}>
-            <img
+            <Image alt=""
               src={`/img/product-3/${productData.productImg}`}
-              alt={`${productData.title}`}
             />
           </Link>
         </div>
@@ -110,9 +110,8 @@ const ProductList = ({
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${baseUrl}/${slug}`}>
-                <img
+                <Image alt=""
                   src={`/img/blog/author.jpg`}
-                  alt={`${productData.title}`}
                 />
               </Link>
             </div>

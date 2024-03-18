@@ -1,3 +1,4 @@
+import Image from "next/image";
 const TestimonialCarouselItem = ({data}) => {
   return (
     <>
@@ -9,7 +10,7 @@ const TestimonialCarouselItem = ({data}) => {
           </p>
           <div className="ltn__testimoni-info-inner">
             <div className="ltn__testimoni-img">
-              <img src={`/img/testimonial/${data.img}`} alt={`${data.name}`} />
+              <Image alt="" src={`/img/testimonial/${data.img}`}  />
             </div>
             <div className="ltn__testimoni-name-designation">
               <h5> {data.name}</h5>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Link from "next/link";
+import Image from "next/image";import Link from "next/link";
 import HeaderTopBarTwo from "./headerTopBar/headerTopBarStyleTwo";
 import HeaderCartMenu from "./elements/headerCartMenu";
 import MobileMenu from "./elements/mobileMennu";
@@ -74,7 +74,7 @@ const HeaderStyleTwo = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <Image alt="" src="/img/logo-2.png"  />
                     </Link>
                   </div>
                 </div>

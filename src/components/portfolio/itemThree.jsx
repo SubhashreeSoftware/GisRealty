@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 const PortfolioitemThree = ({ data, baseUrl, slug }) => {
   return (
     <div className="ltn__img-slide-item-4">
       <Link href={`${baseUrl}/${slug}`}>
-        <img src={`/img/img-slide/${data.img}`} alt="Image" />
+        <Image alt="" src={`/img/img-slide/${data.img}`}  />
       </Link>
       <div className="ltn__img-slide-info">
         <div className="ltn__img-slide-info-brief">

@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import TitleSection from "@/components/titleSection";
 import { productSlug } from "@/lib/product";
 import React, { useState } from "react";
+import Image from "next/image";
 function Value({
   data,
   iconTag,
@@ -42,17 +43,17 @@ function Value({
                 <Row>
                 <Col xs={12} lg={6} >
                   <div className="ltn__blog-img">
-                    <img
+                    <Image alt=""
                       src={`/img/service/${selectedItem.thumbImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   </Col>
                   <Col xs={12} lg={6} >
                   <div className="ltn__blog-img">
-                    <img
+                    <Image alt=""
                       src={`/img/service/${selectedItem.thumbImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   </Col>
@@ -67,16 +68,16 @@ function Value({
                   <p>{selectedItem.captions.captionFullDescription}</p>
                   {/* <Row>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${service.captions.image1}`}
-                        alt="image"
+                        
                       />
                       <label>{service.captions.caption}</label>
                     </Col>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${service.captions.image2}`}
-                        alt="image"
+                        
                       />
                     </Col>
                   </Row>
@@ -126,9 +127,9 @@ function Value({
                           <i className={`${item.icon}`}></i>
                         </span>
                       ) : ( */}
-                        <img
+                        <Image alt=""
                           src={`/img/icons/icon-img/${item.img}`}
-                          alt={`${item.title}`}
+                          
                         />
                       {/* )} */}
                       <div style={{ position: 'absolute', top: '80%', flexDirection: "row", width: "100%" }}>
@@ -149,9 +150,9 @@ function Value({
                               }}
                               onClick={() => handleExploreClick(item)} // Call function on click
                             >Explore
-                          {/* <img
+                          {/* <Image alt=""
                             src={`/img/icons/icon-img/right-arrow.png`}
-                            alt={`${item.title}`}
+                            
                             style={{ height: '1%', width: '1%' }}
                           /> */}
                            {/* <span>

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import Image from "next/image";import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Col, Container, Row } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
@@ -164,7 +164,7 @@ function PortFolioPageTwo() {
                             cursor: "pointer",
                           }}
                         >
-                          <img src={`/img/gallery/${item.img}`} alt="Image" />
+                          <Image alt="" src={`/img/gallery/${item.img}`}  />
                           <span className="ltn__gallery-action-icon">
                             <span>
                               <FaSearch />
@@ -235,9 +235,9 @@ function PortFolioPageTwo() {
                   {brandLogoData.map((logo, key) => {
                     return (
                       <div key={key} className="ltn__brand-logo-item">
-                        <img
+                        <Image alt=""
                           src={`/img/brand-logo/${logo.image}`}
-                          alt="Brand Logo"
+                          
                         />
                       </div>
                     );

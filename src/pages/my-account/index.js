@@ -1,6 +1,6 @@
 import { LayoutOne } from "@/layouts";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import ShopBreadCrumb from "@/components/breadCrumbs/shop";
+import Image from "next/image";import ShopBreadCrumb from "@/components/breadCrumbs/shop";
 import CallToAction from "@/components/callToAction";
 import Accordion from "react-bootstrap/Accordion";
 import {
@@ -132,9 +132,8 @@ function MyAccount() {
                               <div className="ltn__comment-area mb-50">
                                 <div className="ltn-author-introducing clearfix">
                                   <div className="author-img">
-                                    <img
+                                    <Image alt=""
                                       src="img/blog/author.jpg"
-                                      alt="Author Image"
                                     />
                                   </div>
                                   <div className="author-info">
@@ -408,9 +407,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/2.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -484,9 +483,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/3.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -560,9 +559,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/7.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -686,9 +685,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/2.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -762,9 +761,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/3.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -838,9 +837,9 @@ function MyAccount() {
                                     <tr>
                                       <td className="ltn__my-properties-img">
                                         <Link href="https://quarter-nextjs.netlify.app/shop/new-apartment-nice-view">
-                                          <img
+                                          <Image alt=""
                                             src="/img/product-3/7.jpg"
-                                            alt="#"
+                                            
                                           />
                                         </Link>
                                       </td>
@@ -2004,9 +2003,9 @@ function MyAccount() {
                                       <Accordion.Item eventKey="3">
                                         <Accordion.Header>
                                           PayPal
-                                          <img
+                                          <Image alt=""
                                             src="/img/icons/payment-3.png"
-                                            alt="#"
+                                            
                                           />
                                         </Accordion.Header>
                                         <Accordion.Body>

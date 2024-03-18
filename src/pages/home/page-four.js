@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Image from "next/image";import { useState } from "react";
 import Slider from "react-slick";
 import { LayoutThree } from "@/layouts";
 import { Container, Row, Col } from "react-bootstrap";
@@ -307,9 +307,9 @@ function HomeVersionFour(props) {
                 {brandLogoData.map((logo, key) => {
                   return (
                     <div key={key} className="ltn__brand-logo-item">
-                      <img
+                      <Image alt=""
                         src={`/img/brand-logo/${logo.image}`}
-                        alt="Brand Logo"
+                        
                       />
                     </div>
                   );
@@ -350,18 +350,18 @@ function HomeVersionFour(props) {
 
                 <div key={key} className="ltn__testimonial-item ltn__testimonial-item-3">
                   <div className="ltn__testimonial-img">
-                    <img
+                    <Image alt=""
                       src={`/img/blog/${review.author.productImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   <div className="ltn__testimoni-info">
                     <p>{review.author.description}</p>
                     <div className="ltn__testimoni-info-inner">
                       <div className="ltn__testimoni-img">
-                        <img
+                        <Image alt=""
                           src={`/img/testimonial/${review.author.img}`}
-                          alt="Image"
+                          
                         />
                       </div>
                       <div className="ltn__testimoni-name-designation">

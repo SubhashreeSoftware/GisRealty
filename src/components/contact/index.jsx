@@ -14,7 +14,7 @@ import {
   FaPhoneAlt,
   FaArrowDown,
 } from "react-icons/fa";
-
+import Image from "next/image";
 const Contact = () => {
   return (
     <>
@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="col-lg-4" >
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow" >
                 <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/10.png" alt="Icon Image" />
+                  <Image alt="" src="/img/icons/10.png"  />
                 </div>
                 <h3 style={{}}>Email Address</h3>
                 <p style={{minHeight: 100,fontSize: 16,
@@ -37,7 +37,7 @@ const Contact = () => {
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
                 <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/11.png" alt="Icon Image" />
+                  <Image alt="" src="/img/icons/11.png"  />
                 </div>
                 <h3>Phone Number</h3>
                 <p style={{minHeight: 100,fontSize: 16,
@@ -49,7 +49,7 @@ const Contact = () => {
             <div className="col-lg-4">
               <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow" >
                 <div className="ltn__contact-address-icon">
-                  <img src="/img/icons/12.png" alt="Icon Image" />
+                  <Image alt="" src="/img/icons/12.png"  />
                 </div>
                 <h3>Office Address</h3>
                 <p style={{minHeight: 100,fontSize: 16,

@@ -8,7 +8,7 @@ import Counter from "yet-another-react-lightbox/plugins/counter";
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import Download from "yet-another-react-lightbox/plugins/download";
-
+import Image from "next/image";
 function AboutUsStyleTwo({ sectionSpace }) {
   const [index, setIndex] = useState(-1);
 
@@ -102,7 +102,7 @@ function AboutUsStyleTwo({ sectionSpace }) {
             </Col>
             <Col xs={12} lg={6} className="align-self-center">
               <div className="about-us-img-wrap about-img-right">
-                <img src="/img/others/9.png" alt="About Us Image" />
+                <Image alt="" src="/img/others/9.png"  />
               </div>
             </Col>
           </Row>

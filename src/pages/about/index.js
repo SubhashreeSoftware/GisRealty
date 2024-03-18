@@ -18,7 +18,7 @@ import TeamItem from "@/components/team";
 import TeamData from '@/data/team';
 import { Modal } from 'react-bootstrap';
 import { useState } from 'react';
-
+import Image from "next/image";
 function AboutUs() {
   const agents = getProducts(TeamData, "buying", "featured", 3);
   const featureDataSorted = getProducts(featureData, "buying", "featured", 3);
@@ -166,7 +166,7 @@ function AboutUs() {
             <Row>
             <div className="ltn__team-item">
                       <div className="team-img">
-                        <img src={`/img/team/${data2.image}`} alt="Image" />
+                        <Image alt="" src={`/img/team/${data2.image}`}  />
                       </div>
                       <div className="team-info">
                         <h4>
@@ -179,7 +179,7 @@ function AboutUs() {
                             {/* <Modal.Title>{data2.name}</Modal.Title> */}
                           </Modal.Header>
                           <Modal.Body>
-                            <img src={`/img/team/${data2.image}`} alt="Image" />
+                            <Image alt="" src={`/img/team/${data2.image}`}  />
                             <p>{data2.additionalInfo}</p>
                           </Modal.Body>
                         </Modal>

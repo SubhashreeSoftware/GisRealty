@@ -6,7 +6,7 @@ import MobileMenu from "./elements/mobileMennu";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import clsx from "clsx";
+import clsx from "clsx";import Image from "next/image";
 import MenuList from "@/components/header/elements/menuList";
 const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
@@ -74,7 +74,7 @@ const HeaderTransparent = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <Image alt="" src="/img/logo-2.png"  />
                     </Link>
                   </div>
                 </div>

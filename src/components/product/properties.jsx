@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 const PropertyItem = ({ product, slug,baseUrl }) => {
   return (
     <>
       <div className="ltn__search-by-place-item">
         <div className="search-by-place-img">
           <Link href={`${baseUrl}/${slug}`}>
-            <img src={`/img/product-3/${product.productImg}`} alt="#" />
+            <Image alt="" src={`/img/product-3/${product.productImg}`}  />
           </Link>
           <div className="search-by-place-badge">
             <ul>

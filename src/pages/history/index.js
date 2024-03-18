@@ -14,7 +14,7 @@ import {
     FaAward,
     FaMedal,
 } from "react-icons/fa";
-
+import Image from "next/image";
 
 function HistoryPage() {
 
@@ -97,7 +97,7 @@ function HistoryPage() {
                                                 <Row>
                                                     <Col xs={12} lg={6} className="align-self-center">
                                                         <div className="about-us-img-wrap about-img-left">
-                                                            <img src="/img/img-slide/12.jpg" alt="Image" />
+                                                            <Image alt="" src="/img/img-slide/12.jpg"  />
                                                             <div className="ltn__history-icon">
                                                                 <FaAward />
                                                             </div>
@@ -122,7 +122,7 @@ function HistoryPage() {
                                                 <Row>
                                                     <Col xs={12} lg={6} className="align-self-center">
                                                         <div className="about-us-img-wrap about-img-left">
-                                                            <img src="/img/img-slide/11.jpg" alt="Image" />
+                                                            <Image alt="" src="/img/img-slide/11.jpg"  />
                                                             <div className="ltn__history-icon">
                                                                 <i className="icon-award"></i>
                                                             </div>
@@ -148,7 +148,7 @@ function HistoryPage() {
                                                 <Row>
                                                     <Col xs={12} lg={6} className="align-self-center">
                                                         <div className="about-us-img-wrap about-img-left">
-                                                            <img src="/img/img-slide/13.jpg" alt="Image" />
+                                                            <Image alt="" src="/img/img-slide/13.jpg"  />
                                                             <div className="ltn__history-icon">
                                                                 <FaMedal />
                                                             </div>
@@ -174,7 +174,7 @@ function HistoryPage() {
                                                 <Row>
                                                     <Col xs={12} lg={6} className="align-self-center">
                                                         <div className="about-us-img-wrap about-img-left">
-                                                            <img src="/img/img-slide/12.jpg" alt="Image" />
+                                                            <Image alt="" src="/img/img-slide/12.jpg"  />
                                                             <div className="ltn__history-icon">
                                                                 <FaAward />
                                                             </div>
@@ -200,7 +200,7 @@ function HistoryPage() {
                                                 <Row>
                                                     <Col xs={12} lg={6} className="align-self-center">
                                                         <div className="about-us-img-wrap about-img-left">
-                                                            <img src="/img/img-slide/11.jpg" alt="Image" />
+                                                            <Image alt="" src="/img/img-slide/11.jpg"  />
                                                             <div className="ltn__history-icon">
                                                                 <FaTrophy />
                                                             </div>

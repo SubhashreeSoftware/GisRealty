@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Col } from "react-bootstrap";
+import Image from "next/image";import { Col } from "react-bootstrap";
 import { FaArrowRight } from "react-icons/fa";
 const PortfolioitemTwo = ({ data, baseUrl, slug }) => {
   return (
@@ -12,7 +12,7 @@ const PortfolioitemTwo = ({ data, baseUrl, slug }) => {
     >
       <div className="ltn__gallery-item-inner">
         <div className="ltn__gallery-item-img">
-          <img src={`/img/gallery/${data.thumbImage}`} alt="Image" />
+          <Image alt="" src={`/img/gallery/${data.thumbImage}`}  />
           <span className="ltn__gallery-action-icon">
             <span>{<FaArrowRight />}</span>
           </span>

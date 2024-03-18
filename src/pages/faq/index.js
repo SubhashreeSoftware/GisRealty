@@ -20,7 +20,7 @@ import Accordion from "react-bootstrap/Accordion";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import CounterUp from "@/components/counterUp";
-
+import Image from "next/image";
 function Faq() {
   const [isOpen, setOpen] = useState(false);
 
@@ -108,9 +108,8 @@ function Faq() {
                       </Accordion.Header>
                       <Accordion.Body>
                         <div className="ltn__video-img alignleft">
-                          <img
+                          <Image alt=""
                             src="/img/bg/17.jpg"
-                            alt="video popup bg image"
                           />
                           <button
                             className="ltn__video-icon-2 ltn__video-icon-2-small"
@@ -266,7 +265,7 @@ function Faq() {
                   {/* <!-- Banner Widget --> */}
                   <div className="widget ltn__banner-widget">
                     <Link href="/shop">
-                      <img src="/img/banner/banner-3.jpg" alt="Banner Image" />
+                      <Image alt="" src="/img/banner/banner-3.jpg"  />
                     </Link>
                   </div>
                 </aside>

@@ -14,7 +14,7 @@ import {
   FaPhoneAlt,
 } from "react-icons/fa";
 import Link from "next/link";
-
+import Image from "next/image";
 const Wishlist = () => {
   const [open, setOpen] = useState(false);
   const [vissible, setVissible] = useState(false);
@@ -306,7 +306,7 @@ const Wishlist = () => {
                     </Accordion.Item>
                     <Accordion.Item eventKey="3">
                       <Accordion.Header>
-                        PayPal <img src="/img/icons/payment-3.png" alt="#" />
+                        PayPal <Image alt="" src="/img/icons/payment-3.png"  />
                       </Accordion.Header>
                       <Accordion.Body>
                         <p>

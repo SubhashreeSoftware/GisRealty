@@ -23,7 +23,7 @@ import testimonialData from "@/data/testimonial";
 import BlogItem from "@/components/blog";
 import blogData from "@/data/blog";
 import featuresData from "@/data/service";
-
+import Image from "next/image";
 function HomePage(props) {
   
   const { products } = useSelector((state) => state.product);
@@ -316,7 +316,7 @@ function HomePage(props) {
                           </Col>
                           <Col xs={12} lg={6}>
                             <div className="apartments-plan-img">
-                              <img src="/img/others/10.png" alt="#" />
+                              <Image alt="" src="/img/others/10.png"  />
                             </div>
                           </Col>
                         </Row>
@@ -363,7 +363,7 @@ function HomePage(props) {
                           </Col>
                           <Col xs={12} lg={6}>
                             <div className="apartments-plan-img">
-                              <img src="/img/others/10.png" alt="#" />
+                              <Image alt="" src="/img/others/10.png"  />
                             </div>
                           </Col>
                         </Row>
@@ -410,7 +410,7 @@ function HomePage(props) {
                           </Col>
                           <Col xs={12} lg={6}>
                             <div className="apartments-plan-img">
-                              <img src="/img/others/10.png" alt="#" />
+                              <Image alt="" src="/img/others/10.png"  />
                             </div>
                           </Col>
                         </Row>
@@ -457,7 +457,7 @@ function HomePage(props) {
                           </Col>
                           <Col xs={12} lg={6}>
                             <div className="apartments-plan-img">
-                              <img src="/img/others/10.png" alt="#" />
+                              <Image alt="" src="/img/others/10.png"  />
                             </div>
                           </Col>
                         </Row>
@@ -504,7 +504,7 @@ function HomePage(props) {
                           </Col>
                           <Col xs={12} lg={6}>
                             <div className="apartments-plan-img">
-                              <img src="/img/others/10.png" alt="#" />
+                              <Image alt="" src="/img/others/10.png"  />
                             </div>
                           </Col>
                         </Row>

@@ -12,7 +12,7 @@ import {
 } from "@/store/slices/cart-slice";
 import { getDiscountPrice, cartItemStock, productSlug } from "@/lib/product";
 import Link from "next/link";
-
+import Image from "next/image";
 const Cart = () => {
   const [quantityCount] = useState(1);
   const dispatch = useDispatch();
@@ -62,9 +62,9 @@ const Cart = () => {
                                 </td>
                                 <td className="cart-product-image">
                                   <Link href={`/shop/${slug}`}>
-                                    <img
+                                    <Image alt=""
                                       src={`/img/product/${imageCount}.png`}
-                                      alt="#"
+                                      
                                     />
                                   </Link>
                                 </td>

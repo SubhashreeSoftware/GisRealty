@@ -3,7 +3,7 @@ import Link from "next/link";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
 import { FaPlay, FaHome, FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
+import Image from "next/image";
 function HeroSectionStyleOne({ data }) {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
@@ -122,7 +122,7 @@ function HeroSectionStyleOne({ data }) {
                             item.variationLeft ? "slide-img-left" : ""
                           }`}
                         >
-                          <img src="img/slider/24.png" alt="#" />
+                          <Image alt="" src="img/slider/24.png"  />
                         </div>
                       </div>
                     </div>

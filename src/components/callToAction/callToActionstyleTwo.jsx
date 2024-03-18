@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-
+import Image from "next/image";
 const callToActionstyleTwo = () => {
   return (
     <>
@@ -35,10 +35,10 @@ const callToActionstyleTwo = () => {
           </Row>
         </Container>
         <div className="ltn__call-to-4-img-1">
-          <img src="/img/slider/21.png" alt="#" />
+          <Image alt="" src="/img/slider/21.png"  />
         </div>
         <div className="ltn__call-to-4-img-2">
-          <img src="/img/bg/11.png" alt="#" />
+          <Image alt="" src="/img/bg/11.png"  />
         </div>
       </div>
     </>

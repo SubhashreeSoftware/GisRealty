@@ -13,7 +13,7 @@ import {
 import { productSlug, getDiscountPrice } from "@/lib/product";
 import FollowUs from "@/components/followUs";
 import Tags from "@/components/tags";
-
+import Image from "next/image";
 const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
   const product = popularProducts[0];
   const discountedPrice = getDiscountPrice(
@@ -35,9 +35,9 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
         {/* <!-- Author Widget --> */}
         <div className="widget ltn__author-widget">
           <div className="ltn__author-widget-inner text-center">
-            <img
+            <Image alt=""
               src={`/img/team/${product.agent.img}`}
-              alt={`${product.agent.fullName}`}
+              
             />
             <h5>{product.agent.fullName}</h5>
             <small>{product.agent.designation}</small>
@@ -149,9 +149,9 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                   <div className="top-rated-product-item clearfix">
                     <div className="top-rated-product-img">
                       <Link href={`/shop/${slug}`}>
-                        <img
+                        <Image alt=""
                           src={`/img/product/${key}.png`}
-                          alt={product.title}
+                          
                         />
                       </Link>
                     </div>
@@ -253,15 +253,15 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                 >
                   <div className="product-img">
                     <Link href={`/shop/${slug}`}>
-                      <img
+                      <Image alt=""
                         src={`/img/product-3/${product.productImg}`}
-                        alt={slug}
+                        
                       />
                     </Link>
                     <div className="real-estate-agent">
                       <div className="agent-img">
                         <Link href="#">
-                          <img src={`/img/blog/author.jpg`} alt="#" />
+                          <Image alt="" src={`/img/blog/author.jpg`}  />
                         </Link>
                       </div>
                     </div>
@@ -321,7 +321,7 @@ const BlogSideBar = ({ popularProducts, topRatedProducts, latestdBlogs }) => {
                   <div className="popular-post-widget-item clearfix">
                     <div className="popular-post-widget-img">
                       <Link href={`/blog/${slug}`}>
-                        <img src={`/img/team/${imagecount}.jpg`} alt="#" />
+                        <Image alt="" src={`/img/team/${imagecount}.jpg`}  />
                       </Link>
                     </div>
                     <div className="popular-post-widget-brief">

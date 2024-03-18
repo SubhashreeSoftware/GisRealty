@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import { LayoutOne } from "@/layouts";
 import ShopBreadCrumb from "@/components/breadCrumbs/shop";
-
+import Image from "next/image";
 export default function plot() {
   return (
     <div>
@@ -23,17 +23,17 @@ export default function plot() {
          <Row>
          <Col xs={12} lg={6} >
            <div className="ltn__blog-img">
-             <img
+             <Image alt=""
                src={`/img/service/1.jpg`}
-               alt="Image"
+               
              />
            </div>
            </Col>
            <Col xs={12} lg={6} >
            <div className="ltn__blog-img">
-             <img
+             <Image alt=""
                src={`/img/service/1.jpg`}
-               alt="Image"
+               
              />
            </div>
            </Col>
@@ -51,16 +51,16 @@ Customer Service Excellence: Our dedicated customer service team is committed to
 <br></br><br></br>Order Fulfillment and Logistics: Streamline order processing, shipping, and delivery with our efficient order fulfillment and logistics solutions. We ensure timely and accurate delivery of products, minimizing delays and maximizing customer satisfaction. Product Training and Education: Empower customers to make the most of their purchases with comprehensive product training and education programs. From online tutorials to in-person workshops, we provide valuable resources to help customers unlock the full potential of their products.</p>
            {/* <Row>
              <Col xs={12} lg={6}>
-               <img
+               <Image alt=""
                  src={`/img/service/${service.captions.image1}`}
-                 alt="image"
+                 
                />
                <label>{service.captions.caption}</label>
              </Col>
              <Col xs={12} lg={6}>
-               <img
+               <Image alt=""
                  src={`/img/service/${service.captions.image2}`}
-                 alt="image"
+                 
                />
              </Col>
            </Row>

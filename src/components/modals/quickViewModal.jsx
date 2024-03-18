@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { useState } from "react";
+import Image from "next/image";import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { getProductCartQuantity } from "@/lib/product";
@@ -79,7 +79,7 @@ const QuickViewModal = ({
             <div className="row">
               <div className="col-lg-6 col-12">
                 <div className="modal-product-img">
-                  <img src="/img/product/4.png" alt="#" />
+                  <Image alt="" src="/img/product/4.png"  />
                 </div>
               </div>
               <div className="col-lg-6 col-12">

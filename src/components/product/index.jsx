@@ -9,7 +9,7 @@ import {
   deleteFromWishlist,
 } from "@/store/slices/wishlist-slice";
 
-import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+import Image from "next/image";import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 
 const ProductItem = ({
@@ -55,9 +55,8 @@ const ProductItem = ({
       <div className="ltn__product-item ltn__product-item-4">
         <div className="product-img">
           <Link href={`/${baseUrl}/${slug}`}>
-            <img
+            <Image alt=""
               src={`/img/product-3/${productData.productImg}`}
-              alt={`${productData.title}`}
             />
           </Link>
           <div className="product-badge">
@@ -145,9 +144,8 @@ const ProductItem = ({
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href="/team-details">
-                <img
+                <Image alt=""
                   src={`/img/blog/${productData.agent.img}`}
-                  alt={`${productData.agent.fullName}`}
                 />
               </Link>
             </div>

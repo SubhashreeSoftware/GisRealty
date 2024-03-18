@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useState } from 'react';
 import { Modal } from 'react-bootstrap';
+import Image from "next/image";
 import { FaInstagram, FaTwitter, FaFacebookF, FaLinkedin } from "react-icons/fa";
 const TeamItem = ({ data, baseUrl, slug, additionalClassname, additionalInfo }) => {
   const [showModal, setShowModal] = useState(false);
@@ -73,7 +74,7 @@ const TeamItem = ({ data, baseUrl, slug, additionalClassname, additionalInfo }) 
 
       <div className={`ltn__team-item ${additionalClassname}`}>
         <div className="team-img">
-          <img src={`/img/team/${data.image}`} alt="Image" />
+          <Image alt="" src={`/img/team/${data.image}`}  />
         </div>
         <div className="team-info">
         <h4>
@@ -86,7 +87,7 @@ const TeamItem = ({ data, baseUrl, slug, additionalClassname, additionalInfo }) 
           {/* <Modal.Title>{data.name}</Modal.Title> */}
         </Modal.Header>
         <Modal.Body>
-        <img src={`/img/team/${data.image}`} alt="Image" />
+        <Image alt="" src={`/img/team/${data.image}`}  />
 
           <p>{data.additionalInfo}</p>
         </Modal.Body>
