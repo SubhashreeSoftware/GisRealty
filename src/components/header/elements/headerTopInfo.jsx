@@ -18,7 +18,7 @@ const HeaderTopInfo = function () {
               #202, M Square Building
 Patrika Nagar, Street No 1
 Madhapur, Hyderabad
-Telengana , 500081, India
+Telangana , 500081, India
             </Link>
           </li>
         </ul>

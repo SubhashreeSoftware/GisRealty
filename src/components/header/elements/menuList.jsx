@@ -26,7 +26,7 @@ const MenuList = ({ addListing }) => {
          
           <li>
             <Link href="#">
-            Residential
+            Residential Properties
               <span className="float-end">
                 <FaAngleDoubleRight />
               </span>
@@ -53,7 +53,10 @@ const MenuList = ({ addListing }) => {
             </ul>
           </li>
           <li>
-            <Link href="/shop">Commercial</Link>
+            <Link href="/shop">Commercial Properties</Link>
+          </li>
+          <li>
+            <Link href="/shop/list">Land Services</Link>
           </li>
           <li>
             <Link href="#">
@@ -72,15 +75,7 @@ const MenuList = ({ addListing }) => {
               <li>
                 <Link href="/wishlist">Post Sales</Link>
               </li>
-            </ul>
-          </li>
-          <li>
-            <Link href="/shop/list">Land Services</Link>
-          </li>
-          <li>
-            <Link href="/shop">Properties Page</Link>
-          </li>
-        
+             
           <li>
             <Link href="/shop/left-sidebar">Investment Banking</Link>
           </li>
@@ -100,11 +95,15 @@ const MenuList = ({ addListing }) => {
             <Link href="/shop/right-sidebar">Investment Management</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Flexible Workspaces</Link>
-          </li>
-          <li>
             <Link href="/shop/right-sidebar">Apartment and society Management</Link>
           </li>
+        
+            </ul>
+          </li>
+          <li>
+            <Link href="/shop/right-sidebar">Flexible Workspaces</Link>
+          </li>
+        
         
         </ul>
       </li>

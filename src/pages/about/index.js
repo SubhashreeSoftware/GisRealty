@@ -146,19 +146,9 @@ function AboutUs() {
 
         <AboutUsStyleOne sectionSpace="pb-90" />
 
-        <Feature
-          classes="section-bg-1"
-          servicebtn={true}
-          iconTag={false}
-          data={featureDataSorted}
-          titleSectionData={{
-            sectionClasses: "text-center",
-            subTitle: "Our Services",
-            title: "Our Main Focus",
-          }}
-        />
+       
 
-        <div className="ltn__team-area pt-115 pb-90">
+        <div className="ltn__team-area pt-20 pb-90">
           <Container>
             <Row>
               <Col lg={12}>
@@ -222,7 +212,17 @@ function AboutUs() {
           </Container>
         </div>
 
-
+        <Feature
+          classes="section-bg-1"
+          servicebtn={true}
+          iconTag={false}
+          data={featureDataSorted}
+          titleSectionData={{
+            sectionClasses: "text-center",
+            subTitle: "Our Services",
+            title: "Our Main Focus",
+          }}
+        />
 
 
         {/* <!-- BLOG AREA START (blog-3) -->  */}

@@ -42,7 +42,7 @@ const Footer = function () {
                           <p>202, M Square Building
 Patrika Nagar, Street No 1
 Madhapur, Hyderabad
-Telengana , 500081, India
+Telangana , 500081, India
 </p>
                         </div>
                       </li>
@@ -213,14 +213,7 @@ Telengana , 500081, India
                   </p>
                 </div>
               </Col>
-              <Col xs={12} md={4}>
-                <div className="ltn__copyright-design clearfix">
-                  <p>
-                  Powered by CreatoryMedia.
-                    <span className="current-year"></span>
-                  </p>
-                </div>
-              </Col>
+             
               <Col xs={12} md={4} className="align-self-center">
                 <div className="ltn__copyright-menu text-end">
                   <ul>
@@ -234,6 +227,16 @@ Telengana , 500081, India
                       <Link href="#">Privacy & Policy</Link>
                     </li>
                   </ul>
+                </div>
+              </Col>
+              <Col xs={12} md={4}>
+                <div className="ltn__copyright-design clearfix">
+                  <Link href="https://creatorymedia.in/">
+                  <p>
+                  Powered by CreatoryMedia.
+                    <span className="current-year"></span>
+                  </p></Link>
+                  
                 </div>
               </Col>
             </Row>

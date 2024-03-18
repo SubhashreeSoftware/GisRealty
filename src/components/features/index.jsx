@@ -56,14 +56,18 @@ function Feature({
                       
                         <Col xs={6}>
                       <Link href={`/service/${slug}`}>
+                      
+
                           <p style={{ color: '#fff', fontWeight: "normal", 
                         textTransform: 'capitalize', 
-                        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore
+                        fontSize: '15px', alignItems: "center", paddingTop: 10 }}>{item.buttonText}
                           {/* <img
                             src={`/img/icons/icon-img/right-arrow.png`}
                             alt={`${item.title}`}
                             style={{ height: '1%', width: '1%' }}
                           /> */}
+<i className="flaticon-right-arrow"></i>
+
                         </p>
                         </Link>
                         </Col>
@@ -88,9 +92,9 @@ function Feature({
                           className="ltn__service-btn"
                           href={`/service/${slug}`}
                         >
-                          {item.buttonText}
+                          {/* {item.buttonText}
 
-                          <i className="flaticon-right-arrow"></i>
+                          <i className="flaticon-right-arrow"></i> */}
                         </Link>
                       ) : (
                         ""
