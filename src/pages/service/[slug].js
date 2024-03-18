@@ -13,7 +13,7 @@ import Value from "@/components/Value";
 import featureData from "@/data/residential"
 import value from "@/data/value"
 
-function ServiceDetails({ service }) {
+const ServiceDetails = ({ service }) => {
   const services = getProducts(featureData, "buying", "featured", 6);
   const values = getProducts(value, "buying",  6);
   const firstLetter = service.shortDescription.slice(0, 1);

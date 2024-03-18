@@ -44,7 +44,7 @@ export default function plot() {
              <span className="ltn__first-letter">E</span>
              levate Customer Experience with Post-Sales Support Solutions
            </p>
-           <p>In today's competitive landscape, exceptional post-sales support is essential for fostering customer loyalty and driving long-term success. At GIS, we understand the importance of delivering outstanding post-sales experiences that exceed customer expectations and maximize satisfaction.
+           <p>In today &apos; competitive landscape, exceptional post-sales support is essential for fostering customer loyalty and driving long-term success. At GIS, we understand the importance of delivering outstanding post-sales experiences that exceed customer expectations and maximize satisfaction.
 </p>
 <p>
 Customer Service Excellence: Our dedicated customer service team is committed to providing prompt and effective assistance to address customer inquiries, resolve issues, and ensure a positive experience throughout the post-sales journey. Technical Support: From troubleshooting technical issues to providing product demonstrations and training, our technical support specialists are equipped with the knowledge and expertise to assist customers with any technical challenges they may encounter.
