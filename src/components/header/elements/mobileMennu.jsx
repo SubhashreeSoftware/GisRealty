@@ -18,7 +18,7 @@ import {
   slideToggle,
 } from "@/lib/product";
 import { useSelector } from "react-redux";
-
+import Image from "next/image";
 const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
   const { cartItems } = useSelector((state) => state.cart);
 
@@ -63,7 +63,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-                <img src="/gisfavicon.jpeg" alt="Logo" style={{height: 50, width: 50}} />
+                <Image alt="" src="/gisfavicon.jpeg"  style={{height: 50, width: 50}} />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">

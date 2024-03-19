@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import { useSelector } from "react-redux";
 import { getProducts, productSlug, getDiscountPrice } from "@/lib/product";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
@@ -371,7 +371,7 @@ function HomePageSix(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="/img/others/10.png" alt="#" />
+                                                            <Image alt="" src="/img/others/10.png"  />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -418,7 +418,7 @@ function HomePageSix(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="/img/others/10.png" alt="#" />
+                                                            <Image alt="" src="/img/others/10.png"  />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -465,7 +465,7 @@ function HomePageSix(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="/img/others/10.png" alt="#" />
+                                                            <Image alt="" src="/img/others/10.png"  />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -512,7 +512,7 @@ function HomePageSix(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="/img/others/10.png" alt="#" />
+                                                            <Image alt="" src="/img/others/10.png"  />
                                                         </div>
                                                     </Col>
                                                 </Row>
@@ -559,7 +559,7 @@ function HomePageSix(props) {
                                                     </Col>
                                                     <Col xs={12} lg={6}>
                                                         <div className="apartments-plan-img">
-                                                            <img src="/img/others/10.png" alt="#" />
+                                                            <Image alt="" src="/img/others/10.png"  />
                                                         </div>
                                                     </Col>
                                                 </Row>

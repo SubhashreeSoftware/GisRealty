@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import Image from "next/image";import { useState } from 'react'
 import { LayoutOne } from "@/layouts";
 import { Container, Row, Col } from "react-bootstrap";
 import { getProducts, productSlug } from "@/lib/product";
@@ -160,9 +160,9 @@ function Portfolio() {
                   {brandLogoData.map((logo, key) => {
                     return (
                       <div key={key} className="ltn__brand-logo-item">
-                        <img
+                        <Image alt=""
                           src={`/img/brand-logo/${logo.image}`}
-                          alt="Brand Logo"
+                          
                         />
                       </div>
                     );

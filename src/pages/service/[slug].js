@@ -12,13 +12,13 @@ import Residential from "@/components/Residential";
 import Value from "@/components/Value";
 import featureData from "@/data/residential"
 import value from "@/data/value"
-
-function ServiceDetails({ service }) {
+import Image from "next/image";
+const ServiceDetails = ({ service }) => {
   const services = getProducts(featureData, "buying", "featured", 6);
   const values = getProducts(value, "buying",  6);
   const firstLetter = service.shortDescription.slice(0, 1);
   const firstToEnd = service.shortDescription.slice(1);
-
+  const [state, setState] = useState(initialState);
   const renderServiceList = () => {
     if (service.title === 'Value Added Services') {
       return (
@@ -122,17 +122,17 @@ function ServiceDetails({ service }) {
                 <Row>
                 <Col xs={12} lg={6} >
                   <div className="ltn__blog-img">
-                    <img
+                    <Image alt=""
                       src={`/img/service/${service.thumbImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   </Col>
                   <Col xs={12} lg={6} >
                   <div className="ltn__blog-img">
-                    <img
+                    <Image alt=""
                       src={`/img/service/${service.thumbImage}`}
-                      alt="Image"
+                      
                     />
                   </div>
                   </Col>
@@ -146,16 +146,16 @@ function ServiceDetails({ service }) {
                   <p>{service.fullDescription}</p>
                   {/* <Row>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${service.captions.image1}`}
-                        alt="image"
+                        
                       />
                       <label>{service.captions.caption}</label>
                     </Col>
                     <Col xs={12} lg={6}>
-                      <img
+                      <Image alt=""
                         src={`/img/service/${service.captions.image2}`}
-                        alt="image"
+                        
                       />
                     </Col>
                   </Row>
@@ -237,7 +237,7 @@ function ServiceDetails({ service }) {
                   </div> 
                   <div className="widget ltn__banner-widget">
                     <Link href="/shop/grid">
-                      <img src="/img/banner/banner-1.jpg" alt="Banner Image" />
+                      <Image alt="" src="/img/banner/banner-1.jpg"  />
                     </Link>
                   </div> */}
                 </aside>

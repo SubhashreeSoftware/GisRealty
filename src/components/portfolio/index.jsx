@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Col } from "react-bootstrap";
+import Image from "next/image";import { Col } from "react-bootstrap";
 import { FaSearch } from "react-icons/fa";
 const Portfolioitem = ({ data, baseUrl, slug, setBasicExampleOpen }) => {
   return (
@@ -9,7 +9,7 @@ const Portfolioitem = ({ data, baseUrl, slug, setBasicExampleOpen }) => {
           className="ltn__gallery-item-img"
           onClick={() => setBasicExampleOpen(true)}
         >
-          <img src={`/img/gallery/${data.thumbImage}`} alt="Image" />
+          <Image alt="" src={`/img/gallery/${data.thumbImage}`}  />
           <span className="ltn__gallery-action-icon">
             <span>{<FaSearch />}</span>
           </span>

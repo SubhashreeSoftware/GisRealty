@@ -1,6 +1,6 @@
 import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-
+import Image from "next/image";
 function BrandCarouselOne({ data }) {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
@@ -75,7 +75,7 @@ function BrandCarouselOne({ data }) {
         {data.map((item, key) => {
           return (
             <div key={key} className="ltn__brand-logo-item">
-              <img src={`/img/brand-logo/${item.image}`} alt="Brand Logo" />
+              <Image alt="" src={`/img/brand-logo/${item.image}`}  />
             </div>
           );
         })}

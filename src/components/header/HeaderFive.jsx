@@ -10,6 +10,7 @@ import Col from "react-bootstrap/Col";
 import clsx from "clsx";
 import { FaSearch, FaPhoneAlt, FaCartArrowDown } from "react-icons/fa";
 import MenuList from "@/components/header/elements/menuList";
+import Image from "next/image";
 const HeaderStyleFive = function ({ SetToggleClassName }) {
   const [cartMenuOpener, cartMenuOpenerSet] = useState(false);
   const [overlayBtn, SetoverlayBtn] = useState(false);
@@ -99,7 +100,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      <Image alt="" src="/img/logo.png"  />
                     </Link>
                   </div>
                 </div>
@@ -283,7 +284,7 @@ const HeaderStyleFive = function ({ SetToggleClassName }) {
                 <div className="sticky-logo">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/img/logo.png" alt="Logo" />
+                      <Image alt="" src="/img/logo.png"  />
                     </Link>
                   </div>
                 </div>

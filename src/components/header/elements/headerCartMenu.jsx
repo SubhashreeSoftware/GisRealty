@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FaTimes } from "react-icons/fa";
 import { useDispatch, useSelector } from "react-redux";
 import { getDiscountPrice, productSlug } from "@/lib/product";
-import { deleteFromCart } from "@/store/slices/cart-slice";
+import { deleteFromCart } from "@/store/slices/cart-slice";import Image from "next/image";
 const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
   let cartTotalPrice = 0;
   const { cartItems } = useSelector((state) => state.cart);
@@ -36,9 +36,9 @@ const HeaderCartMenu = function ({ cartMenuOpener, closeSideBar }) {
                   <div key={key} className="mini-cart-item clearfix">
                     <div className="mini-cart-img">
                       <Link href={`/shop/${slug}`}>
-                        <img
+                        <Image alt=""
                           src={`/img/product/${imagecount}.png`}
-                          alt="Image"
+                          
                         />
                       </Link>
                       <span

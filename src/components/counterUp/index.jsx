@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { VisibilityObserver } from "reactjs-visibility";
+import Image from "next/image";
 function CounterUp() {
   const [loading, setLoading] = useState(false);
 
@@ -25,7 +26,7 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                <img
+                <Image alt=""
                 style={{ height:"50%", width: "50%" }}
                           src={`/img/icons/icon-img/ap.png`}
                         />
@@ -50,7 +51,7 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                <img
+                <Image alt=""
                 style={{ height:"30%", width: "30%" }}
                           src={`/img/icons/icon-img/pp.png`}
                         /></div>
@@ -74,7 +75,7 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                <img
+                <Image alt=""
                 style={{ height:"50%", width: "50%" }}
                           src={`/img/icons/icon-img/villa2.png`}
                         /></div>
@@ -98,7 +99,7 @@ function CounterUp() {
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
                 <div className="counter-icon">
-                <img
+                <Image alt=""
                 style={{ height:"30%", width: "30%" }}
                           src={`/img/icons/icon-img/bb.png`}
                         /></div>

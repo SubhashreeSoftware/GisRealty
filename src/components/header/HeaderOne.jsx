@@ -9,6 +9,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import clsx from "clsx";
+import Image from "next/image";
 import { FaCartArrowDown, FaRegUser, FaSearch, FaTimes } from "react-icons/fa";
 import MenuList from "@/components/header/elements/menuList";
 const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
@@ -102,7 +103,7 @@ const HeaderStyleOne = function ({ SetToggleClassName, topbar }) {
                 <div className="site-logo-wrap">
                   <div className="site-logo">
                     <Link href="/">
-                      <img src="/gisfavicon.jpeg" alt="Logo"  width="25%" />
+                      <Image alt="" src="/gisfavicon.jpeg"   width="25%" />
                     </Link>
                   </div>
                 </div>

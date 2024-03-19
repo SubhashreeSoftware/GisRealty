@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link";import Image from "next/image";
 import { FaRegUser, FaTags, FaRegCalendarAlt } from "react-icons/fa";
 const BlogItem = ({ baseUrl, data, slug }) => {
   return (
@@ -6,7 +6,7 @@ const BlogItem = ({ baseUrl, data, slug }) => {
       <div className="ltn__blog-item ltn__blog-item-3">
         <div className="ltn__blog-img">
           <Link href={`${baseUrl}/${slug}`}>
-            <img src={`/img/blog/${data.thumbImg}`} alt={`${data.title}`} />
+            <Image alt="" src={`/img/blog/${data.thumbImg}`}  />
           </Link>
         </div>
         <div className="ltn__blog-brief">

@@ -12,7 +12,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt
 } from "react-icons/fa";
-
+import Image from "next/image";
 const Footer = function () {
   return (
     <>
@@ -25,7 +25,7 @@ const Footer = function () {
                 <div className="footer-widget footer-about-widget">
                   <div className="footer-logo">
                     <div className="site-logo">
-                      <img src="/gisfavicon.jpeg" alt="Logo" />
+                      <Image alt="" src="/gisfavicon.jpeg"  />
                     </div>
                   </div>
                   <p>
@@ -191,7 +191,7 @@ const Footer = function () {
                     </form>
                   </div>
                   <h5 className="mt-30">We Accept</h5>
-                  <img src="/img/icons/payment-4.png" alt="Payment Image" />
+                  <Image alt="" src="/img/icons/payment-4.png"  />
                 </div>
               </Col>
             </Row>

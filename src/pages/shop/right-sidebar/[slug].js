@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Image from "next/image";import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import Link from "next/link";
 import Slider from "react-slick";
@@ -203,9 +203,9 @@ function ProductDetails({ product }) {
                   <div className="col-lg-12" key={key}>
                     <div className="ltn__img-slide-item-4">
                       <Link href="#?">
-                        <img
+                        <Image alt=""
                           src={`/img/img-slide/${single.img}`}
-                          alt={`${single.title}`}
+                          
                         />
                       </Link>
                     </div>
@@ -401,20 +401,20 @@ function ProductDetails({ product }) {
                           href={`/img/others/${product.gallery.img1}`}
                           data-rel="lightcase:myCollection"
                         >
-                          <img
+                          <Image alt=""
                             className="mb-30"
                             src={`/img/others/${product.gallery.img1}`}
-                            alt={`${product.title}`}
+                            
                           />
                         </Link>
                         <Link
                           href={`/img/others/${product.gallery.img2}`}
                           data-rel="lightcase:myCollection"
                         >
-                          <img
+                          <Image alt=""
                             className="mb-30"
                             src={`/img/others/${product.gallery.img2}`}
-                            alt={`${product.title}`}
+                            
                           />
                         </Link>
                       </div>
@@ -423,10 +423,10 @@ function ProductDetails({ product }) {
                           href={`/img/others/${product.gallery.img3}`}
                           data-rel="lightcase:myCollection"
                         >
-                          <img
+                          <Image alt=""
                             className="mb-30"
                             src={`/img/others/${product.gallery.img3}`}
-                            alt={`${product.title}`}
+                            
                           />
                         </Link>
                       </div>
@@ -530,7 +530,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="/img/others/10.png" alt="#" />
+                                  <Image alt="" src="/img/others/10.png"  />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -587,7 +587,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="/img/others/10.png" alt="#" />
+                                  <Image alt="" src="/img/others/10.png"  />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -644,7 +644,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="/img/others/10.png" alt="#" />
+                                  <Image alt="" src="/img/others/10.png"  />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -701,7 +701,7 @@ function ProductDetails({ product }) {
                             <div className="row">
                               <div className="col-lg-7">
                                 <div className="apartments-plan-img">
-                                  <img src="/img/others/10.png" alt="#" />
+                                  <Image alt="" src="/img/others/10.png"  />
                                 </div>
                               </div>
                               <div className="col-lg-5">
@@ -814,7 +814,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="/img/testimonial/1.jpg" alt="Image" />
+                                <Image alt="" src="/img/testimonial/1.jpg"  />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>
@@ -863,7 +863,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="/img/testimonial/3.jpg" alt="Image" />
+                                <Image alt="" src="/img/testimonial/3.jpg"  />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>
@@ -912,7 +912,7 @@ function ProductDetails({ product }) {
                           <li>
                             <div className="ltn__comment-item clearfix">
                               <div className="ltn__commenter-img">
-                                <img src="/img/testimonial/2.jpg" alt="Image" />
+                                <Image alt="" src="/img/testimonial/2.jpg"  />
                               </div>
                               <div className="ltn__commenter-comment">
                                 <h6>
@@ -1089,9 +1089,9 @@ function ProductDetails({ product }) {
                   {/* <!-- Author Widget --> */}
                   <div className="widget ltn__author-widget">
                     <div className="ltn__author-widget-inner text-center">
-                      <img
+                      <Image alt=""
                         src={`/img/team/${product.agent.img}`}
-                        alt={`${product.agent.fullName}`}
+                        
                       />
                       <h5>{product.agent.fullName}</h5>
                       <small>{product.agent.designation}</small>
@@ -1215,9 +1215,9 @@ function ProductDetails({ product }) {
                             <div className="top-rated-product-item clearfix">
                               <div className="top-rated-product-img">
                                 <a href={slug}>
-                                  <img
+                                  <Image alt=""
                                     src={`/img/product/${key}.png`}
-                                    alt={product.title}
+                                    
                                   />
                                 </a>
                               </div>
@@ -1319,15 +1319,15 @@ function ProductDetails({ product }) {
                           >
                             <div className="product-img">
                               <Link href={slug}>
-                                <img
+                                <Image alt=""
                                   src={`/img/product-3/${product.productImg}`}
-                                  alt={slug}
+                                  
                                 />
                               </Link>
                               <div className="real-estate-agent">
                                 <div className="agent-img">
                                   <Link href={slug}>
-                                    <img src={`/img/blog/author.jpg`} alt="#" />
+                                    <Image alt="" src={`/img/blog/author.jpg`}  />
                                   </Link>
                                 </div>
                               </div>
@@ -1389,9 +1389,9 @@ function ProductDetails({ product }) {
                             <div className="popular-post-widget-item clearfix">
                               <div className="popular-post-widget-img">
                                 <Link href={`/blog/${slug}`}>
-                                  <img
+                                  <Image alt=""
                                     src={`/img/team/${imagecount}.jpg`}
-                                    alt="#"
+                                    
                                   />
                                 </Link>
                               </div>

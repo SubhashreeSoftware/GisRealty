@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import {
   FaInstagram,
   FaTwitter,
@@ -37,9 +37,9 @@ function TeamDetails({ team }) {
               <Col xs={12} lg={4}>
                 <div className="ltn__team-details-member-info text-center mb-40">
                   <div className="team-details-img">
-                    <img
+                    <Image alt=""
                       src={`/img/team/${team.image}`}
-                      alt="Team Member Image"
+                      
                     />
                   </div>
                   <h2>{team.name}</h2>

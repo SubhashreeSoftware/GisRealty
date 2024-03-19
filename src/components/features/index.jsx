@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import TitleSection from "@/components/titleSection";
-import { productSlug } from "@/lib/product";
+import { productSlug } from "@/lib/product";import Image from "next/image";
 function Feature({
   data,
   iconTag,
@@ -41,9 +41,9 @@ function Feature({
                           <i className={`${item.icon}`}></i>
                         </span>
                       ) : (
-                        <img
+                        <Image alt=""
                           src={`/img/icons/icon-img/${item.img}`}
-                          alt={`${item.title}`}
+                          
                         />
                       )} */}
                       <div style={{ position: 'absolute', top: '80%', flexDirection: "row", width: "100%" }}>
@@ -61,9 +61,9 @@ function Feature({
                           <p style={{ color: '#fff', fontWeight: "normal", 
                         textTransform: 'capitalize', 
                         fontSize: '15px', alignItems: "center", paddingTop: 10 }}>{item.buttonText}
-                          {/* <img
+                          {/* <Image alt=""
                             src={`/img/icons/icon-img/right-arrow.png`}
-                            alt={`${item.title}`}
+                            
                             style={{ height: '1%', width: '1%' }}
                           /> */}
 <i className="flaticon-right-arrow"></i>

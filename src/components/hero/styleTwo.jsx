@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Link from "next/link";
+import Image from "next/image";import Link from "next/link";
 import Slider from "react-slick";
 import ModalVideo from "react-modal-video";
 import {
@@ -215,7 +215,7 @@ function HeroSectionStyleTwo({ data }) {
                             item.variationLeft ? "slide-img-left" : ""
                           }`}
                         >
-                          <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                          <Image alt="" src={`/img/slider/${item.heroimage}`}  />
                         </div>
                       </Col>
                     </Row>
@@ -258,7 +258,7 @@ function HeroSectionStyleTwo({ data }) {
               {data.map((item, key) => {
                 return (
                   <div className="image-slide-item" key={key}>
-                    <img src={`/img/slider/${item.heroimage}`} alt="#" />
+                    <Image alt="" src={`/img/slider/${item.heroimage}`}  />
                   </div>
                 );
               })}

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Image from "next/image";import Link from "next/link";
 import { FaStar } from "react-icons/fa";
 
 const TestimonialCarouselItemTwo = ({ data }) => {
@@ -9,7 +9,7 @@ const TestimonialCarouselItemTwo = ({ data }) => {
           <div className="ltn__testimoni-author-ratting">
             <div className="ltn__testimoni-info-inner">
               <div className="ltn__testimoni-img">
-                <img src={`/img/testimonial/${data.img}`} alt="#" />
+                <Image alt="" src={`/img/testimonial/${data.img}`}  />
               </div>
               <div className="ltn__testimoni-name-designation">
                 <h5>{data.name}</h5>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useDispatch } from "react-redux";
 import { addToCart } from "@/store/slices/cart-slice";
 import { useState } from "react";
+import Image from "next/image";
 import {
   addToWishlist,
   deleteFromWishlist,
@@ -49,7 +50,7 @@ const VillaProduct = ({
       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
         <div className="product-img">
           <Link href={`/${baseUrl}/${slug}`}>
-            <img
+            <Image alt=""
               src={`/img/product-3/5.jpg`}
             //   alt={`${productData.title}`}
             />
@@ -102,7 +103,7 @@ const VillaProduct = ({
       <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
         <div className="product-img">
           {/* <Link href={`/${baseUrl}/${slug}`}> */}
-            <img
+            <Image alt=""
               src={`/img/product-3/5.jpg`}
             //   alt={`${productData.title}`}
             />

@@ -2,7 +2,7 @@ import { Col, Row } from "react-bootstrap";
 import Link from "next/link";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
-
+import Image from "next/image";
 const UpCommingcarousel = () => {
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
     <button
@@ -52,7 +52,7 @@ const UpCommingcarousel = () => {
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="/img/product-3/3.jpg" alt="#" />
+                  <Image alt="" src="/img/product-3/3.jpg"  />
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
@@ -97,7 +97,7 @@ const UpCommingcarousel = () => {
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="/img/product-3/2.jpg" alt="#" />
+                  <Image alt="" src="/img/product-3/2.jpg"  />
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
@@ -140,7 +140,7 @@ const UpCommingcarousel = () => {
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="/img/product-3/7.jpg" alt="#" />
+                  <Image alt="" src="/img/product-3/7.jpg"  />
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">

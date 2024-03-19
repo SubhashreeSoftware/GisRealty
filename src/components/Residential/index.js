@@ -2,6 +2,7 @@ import Link from "next/link";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "next/image";
 import TitleSection from "@/components/titleSection";
 import { productSlug } from "@/lib/product";
 function Residential({
@@ -42,9 +43,9 @@ function Residential({
                           <i className={`${item.icon}`}></i>
                         </span>
                       ) : ( 
-                        <img
+                        <Image alt=""
                           src={`/img/icons/icon-img/${item.img}`}
-                          alt={`${item.title}`}
+                          
                         />
                        )} */}
                        <div style={{ position: 'absolute', top: '85%', flexDirection: "row", width: "100%" }}>
@@ -59,9 +60,9 @@ function Residential({
         <Link href={`/shop/apartmentgrid`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
         fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
-            <img
+            <Image alt=""
                       src={`/img/icons/icon-img/right-arrow.png`}
-                      alt={`${item.title}`}
+                      
                       style={{height: '5%', width: '6%'}}
                     />
     </p></Link>
@@ -69,9 +70,9 @@ function Residential({
         <Link href={`/shop/villagrid`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
         fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
-    <img
+    <Image alt=""
                       src={`/img/icons/icon-img/right-arrow.png`}
-                      alt={`${item.title}`}
+                      
                       style={{height: '5%', width: '6%'}}
                     />
     </p></Link>
@@ -79,9 +80,9 @@ function Residential({
         <Link href={`/shop/plot`}><p style={{ color: '#fff',fontWeight: "normal", 
         textTransform: 'capitalize', paddingBottom: 20, 
         fontSize: '15px', alignItems: "center", paddingTop: 10 }}>Explore 
-                    <img
+                    <Image alt=""
                       src={`/img/icons/icon-img/right-arrow.png`}
-                      alt={`${item.title}`}
+                      
                       style={{height: '5%', width: '6%'}}
                     />
     </p></Link>
@@ -92,9 +93,9 @@ function Residential({
             <p style={{ color: '#fff',fontWeight: "normal", 
             textTransform: 'capitalize', paddingBottom: 20, 
             fontSize: '15px', alignItems: "center" }}>Explore 
-        <img
+        <Image alt=""
                           src={`/img/icons/icon-img/right-arrow.png`}
-                          alt={`${item.title}`}
+                          
                           style={{height: '5%', width: '6%'}}
                         />
         </p></Link> */}

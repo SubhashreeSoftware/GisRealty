@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaCheckCircle } from "react-icons/fa";
+import Image from "next/image";import { FaCheckCircle } from "react-icons/fa";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import { Col, Row } from "react-bootstrap";
@@ -30,7 +30,7 @@ const WishListModal = ({ productData, wishlistShow, wishlistCloseHandle }) => {
               <Row>
                 <Col xs={12}>
                   <div className="modal-product-img">
-                    <img src="/img/product/7.png" alt="#" />
+                    <Image alt="" src="/img/product/7.png"  />
                   </div>
                   <div className="modal-product-info">
                     <h5>
