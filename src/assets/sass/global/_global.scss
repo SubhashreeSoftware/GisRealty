@@ -57,7 +57,9 @@ font-family: 'Poppins', sans-serif;
 /* ====================================================
     Gutter Code 
 ==================================================== */
-
+body {
+  font-family: 'Proxima Nova', sans-serif;
+}
 .product-quickview__rating svg {
   color: #f6bc3e;
 }

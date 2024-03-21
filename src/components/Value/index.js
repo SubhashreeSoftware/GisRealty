@@ -13,52 +13,52 @@ function Value({
   classes,
   headingClasses,
 }) {
-  
-    const [selectedItem, setSelectedItem] = useState(null);
 
-    const handleExploreClick = (item) => {
-      setSelectedItem(item);
-    };
-  
-    const renderDetailView = () => {
-         if (selectedItem) {
-            const firstLetter = selectedItem.shortDescription.slice(0, 1);
-            const firstToEnd = selectedItem.shortDescription.slice(1);
-     
-        return (
-          <div className="detail-view">
-            <div  style={{paddingBottom: 20, alignSelf: "right"}}>
+  const [selectedItem, setSelectedItem] = useState(null);
+
+  const handleExploreClick = (item) => {
+    setSelectedItem(item);
+  };
+
+  const renderDetailView = () => {
+    if (selectedItem) {
+      const firstLetter = selectedItem.shortDescription.slice(0, 1);
+      const firstToEnd = selectedItem.shortDescription.slice(1);
+
+      return (
+        <div className="detail-view">
+          <div style={{ paddingBottom: 20, alignSelf: "right" }}>
             <button onClick={() => setSelectedItem(null)}>Close</button>
 
-            </div>
+          </div>
 
-            {/* Render detailed view based on selectedItem */}
-            <h2>{selectedItem.captions.caption}</h2>
-            <div>
-           <Row>
+          {/* Render detailed view based on selectedItem */}
+          <h2>{selectedItem.captions.caption}</h2>
+          <div>
+            <Row>
               <Col xs={12} >
                 <div className="ltn__page-details-inner ltn__service-details-inner">
-                <Col xs={12} >
-                <Row>
-                <Col xs={12} lg={6} >
-                  <div className="ltn__blog-img">
-                    <img
-                      src={`/img/service/${selectedItem.thumbImage}`}
-                      alt="Image"
-                    />
-                  </div>
+                  <Col xs={12} >
+                    <Row>
+                      <Col xs={12} lg={6} >
+                        <div className="ltn__blog-img">
+                          <img
+                            src={`/img/service/${selectedItem.thumbImage}`}
+                            alt="Image"
+                          />
+                        </div>
+                      </Col>
+                      <Col xs={12} lg={6} >
+                        <div className="ltn__blog-img">
+                          <img
+                            src={`/img/service/${selectedItem.thumbImage}`}
+                            alt="Image"
+                          />
+                        </div>
+                      </Col>
+                    </Row>
                   </Col>
-                  <Col xs={12} lg={6} >
-                  <div className="ltn__blog-img">
-                    <img
-                      src={`/img/service/${selectedItem.thumbImage}`}
-                      alt="Image"
-                    />
-                  </div>
-                  </Col>
-                  </Row>
-                  </Col>
-                  
+
                   <p className="overflow-hidden">
                     <span className="ltn__first-letter">{firstLetter}</span>
                     {firstToEnd}
@@ -84,88 +84,89 @@ function Value({
                   <p>{service.captions.captionShortDescription}</p> */}
                 </div>
               </Col>
-           
+
             </Row>
-        </div>
           </div>
-        );
-      }
-      return null;
-    };
+        </div>
+      );
+    }
+    return null;
+  };
   return (
     <>
       <div className={`ltn__feature-area pt-15 pb-20 ${classes}`}>
         <Container>
-        {selectedItem ? (
-        <>{renderDetailView()}</>
-      ) : (
-        <>
-         <Row>
-            <Col xs={12}>
-              <TitleSection
-                titleSectionData={titleSectionData}
-                sectionClasses={titleSectionData.sectionClasses}
-                headingClasses={headingClasses}
-              />
-            </Col>
-          </Row>
-          <Row className="justify-content-center">
-            {data.map((item, key) => {
-              const slug = productSlug(item.title);
-              return (
-                <Col key={key} xs={12} sm={6} lg={6}>
+          {selectedItem ? (
+            <>{renderDetailView()}</>
+          ) : (
+            <>
+              <Row>
+                <Col xs={12}>
+                  <TitleSection
+                    titleSectionData={titleSectionData}
+                    sectionClasses={titleSectionData.sectionClasses}
+                    headingClasses={headingClasses}
+                  />
+                </Col>
+              </Row>
+              <Row className="justify-content-center">
+                {data.map((item, key) => {
+                  const slug = productSlug(item.title);
+                  return (
+                    <Col key={key} xs={12} sm={6} lg={6}>
 
-                  <div
-                    className={`ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 ${item.active ? "active" : ""
-                      }`} 
-                    //   style={{ backgroundImage: `url(/img/icons/icon-img/${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '300px', position: 'relative', }}
-                  >
-                    <div className="ltn__feature-icon" >
-                      {/* {iconTag ? (
+                      <div
+                        className={`ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 ${item.active ? "active" : ""
+                          }`}
+                        style={{ backgroundImage: `url(/img/icons/icon-img/${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', width: '100%', height: '300px', position: 'relative', }}
+                      >
+                        {/* <div className="ltn__feature-icon" > */}
+                          {/* {iconTag ? (
                         <span>
                           <i className={`${item.icon}`}></i>
                         </span>
-                      ) : ( */}
+                      ) : ( 
                         <img
                           src={`/img/icons/icon-img/${item.img}`}
                           alt={`${item.title}`}
                         />
-                      {/* )} */}
-                      <div style={{ position: 'absolute', top: '80%', flexDirection: "row", width: "100%" }}>
-                      <Row>
-                      <Col xs={6} >
-                        <h3 style={{  textAlign: "left" }}>
-                          {item.title}
-                        </h3>
-                        </Col>
-                        <Col xs={6}>
-                        {/* <Link href={`/service/${slug}`} style={{alignSelf: "flex-start",textAlign: "left"}}> */}
-                        <span
-                              style={{
-                                fontWeight: "normal",
-                                textTransform: 'capitalize',
-                                fontSize: '15px',
-                                cursor: 'pointer' // Add cursor pointer
-                              }}
-                              onClick={() => handleExploreClick(item)} // Call function on click
-                            >Explore
-                          {/* <img
+                   )} */}
+                          <div style={{ position: 'absolute', top: '80%', flexDirection: "row", width: "100%" }}>
+                            <Row >
+                              <Col xs={6}>
+                                <h3 style={{ color: "#fff", textAlign: "left" }}>
+                                  {item.title}
+                                </h3>
+                              </Col>
+                              <Col xs={6}>
+                                {/* <Link href={`/service/${slug}`} style={{alignSelf: "flex-start",textAlign: "left"}}> */}
+                                <span
+                                  style={{
+                                    color: "#fff",
+                                    fontWeight: "normal",
+                                    textTransform: 'capitalize',
+                                    fontSize: '15px',
+                                    cursor: 'pointer' // Add cursor pointer
+                                  }}
+                                  onClick={() => handleExploreClick(item)} // Call function on click
+                                >Explore
+                                  {/* <img
                             src={`/img/icons/icon-img/right-arrow.png`}
                             alt={`${item.title}`}
                             style={{ height: '1%', width: '1%' }}
                           /> */}
-                           {/* <span>
+                                  {/* <span>
                           <i className="fas arrow-right"></i>
                         </span> */}
-                        </span>
-                        {/* </Link> */}
-                        </Col>
-                        </Row>
-                      </div>
-                     
-                    </div>
-                    <div className="ltn__feature-info" >
-                      {/*  <h3 style={{minHeight: 100, textAlign: "center"}}>
+                                </span>
+                                {/* </Link> */}
+                              </Col>
+                            </Row>
+                          </div>
+
+                        {/* </div> */}
+                        <div className="ltn__feature-info" >
+                          {/*  <h3 style={{minHeight: 100, textAlign: "center"}}>
                       {slug === "commercial" ? (
         <Link href={`/shop/grid`}>Commercial</Link>
       ) : (
@@ -176,26 +177,26 @@ function Value({
                       <p style={{ maxHeight: '11em', overflow: 'hidden', textOverflow: 'ellipsis', lineHeight: '1.8em', fontSize: 16,
         fontWeight: "bold" }}>{item.shortDescription}</p>  */}
 
-                      {servicebtn ? (
-                        <Link
-                          className="ltn__service-btn"
-                          href={`/service/${slug}`}
-                        >
-                          {item.buttonText}
+                          {servicebtn ? (
+                            <Link
+                              className="ltn__service-btn"
+                              href={`/service/${slug}`}
+                            >
+                              {item.buttonText}
 
-                          <i className="flaticon-right-arrow"></i>
-                        </Link>
-                      ) : (
-                        ""
-                      )}
-                    </div>
-                  </div>
-                </Col>
-              );
-            })}
-          </Row></>
-      )
-        }
+                              <i className="flaticon-right-arrow"></i>
+                            </Link>
+                          ) : (
+                            ""
+                          )}
+                        </div>
+                      </div>
+                    </Col>
+                  );
+                })}
+              </Row></>
+          )
+          }
         </Container>
       </div>
     </>

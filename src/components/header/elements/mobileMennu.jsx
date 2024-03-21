@@ -18,9 +18,12 @@ import {
   slideToggle,
 } from "@/lib/product";
 import { useSelector } from "react-redux";
+import featureData from "@/data/service"
+import { getProducts, productSlug } from "@/lib/product";
 
 const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
   const { cartItems } = useSelector((state) => state.cart);
+  const services = getProducts(featureData, "buying", "featured", 6);
 
   const onClickHandler = (e) => {
     const target = e.currentTarget;
@@ -55,15 +58,14 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
     <>
       <div
         id="ltn__utilize-mobile-menu"
-        className={`ltn__utilize ltn__utilize-mobile-menu   ${
-          offCanVastoggleBtn ? "ltn__utilize-open" : ""
-        }`}
+        className={`ltn__utilize ltn__utilize-mobile-menu   ${offCanVastoggleBtn ? "ltn__utilize-open" : ""
+          }`}
       >
         <div className="ltn__utilize-menu-inner ltn__scrollbar">
           <div className="ltn__utilize-menu-head">
             <div className="site-logo">
               <Link href="/">
-                <img src="/gisfavicon.jpeg" alt="Logo" style={{height: 50, width: 50}} />
+                <img src="/gisfavicon.jpeg" alt="Logo" style={{ height: 50, width: 50 }} />
               </Link>
             </div>
             <button onClick={closeSideBar} className="ltn__utilize-close">
@@ -230,13 +232,82 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
               </li> */}
               <li>
                 <Link href="/service">Services</Link>
-                {/* <span
+                <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
                 ></span>
                 <ul className="sub-menu">
-                  <li>
+                  {/* {services.map((item, key) => {
+                    const slug = productSlug(item.title);
+                    return (  */}
+                      <li 
+                        // key={key}
+                        >
+                        <Link href={`/service/residential-properties`}>
+                          Residential Properties
+                        </Link>
+                        <ul>
+                          <li>
+                            <Link href="/shop/apartmentgrid">Apartments</Link>
+                          </li>
+                          <li>
+                            <Link href="/shop/villagrid">Villas</Link>
+                          </li>
+                          <li>
+                            <Link href="/shop/plot">Plots</Link>
+                          </li>
+                        </ul>
+                        <li>
+                          <Link href={`/service/commercial-properties`}>Commercial Properties</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/land-services">Land Services</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">
+                            Value Added Services
+                          </Link>
+                          <ul>
+                            <li>
+                              <Link href="/service/value-added-services">Digital Agency</Link>
+                            </li>
+                            <li>
+                              <Link href="/service/value-added-services">Creative Agency</Link>
+                            </li>
+                            <li>
+                              <Link href="/service/value-added-services">Post Sales</Link>
+                            </li>
+                          </ul>
+                        </li>
+                        {/* <li>
+                          <Link href="/service/value-added-services">Investment Banking</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Retail</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Hospitality</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Industrial and Logistics</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Strategic Advisory and Valuations</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Investment Management</Link>
+                        </li>
+                        <li>
+                          <Link href="/service/value-added-services">Apartment and society Management</Link>
+                        </li> 
+                        <li>
+                          <Link href="/service/value-added-services">Flexible Workspaces</Link>
+                        </li>*/}
+                      </li>
+                  {/*   );
+                  })} */}
+                  {/* <li>
                     <Link href="/about">About</Link>
                   </li>
                   <li>
@@ -274,8 +345,8 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   </li>
                   <li>
                     <Link href="/coming-soon">Coming Soon</Link>
-                  </li>
-                </ul> */}
+                  </li> */}
+                </ul>
               </li>
               <li>
                 <Link href="/contact">Contact</Link>

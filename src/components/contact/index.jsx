@@ -70,13 +70,15 @@ Telangana , 500081, India
       {/* <!-- CONTACT MESSAGE AREA START --> */}
       <div className="ltn__contact-message-area mb-120 mb--100">
         <div className="container">
+          
           <div className="row">
-            <div className="col-lg-12">
-              <div className="ltn__form-box contact-form-box box-shadow white-bg">
+          <div className="col-lg-2"></div>
+            <div className="col-lg-8" >
+              <div className="ltn__form-box contact-form-box box-shadow white-bg" style={{borderRadius: 10}}>
                 <h4 className="title-2">Contact Us</h4>
                 <form id="contact-form" action="#" method="post">
                   <div className="row">
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6"> */}
                       <div className="input-item input-item-name ltn__custom-icon">
                         <input
                           type="text"
@@ -84,11 +86,11 @@ Telangana , 500081, India
                           placeholder="Enter your name"
                         />
                         <span className="inline-icon">
-                          <FaUserAlt />
+                          <FaUserAlt style={{color: "black"}}/>
                         </span>
                       </div>
-                    </div>
-                    <div className="col-md-6">
+                    {/* </div> */}
+                    {/* <div className="col-md-6"> */}
                       <div className="input-item input-item-email ltn__custom-icon">
                         <input
                           type="email"
@@ -96,10 +98,10 @@ Telangana , 500081, India
                           placeholder="Enter email address"
                         />
                         <span className="inline-icon">
-                          <FaEnvelope />
+                          <FaEnvelope style={{color: "black"}}/>
                         </span>
                       </div>
-                    </div>
+                    {/* </div> */}
                     {/* <div className="col-md-6">
                       <div className="input-item input-item input-item-email ltn__custom-icon">
                         <Form.Select className="nice-select">
@@ -116,7 +118,7 @@ Telangana , 500081, India
                         </span>
                       </div>
                     </div> */}
-                    <div className="col-md-6">
+                    {/* <div className="col-md-6"> */}
                       <div className="input-item input-item-phone ltn__custom-icon">
                         <input
                           type="text"
@@ -124,10 +126,10 @@ Telangana , 500081, India
                           placeholder="Enter phone number"
                         />
                         <span className="inline-icon">
-                          <FaPhoneAlt />
+                          <FaPhoneAlt style={{color: "black"}}/>
                         </span>
                       </div>
-                    </div>
+                    {/* </div> */}
                   </div>
                   <div className="input-item input-item-textarea ltn__custom-icon">
                     <textarea
@@ -135,16 +137,16 @@ Telangana , 500081, India
                       placeholder="Enter message"
                     ></textarea>
                     <span className="inline-icon">
-                      <FaPencilAlt />
+                      <FaPencilAlt style={{color: "black"}}/>
                     </span>
                   </div>
-                  <p>
+                  {/* <p>
                     <label className="input-info-save mb-0">
                       <input type="checkbox" name="agree" /> Save my name,
                       email, and website in this browser for the next time I
                       comment.
                     </label>
-                  </p>
+                  </p> */}
                   <div className="btn-wrapper mt-0">
                     <button
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
@@ -160,6 +162,7 @@ Telangana , 500081, India
           </div>
         </div>
       </div>
+
       {/* <!-- CONTACT MESSAGE AREA END --> */}
 
       {/* <!-- GOOGLE MAP AREA START --> */}

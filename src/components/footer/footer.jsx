@@ -232,7 +232,7 @@ Telangana , 500081, India
               <Col xs={12} md={4}>
                 <div className="ltn__copyright-design clearfix">
                   <Link href="https://creatorymedia.in/">
-                  <p>
+                  <p style={{textAlign: "right"}}>
                   Powered by CreatoryMedia.
                     <span className="current-year"></span>
                   </p></Link>

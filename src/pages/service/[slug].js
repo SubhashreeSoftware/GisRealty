@@ -14,7 +14,7 @@ import featureData from "@/data/residential"
 import value from "@/data/value"
 
 function ServiceDetails({ service }) {
-  const services = getProducts(featureData, "buying", "featured", 6);
+  const services = getProducts(featureData, "buying", "featured", 8);
   const values = getProducts(value, "buying",  6);
   const firstLetter = service.shortDescription.slice(0, 1);
   const firstToEnd = service.shortDescription.slice(1);
@@ -115,6 +115,7 @@ function ServiceDetails({ service }) {
       // Default case or additional conditions can be added here
       return (
         <div>
+          <h1>{service.captions.caption}</h1>
            <Row>
               <Col xs={12} >
                 <div className="ltn__page-details-inner ltn__service-details-inner">

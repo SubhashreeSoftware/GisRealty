@@ -25,7 +25,7 @@ const MenuList = ({ addListing }) => {
         <ul>
          
           <li>
-            <Link href="#">
+            <Link href="/service/residential-properties">
             Residential Properties
               <span className="float-end">
                 <FaAngleDoubleRight />
@@ -33,13 +33,13 @@ const MenuList = ({ addListing }) => {
             </Link>
             <ul>
               <li>
-                <Link href="/shop/list">Apartments</Link>
+                <Link href="/shop/apartmentgrid">Apartments</Link>
               </li>
               <li>
-                <Link href="/shop/grid">Villas</Link>
+                <Link href="/shop/villagrid">Villas</Link>
               </li>
               <li>
-                <Link href="/shop/grid">Plots</Link>
+                <Link href="/shop/plot">Plots</Link>
               </li>
               {/* <li>
                 <Link href="/my-account">My Account</Link>
@@ -53,13 +53,13 @@ const MenuList = ({ addListing }) => {
             </ul>
           </li>
           <li>
-            <Link href="/shop">Commercial Properties</Link>
+            <Link href="/service/commercial-properties">Commercial Properties</Link>
           </li>
           <li>
-            <Link href="/shop/list">Land Services</Link>
+            <Link href="/service/land-services">Land Services</Link>
           </li>
           <li>
-            <Link href="#">
+            <Link href="/service/value-added-services">
             Value Added Services
               <span className="float-end">
                 <FaAngleDoubleRight />
@@ -67,42 +67,42 @@ const MenuList = ({ addListing }) => {
             </Link>
             <ul>
               <li>
-                <Link href="/cart">Digital Agency</Link>
+                <Link href="/service/value-added-services">Digital Agency</Link>
               </li>
               <li>
-                <Link href="/wishlist">Creative Agency</Link>
+                <Link href="/service/value-added-services">Creative Agency</Link>
               </li>
               <li>
-                <Link href="/wishlist">Post Sales</Link>
+                <Link href="/service/value-added-services">Post Sales</Link>
               </li>
              
-          <li>
-            <Link href="/shop/left-sidebar">Investment Banking</Link>
+          {/* <li>
+            <Link href="/service/value-added-services">Investment Banking</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Retail</Link>
+            <Link href="/service/value-added-services">Retail</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Hospitality</Link>
+            <Link href="/service/value-added-services">Hospitality</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Industrial and Logistics</Link>
+            <Link href="/service/value-added-services">Industrial and Logistics</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Strategic Advisory and Valuations</Link>
+            <Link href="/service/value-added-services">Strategic Advisory and Valuations</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Investment Management</Link>
+            <Link href="/service/value-added-services">Investment Management</Link>
           </li>
           <li>
-            <Link href="/shop/right-sidebar">Apartment and society Management</Link>
+            <Link href="/service/value-added-services">Apartment and society Management</Link>
           </li>
-        
+          <li>
+            <Link href="/service/value-added-services">Flexible Workspaces</Link>
+          </li> */}
             </ul>
           </li>
-          <li>
-            <Link href="/shop/right-sidebar">Flexible Workspaces</Link>
-          </li>
+        
         
         
         </ul>

@@ -10,7 +10,7 @@
       "captionShortDescription": "E-commerce Solutions: Launch and optimize your online store with our e-commerce solutions. We leverage cutting-edge technology and best practices to create seamless, secure e-commerce experiences that drive sales and foster customer loyalty.Brand Identity and Creative Services: Stand out from the competition with a compelling brand identity and creative assets. From logo design and brand guidelines to multimedia content creation and branding collateral, we help you tell your brand story in a way that resonates with your audience."
     },
     "thumbImage": "21.jpg",
-    "img": "digital.png",
+    "img": "digitall.png",
     "id": "05",
     "buttonText": "View More",
     "active": false,
@@ -52,7 +52,7 @@
       "captionShortDescription": "Order Fulfillment and Logistics: Streamline order processing, shipping, and delivery with our efficient order fulfillment and logistics solutions. We ensure timely and accurate delivery of products, minimizing delays and maximizing customer satisfaction. Product Training and Education: Empower customers to make the most of their purchases with comprehensive product training and education programs. From online tutorials to in-person workshops, we provide valuable resources to help customers unlock the full potential of their products."
     },
     "thumbImage": "21.jpg",
-    "img": "sale.png",
+    "img": "post.png",
     "id": "07",
     "buttonText": "View More",
     "active": false,
@@ -73,7 +73,7 @@
       "captionShortDescription": "Restructuring and Recapitalization: Navigate challenging financial situations with confidence with our restructuring and recapitalization expertise. We assist clients in evaluating options, negotiating with stakeholders, and implementing solutions to enhance financial stability and resilience.      "
     },
     "thumbImage": "21.jpg",
-    "img": "invest.png",
+    "img": "bank.png",
     "id": "08",
     "buttonText": "View More",
     "active": false,
@@ -115,7 +115,7 @@
       "captionShortDescription": "Integrated Booking Engines: Drive direct bookings and increase online visibility with our integrated booking engines. Our user-friendly interfaces and seamless integration with your website ensure a frictionless booking process for guests."
     },
     "thumbImage": "21.jpg",
-    "img": "help.png",
+    "img": "hospitality.png",
     "id": "10",
     "buttonText": "View More",
     "active": false,
@@ -157,7 +157,7 @@
         "captionShortDescription": "At GIS, we specialize in providing actionable insights and expert guidance to help you make informed decisions and maximize value."
     },
     "thumbImage": "21.jpg",
-    "img": "plan.png",
+    "img": "advice.png",
     "id": "12",
     "buttonText": "View More",
     "active": false,
@@ -178,7 +178,7 @@
         "captionShortDescription": "Secure your financial future with our comprehensive investment management services tailored to your specific goals and risk tolerance."
     },
     "thumbImage": "21.jpg",
-    "img": "manage.png",
+    "img": "mana.png",
     "id": "13",
     "buttonText": "View More",
     "active": false,
@@ -199,7 +199,7 @@
         "captionShortDescription": "Embrace flexibility with our dynamic workspaces designed for today's ever-evolving work landscape."
     },
     "thumbImage": "21.jpg",
-    "img": "work.png",
+    "img": "workspace.png",
     "id": "14",
     "buttonText": "View More",
     "active": false,
@@ -220,7 +220,7 @@
         "captionShortDescription": "Elevate your apartment and society management effortlessly with our intuitive software solutions."
     },
     "thumbImage": "21.jpg",
-    "img": "society.png",
+    "img": "apartment-society.png",
     "id": "15",
     "buttonText": "View More",
     "active": false,

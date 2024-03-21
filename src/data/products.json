@@ -13,6 +13,7 @@
     "value": "64Lakhs",
     "priceRange": ["Low Budget"],
     "discount": 5,
+    "brochure": "",
     "country": true,
     "district": "Mission District Area",
     "properties": 2,
@@ -128,8 +129,253 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
+    "title": "AURA",
+    "brochure": "aura_brochure_Final",
+    "productImg": "1.jpg",
+    "price": 69,
+    "value": "",
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Mission District Area",
+    "properties": 2,
+    "featured": true,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 3,
+    "saleCount": 5,
+    "category": ["buying", "renting"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Belmont Gardens, Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": "",
+      "position": "",
+      "size": "",
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992,
+      "tower": 2,
+      "floor": "G+5",
+      "unit": 100,
+      "face": "East & West",
+      "amenities": 12,
+      "club": "4000sft",
+      "possession": "Ready to move in      "
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Dishwasher"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Office Villa", "Luxary Home"]
+  },
+  {
+    "id": "3",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
+    "title": "MPR URBAN PHASE-2",
+    "productImg": "1.jpg",
+    "brochure": "",
+    "price": 69,
+    "value": "",
+    "priceRange": ["Low Budget"],
+    "discount": 5,
+    "country": true,
+    "district": "Mission District Area",
+    "properties": 2,
+    "featured": true,
+    "new": true,
+    "rent": false,
+    "photo": ["buying", "women", "women"],
+    "video": ["buying", "women"],
+    "bedBath": ["Single", "renting", "selling"],
+    "ratingCount": 5,
+    "rating": 3,
+    "saleCount": 5,
+    "category": ["buying", "renting"],
+    "tag": [
+      "Popular",
+      "desgin",
+      "ux",
+      "usability",
+      "develop",
+      "icon",
+      "Car",
+      "Service",
+      "Repairs",
+      "Auto Parts",
+      "Oil",
+      "Dealer",
+      "Oil Change",
+      "Body Color"
+    ],
+    "date": "May 19, 2021",
+    "comments": 35,
+    "locantion": "Belmont Gardens, Chicago",
+    "description": {
+      "title": "Description",
+      "fullDescription": "Massa tempor nec feugiat nisl pretium. Egestas fringilla phasellus faucibus scelerisque eleifend donec Porta nibh venenatis cras sed felis eget velit aliquet. Neque volutpat ac tincidunt vitae semper quis lectus. Turpis in eu mi bibendum neque egestas congue quisque. Sed elementum tempus egestas sed sed risus pretium quam. Dignissim sodales ut eu sem. Nibh mauris cursus mattis molestee iaculis at erat pellentesque. Id interdum velit laoreet id donec ultrices tincidunt.",
+      "shortDescription": "To the left is the modern kitchen with central island, leading through to the unique breakfast family room which feature glass walls and doors out onto the garden and access to the separate utility room."
+    },
+    "propertyDetails": {
+      "propertyId": "HZ29",
+      "area": "",
+      "position": "",
+      "size": "",
+      "propertyStatus": "For Sale",
+      "rooms": 7,
+      "bedrooms": 3,
+      "baths": 2,
+      "createdYear": 1992,
+      "tower": 2,
+      "floor": "G+5",
+      "unit": 100,
+      "face": "East & West",
+      "amenities": 12,
+      "club": "4000sft",
+      "possession": "Ready to move in      "
+    },
+    "factsAndFeatures": {
+      "livingRoom": "20 x 16 sq feet",
+      "garage": "20 x 16 sq feet",
+      "diningArea": "20 x 16 sq feet",
+      "bedroom": "20 x 16 sq feet",
+      "bathroom": "20 x 16 sq feet",
+      "gymArea": "20 x 16 sq feet",
+      "garden": "20 x 16 sq feet",
+      "parking": "20 x 16 sq feet"
+    },
+
+    "amenities1": [
+      "Air Conditioning",
+      "Gym",
+      "Microwave",
+      "Swimming Pool",
+      "WiFi"
+    ],
+    "amenities2": [
+      "Barbeque",
+      "Recreation",
+      "Microwave",
+      "Basketball Cout",
+      "Fireplace"
+    ],
+    "amenities3": [
+      "Refrigerator",
+      "Window Coverings",
+      "Washer",
+      "24x7 Security",
+      "Indoor Game"
+    ],
+    "AmenitiesList": ["Dishwasher"],
+    "agent": {
+      "firstName": "Rosalina D.",
+      "lastName": "Willaimson",
+      "fullName": "Rosalina D. Willaimson",
+      "type": "Property Seller",
+      "img": "author.jpg",
+      "designation": "Traveller/Photographer",
+      "raiting": 3,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis distinctio, odio, eligendi suscipit reprehenderit atque.",
+      "social": ["FaPlay", "FaHome", "FaArrowRight", "FaArrowLeft"]
+    },
+
+    "gallery": {
+      "img1": "14.jpg",
+      "img2": "15.jpg",
+      "img3": "16.jpg"
+    },
+    "propertyTypes": ["House", "Office Villa", "Luxary Home"]
+  },
+  {
+    "id": "4",
+    "carousel": [
+      { "img": "35.jpg" },
+      { "img": "31.jpg" },
+      { "img": "32.jpg" },
+      { "img": "33.jpg" }
+    ],
     "title": "LUMBINI ELYSEE (FINANCIAL DISTRICT)",
     "productImg": "2.jpg",
+    "brochure": "",
     "price": 159,
     "value": "2.01Cr",
     "priceRange": ["Medium"],
@@ -309,7 +555,7 @@
     "propertyTypes": ["Apartment", "Office Villa", "Luxary Home", "Studio"]
   },
   {
-    "id": "3",
+    "id": "5",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
@@ -319,6 +565,7 @@
     "title": "SMR VINAY ICONIA (KONDAPUR)",
     "productImg": "3.jpg",
     "price": 49,
+    "brochure": "",
     "value": "1.25Cr",
     "priceRange": ["High Budget"],
     "discount": 15,
@@ -430,7 +677,7 @@
     "propertyTypes": ["House", "Single Family", "Luxary Home", "Studio"]
   },
   {
-    "id": "4",
+    "id": "6",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
@@ -440,6 +687,7 @@
     "title": "CANDEUR LAKESCAPE (KONDAPUR)",
     "productImg": "4.jpg",
     "price": 19,
+    "brochure": "",
     "value": "97Lakhs",
     "priceRange": ["Medium"],
     "discount": 10,
@@ -557,7 +805,7 @@
     ]
   },
   {
-    "id": "5",
+    "id": "7",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
@@ -567,6 +815,7 @@
     "title": "CELESTIAL GREEN SPACE (KOKAPET)",
     "productImg": "5.jpg",
     "price": 149,
+    "brochure": "",
     "value": "82Lakhs",
     "priceRange": ["Low Budget"],
     "discount": 5,
@@ -678,7 +927,7 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "6",
+    "id": "8",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
@@ -688,6 +937,7 @@
     "title": "RIVERSCAPE (BANDLAGUDA)",
     "productImg": "6.jpg",
     "price": 215,
+    "brochure": "",
     "value": "4Cr",
     "priceRange": ["Low"],
     "discount": 5,
@@ -799,7 +1049,7 @@
     "propertyTypes": ["House", "Single Family", "Apartment", "Office Villa"]
   },
   {
-    "id": "7",
+    "id": "9",
     "carousel": [
       { "img": "35.jpg" },
       { "img": "31.jpg" },
@@ -809,6 +1059,7 @@
     "title": "SURABHI SIGNATURE VILLAS (TELLAPUR)",
     "productImg": "1.jpg",
     "price": 225,
+    "brochure": "",
     "value": "2.7Cr",
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,

@@ -113,7 +113,7 @@ function ApartmentGrid() {
                   <Tab.Pane eventKey="first">
                     <div className="ltn__product-tab-content-inner ltn__product-grid-view">
                       <Row>
-                        {currentItems.slice(0, 5).map((product, key) => { 
+                        {currentItems.slice(0, 7).map((product, key) => { 
                           const slug = productSlug(product.title);
 
                           const discountedPrice = getDiscountPrice(

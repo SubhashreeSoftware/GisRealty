@@ -19,8 +19,9 @@ function CounterUp() {
 
   return (
     <>
-      <div className="ltn__counterup-area section-bg-1 pt-120 pb-70">
+      <div className="ltn__counterup-area ">
         <Container>
+          <div className="ltn__form-box contact-form-box box-shadow white-bg" style={{borderRadius: 10}}>
           <Row>
             <Col xs={12} sm={6} md={3} className="align-self-center">
               <div className="ltn__counterup-item">
@@ -120,6 +121,7 @@ function CounterUp() {
               </div>
             </Col>
           </Row>
+          </div>
         </Container>
       </div>
     </>

@@ -62,7 +62,7 @@ function HeroSectionStyleOne({ data }) {
           {...Herosettings}
           className="ltn__slide-one-active slick-slide-arrow-1 slick-slide-dots-1"
         >
-          {data.map((item, key) => {
+          {data.slice(0, 1).map((item, key) => { // Render only the first item
             return (
               <div
                 className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 position-relative"
